@@ -11,23 +11,29 @@ public abstract class ObstacleBase : MonoBehaviour
         _enterEffect = GetComponent<IEnterEffect>();
         _stayEffect = GetComponent<IStayEffect>();
         _exitEffect = GetComponent<IExitEffect>();
+        this.gameObject.tag = "Obstacle";
+    }
+
+    private bool IsPlayerOrBot(Collider other)
+    {
+        return other.CompareTag("Player") || other.CompareTag("Bot");
     }
 
     protected virtual void OnTriggerEnter(Collider other)
     {
-        Debug.Log("OnTriggerEnter");
-        _enterEffect?.OnEnterEffect(other.gameObject);
+        if (_enterEffect == null || !IsPlayerOrBot(other)) return;
+        _enterEffect.OnEnterEffect(other.gameObject);
     }
 
     protected virtual void OnTriggerStay(Collider other)
     {
-        Debug.Log("OnTriggerStay");
-        _stayEffect?.OnStayEffect(other.gameObject);
+        if (_stayEffect == null || !IsPlayerOrBot(other)) return;
+        _stayEffect.OnStayEffect(other.gameObject);
     }
 
     protected virtual void OnTriggerExit(Collider other)
     {
-        Debug.Log("OnTriggerExit");
-        _exitEffect?.OnExitEffect(other.gameObject);
+        if (_exitEffect == null || !IsPlayerOrBot(other)) return;
+        _exitEffect.OnExitEffect(other.gameObject);
     }
 }

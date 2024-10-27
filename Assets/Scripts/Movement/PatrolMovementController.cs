@@ -16,9 +16,13 @@ public class PatrolMovementController : MonoBehaviour
         Vector3 deltaMovement = movementSpeed * Time.deltaTime;
         transform.position += deltaMovement;
 
-        if (transform.position.x < minX || transform.position.x > maxX)
+        if (transform.position.x < minX)
         {
-            movementSpeed.x = -movementSpeed.x;
+            movementSpeed.x = Mathf.Abs(movementSpeed.x); 
+        }
+        else if (transform.position.x > maxX)
+        {
+            movementSpeed.x = -Mathf.Abs(movementSpeed.x); 
         }
     }
 }

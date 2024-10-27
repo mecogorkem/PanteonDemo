@@ -8,6 +8,7 @@ public class DeathObstacleEffect : ObstacleBase, IEnterEffect
         IDeathHandler deathHandler = character.GetComponent<IDeathHandler>();
         if (deathHandler != null)
         {
+
             deathHandler.Die();
         }
     }
