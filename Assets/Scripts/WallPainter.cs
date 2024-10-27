@@ -7,10 +7,11 @@ public class WallPainter : MonoBehaviour
 {
     [Header("UI Elements")]
     [SerializeField] private Slider brushSizeSlider;
-    [SerializeField] private TextMeshProUGUI paintedPercentageText;
+    [SerializeField] private TextMeshPro paintedPercentageText;
     [SerializeField] private Button yellowButton;
     [SerializeField] private Button redButton;
     [SerializeField] private Button blueButton;
+    [SerializeField] private GameObject canvas;
 
     [Header("Painting Settings")]
     [SerializeField] private Material mainMaterial;
@@ -19,7 +20,7 @@ public class WallPainter : MonoBehaviour
     [SerializeField] private Transform wallTransform;
 
     private Color currentColor = Color.yellow;
-    private float brushSize = 0.13f;
+    private float brushSize = 0.1f;
     private float paintedPercentage = 0f;
     private float totalWallPixels; // Total pixels of the texture to paint
 
@@ -59,12 +60,22 @@ public class WallPainter : MonoBehaviour
     {
         yellowButton.onClick.AddListener(() => SetBrushColor(Color.yellow));
         redButton.onClick.AddListener(() => SetBrushColor(Color.red));
-        blueButton.onClick.AddListener(() => SetBrushColor(Color.blue));
+        blueButton.onClick.AddListener(() => SetBrushColor(Color.cyan));
         brushSizeSlider.onValueChanged.AddListener(SetBrushSize);
+        GameManager.Instance.onGameComplete += CompleteGame;
+    }
+
+    private void CompleteGame()
+    {
+        canvas.SetActive(false);
     }
 
     private void Update()
     {
+        if (GameManager.Instance.isGameCompleted)
+        {
+            return;
+        }
         if (Input.GetMouseButton(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -141,21 +152,25 @@ public class WallPainter : MonoBehaviour
         int paintedPixels = 0;
 
         // Analyze each pixel to determine if it has been painted
-        Color32[] pixels = readTexture.GetPixels32();
+        Color32[] pixels = readTexture.GetPixels32(); 
         foreach (Color32 pixel in pixels)
         {
-            if (pixel.a > 0) // Check if pixel has any opacity (painted)
+            if (pixel.a > 240) // Check if pixel has any opacity (painted)
             {
                 paintedPixels++;
             }
         }
 
-        paintedPercentage = (paintedPixels / totalWallPixels) * 100f;
+        paintedPercentage = Mathf.Round((paintedPixels / totalWallPixels) * 100f);
+        if (paintedPercentage == 100)
+        {
+            GameManager.Instance.CompleteGame();
+        }
         UpdatePaintedPercentageText();
     }
 
     private void UpdatePaintedPercentageText()
     {
-        paintedPercentageText.text = $"Painted: {paintedPercentage:0.0}%";
+        paintedPercentageText.text = $"{paintedPercentage:0}%";
     }
 }

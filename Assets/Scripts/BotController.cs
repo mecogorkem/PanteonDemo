@@ -18,9 +18,9 @@ public class BotController : CharacterBaseController
         startingPosition = transform.position;
     }
 
-    private void Start()
+    protected override void Start()
     {
-        // Set an initial target for the bot
+        base.Start();
         GameObject targetObject = GameObject.FindGameObjectWithTag("Target");
         if (targetObject != null)
         {
@@ -28,22 +28,19 @@ public class BotController : CharacterBaseController
         }
     }
 
-    public override void Update()
+    public override void FixedUpdate()
     {
         if (!isDead)
         {
-            base.Update();
+            base.FixedUpdate();
         }
-       
-    }
-
-    private void FixedUpdate()
-    {
         if (isDead)
         {
             RealDie();
         }
+       
     }
+
 
     protected override void GatherInput()
     {
@@ -54,9 +51,13 @@ public class BotController : CharacterBaseController
         if (_navMeshAgent.hasPath && desiredVelocity != Vector3.zero)
         {
             var pushForce = currentPushForce.magnitude;
-            var neededVelocityX = 1.2f*(pushForce/MoveSpeed);
+            var neededVelocityX = 1.5f*(pushForce/MoveSpeed);
             
             moveDirection = new Vector3(neededVelocityX+desiredVelocity.x, 0.0f, desiredVelocity.z);
+        }
+        else
+        {
+            // Debug.Log("No path or desired velocity is zero.");
         }
         // Aksi halde moveDirection'ı değiştirmiyoruz
     }
@@ -86,5 +87,10 @@ public class BotController : CharacterBaseController
         {
             _navMeshAgent.SetDestination(targetObject.transform.position);
         }
+    }
+
+    private void OnDestroy()
+    {
+        RankManager.Instance.RemoveRacer(this);
     }
 }

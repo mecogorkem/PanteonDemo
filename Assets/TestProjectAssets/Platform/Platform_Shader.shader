@@ -35,8 +35,8 @@ Shader "Custom/Platform_Shader"
                 length(unity_ObjectToWorld._m02_m12_m22)
             );
 
-            // Adjust UVs by scaling them with object's X and Y scale
-            float2 scaledUV = IN.uv_MainTex * scale.xy;
+            // Adjust UVs by scaling them with object's X and Z scale
+            float2 scaledUV = IN.uv_MainTex * float2(scale.x, scale.z);
 
             // Sample texture and apply color
             fixed4 c = tex2D(_MainTex, scaledUV) * _Color;

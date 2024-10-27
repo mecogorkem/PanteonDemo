@@ -8,18 +8,20 @@ public class RankManager : MonoBehaviour
     [SerializeField] private Image rankImage; // Assign the RankText UI element in the inspector
     [SerializeField] private List<Sprite> rankSprites; // Assign the Rank Sprites in the inspector
     private CharacterBaseController player; // Assign the Player object in the inspector
-    private List<CharacterBaseController> racers;
-
-    private void Start()
+    [SerializeField] private List<CharacterBaseController> racers;
+    public static RankManager Instance { get; private set; }
+    private int alreadyFinishedPlayer = 0;
+    private void Awake()
     {
-        // Find all racers in the race (player and bots)
-        racers = FindObjectsOfType<CharacterBaseController>().ToList();
-        
-        player = racers.Find(r => r.CompareTag("Player"));
+        Instance = this;
     }
 
     private void FixedUpdate()
     {
+        if (!GameManager.Instance.isRunnerGameStarted)
+        {
+            return;
+        }
         UpdatePlayerRank();
     }
 
@@ -29,9 +31,27 @@ public class RankManager : MonoBehaviour
         racers = racers.OrderByDescending(r => r.transform.position.z).ToList();
 
         // Find the player's current rank
-        int playerRank = racers.IndexOf(player);
+        int playerRank = racers.IndexOf(player)+alreadyFinishedPlayer;
 
         // Display the player's rank in the UI
         rankImage.sprite = rankSprites[playerRank];
     }
+    
+    public void RemoveRacer(CharacterBaseController racer)
+    {
+        racers.Remove(racer);
+        alreadyFinishedPlayer++;
+        
+    }
+
+    public void AddRacer(CharacterBaseController characterBaseController)
+    {
+        racers.Add(characterBaseController);
+        if (characterBaseController.CompareTag("Player"))
+        {
+            player = characterBaseController;
+        }
+    }
+    
+    
 }

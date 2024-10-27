@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,9 +25,9 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
     protected float _rotationVelocity;
     protected float _verticalVelocity;
 
-    private bool _hasAnimator;
-    private int _animIDSpeed;
-    private int _animIDMotionSpeed;
+    protected bool _hasAnimator;
+    protected int _animIDSpeed;
+    protected int _animIDMotionSpeed;
 
     protected virtual void Awake()
     {
@@ -36,9 +37,18 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
         AssignAnimationIDs();
     }
-
-    public virtual void Update()
+    
+    protected virtual void Start()
     {
+        RankManager.Instance.AddRacer(this);
+    }
+
+    public virtual void FixedUpdate()
+    {
+        if (!GameManager.Instance.isRunnerGameStarted)
+        {
+            return;
+        }
         ApplyGravity();
         GatherInput();
         Move();
@@ -141,6 +151,9 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
     }
 
     public abstract void Die();
-    
 
+    public virtual void OnDestroy()
+    {
+        RankManager.Instance.RemoveRacer(this);
+    }
 }

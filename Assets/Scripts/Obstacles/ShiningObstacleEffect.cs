@@ -11,7 +11,7 @@ public class ShiningObstacleEffect : ObstacleBase, IEnterEffect
         if (shineParticle != null)
         {
             var main = shineParticle.main;
-            main.startColor = Random.ColorHSV();
+            main.startColor = ColorGenerator.GenerateRandomVibrantColor();
         }
         
     }
@@ -32,7 +32,7 @@ public class ShiningObstacleEffect : ObstacleBase, IEnterEffect
             if (shineParticle != null)
             {
                 var main = shineParticle.main;
-                main.startColor = Random.ColorHSV();
+                main.startColor = ColorGenerator.GenerateRandomVibrantColor();
             }
         }
     }
