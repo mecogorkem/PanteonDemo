@@ -129,6 +129,7 @@ public class GameManager : MonoBehaviour
     
     public void PlayAgain()
     {
+        DeathCounter.ResetDeathCounter();
         SceneManager.LoadScene(0);
     }
 }

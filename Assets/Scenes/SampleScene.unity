@@ -3288,6 +3288,9 @@ MonoBehaviour:
   pushSound: {fileID: 8300000, guid: 6f70cdedd2cb0f048ad593020319ec0e, type: 3}
   coinSound: {fileID: 8300000, guid: 162f87701aeb1f74e8cf4980360b031f, type: 3}
   countdownSound: {fileID: 8300000, guid: 90d3c6983eb80e94399e848cf333d208, type: 3}
+  botDeathSound: {fileID: 8300000, guid: 08c47f9cc8a8a594aab0d8bfcb8ff6e3, type: 3}
+  coinFirstInteractionSound: {fileID: 8300000, guid: 4f8ce597045d0f0479107679239c898a,
+    type: 3}
 --- !u!1001 &1137382451
 PrefabInstance:
   m_ObjectHideFlags: 0

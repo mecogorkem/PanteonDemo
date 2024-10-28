@@ -99,7 +99,7 @@ public class BotController : CharacterBaseController
     {
         isDead = false;
         Instantiate(Resources.Load("DeathAnim"), transform.position, Quaternion.identity);
-
+        SoundManager.Instance.PlayBotDeathSound(this.transform);
         // Warp the NavMeshAgent to the starting position
         _navMeshAgent.Warp(startingPosition);
         

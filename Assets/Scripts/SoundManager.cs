@@ -7,6 +7,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip pushSound;
     [SerializeField] private AudioClip coinSound;
     [SerializeField] private AudioClip countdownSound;
+    [SerializeField] private AudioClip botDeathSound;
+    [SerializeField] private AudioClip coinFirstInteractionSound;
     public static SoundManager Instance { get; private set; }
     
     private AudioSource audioSource;
@@ -38,6 +40,16 @@ public class SoundManager : MonoBehaviour
     public void PlayCountdownSound()
     {
         audioSource.PlayOneShot(countdownSound);
+    }
+    
+    public void PlayBotDeathSound(Transform position)
+    {
+        PlaySoundEffect(position, botDeathSound);
+    }
+    
+    public void PlayCoinFirstInteractionSound()
+    {
+        audioSource.PlayOneShot(coinFirstInteractionSound);
     }
     
 }

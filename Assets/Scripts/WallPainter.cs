@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using DG.Tweening; // Make sure you have DoTween imported
 
 public class WallPainter : MonoBehaviour
 {
@@ -28,10 +29,10 @@ public class WallPainter : MonoBehaviour
     private Color currentColor = Color.yellow;
     private float brushSize = 0.1f;
     private float paintedPercentage = 0f;
-    private float totalWallPixels; // Total pixels of the texture to paint
+    private float totalWallPixels;
 
     private Vector2? lastPaintedPosition = null;
-    private float paintThreshold = 0.05f; // Distance threshold for interpolation
+    private float paintThreshold = 0.05f;
 
     int textureID = Shader.PropertyToID("_MainTex");
     int colorID = Shader.PropertyToID("_PainterColor");
@@ -44,7 +45,7 @@ public class WallPainter : MonoBehaviour
     private CommandBuffer command;
     private RenderTexture supportTexture;
     private RenderTexture supportTexture2;
-    private Texture2D readTexture; // Texture used for pixel sampling
+    private Texture2D readTexture;
 
     private Material paintMaterial;
 
@@ -57,31 +58,31 @@ public class WallPainter : MonoBehaviour
         mainMaterial = new Material(mainMaterial) { mainTexture = _sprite };
         _meshRenderer.material = mainMaterial;
 
-        // Initialize readTexture and calculate total wall pixels
         readTexture = new Texture2D(supportTexture.width, supportTexture.height, TextureFormat.RGBA32, false);
         totalWallPixels = supportTexture.width * supportTexture.height;
     }
 
     private void Start()
     {
-        yellowButton.onClick.AddListener(() => SetBrushColor(Color.yellow));
-        redButton.onClick.AddListener(() => SetBrushColor(Color.red));
-        blueButton.onClick.AddListener(() => SetBrushColor(Color.cyan));
+        yellowButton.onClick.AddListener(() => SetBrushColor(Color.yellow, yellowButton));
+        redButton.onClick.AddListener(() => SetBrushColor(Color.red, redButton));
+        blueButton.onClick.AddListener(() => SetBrushColor(Color.cyan, blueButton));
         brushSizeSlider.onValueChanged.AddListener(SetBrushSize);
         GameManager.Instance.onGameComplete += CompleteGame;
+        SetBrushColor(Color.yellow, yellowButton);
     }
 
     private void CompleteGame()
     {
         canvas.SetActive(false);
+        currentVolume = 0f;
+        _audioSource.volume = currentVolume;
     }
 
     private void Update()
     {
-        if (GameManager.Instance.isGameCompleted)
-        {
-            return;
-        }
+        if (GameManager.Instance.isGameCompleted) return;
+        
         if (Input.GetMouseButton(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -111,9 +112,14 @@ public class WallPainter : MonoBehaviour
         _audioSource.volume = currentVolume;
     }
 
-    private void SetBrushColor(Color color)
+    private void SetBrushColor(Color color, Button selectedButton)
     {
         currentColor = color;
+
+        // Scale selected button up and reset others
+        yellowButton.transform.DOScale(selectedButton == yellowButton ? 1.2f : 1f, 0.2f);
+        redButton.transform.DOScale(selectedButton == redButton ? 1.2f : 1f, 0.2f);
+        blueButton.transform.DOScale(selectedButton == blueButton ? 1.2f : 1f, 0.2f);
     }
 
     private void SetBrushSize(float size)
@@ -146,25 +152,21 @@ public class WallPainter : MonoBehaviour
         Graphics.ExecuteCommandBuffer(command);
         command.Clear();
 
-        // Update painted area based on texture sampling
         CalculatePaintedPercentage();
     }
 
     private void CalculatePaintedPercentage()
     {
-        // Copy RenderTexture to readTexture for pixel analysis
         RenderTexture.active = supportTexture2;
         readTexture.ReadPixels(new Rect(0, 0, supportTexture2.width, supportTexture2.height), 0, 0);
         readTexture.Apply();
         RenderTexture.active = null;
 
         int paintedPixels = 0;
-
-        // Analyze each pixel to determine if it has been painted
         Color32[] pixels = readTexture.GetPixels32(); 
         foreach (Color32 pixel in pixels)
         {
-            if (pixel.a > 200) // Check if pixel has any opacity (painted)
+            if (pixel.a > 200)
             {
                 paintedPixels++;
             }

@@ -11,5 +11,9 @@ public class DeathCounter : MonoBehaviour
         deathCounter++;
         deathCounterText.text = deathCounter.ToString();
     }
+    public static void ResetDeathCounter()
+    {
+        deathCounter = -1;
+    }
 
 }

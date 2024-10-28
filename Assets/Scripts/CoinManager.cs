@@ -27,6 +27,7 @@ public class CoinManager : MonoBehaviour
     {
 
         var coinCanvasPosition = Camera.main.WorldToScreenPoint(coinWorldPosition);
+        SoundManager.Instance.PlayCoinFirstInteractionSound();
         // Spawn and animate 5 flying coins towards the UI
         for (int i = 0; i < 5; i++)
         {
