@@ -8,7 +8,8 @@ public class BotController : CharacterBaseController
     private NavMeshAgent _navMeshAgent;
     private Vector3 startingPosition;
     private bool isDead = false;
-
+    private int negativeMove = 0;
+    private Transform activeTarget;
     protected override void Awake()
     {
         base.Awake();
@@ -21,11 +22,19 @@ public class BotController : CharacterBaseController
     protected override void Start()
     {
         base.Start();
+        FindTarget();
+    }
+    
+    private void FindTarget()
+    {
         GameObject targetObject = GameObject.FindGameObjectWithTag("Target");
         if (targetObject != null)
         {
             _navMeshAgent.SetDestination(targetObject.transform.position);
+            activeTarget = targetObject.transform;
+            negativeMove = 0;
         }
+        
     }
 
     public override void FixedUpdate()
@@ -52,12 +61,23 @@ public class BotController : CharacterBaseController
         {
             var pushForce = currentPushForce.magnitude;
             var neededVelocityX = 1.5f*(pushForce/MoveSpeed);
+         
             
             moveDirection = new Vector3(neededVelocityX+desiredVelocity.x, 0.0f, desiredVelocity.z);
         }
         else
         {
             // Debug.Log("No path or desired velocity is zero.");
+        }
+        
+        if (desiredVelocity.z<0)
+        {
+            negativeMove++;
+            if (negativeMove>5)
+            {
+                _navMeshAgent.SetDestination(activeTarget.position);
+                negativeMove = 0;
+            }
         }
         // Aksi halde moveDirection'ı değiştirmiyoruz
     }
@@ -82,15 +102,16 @@ public class BotController : CharacterBaseController
         _navMeshAgent.Warp(startingPosition);
         
         // Set destination again
-        GameObject targetObject = GameObject.FindGameObjectWithTag("Target");
-        if (targetObject != null)
-        {
-            _navMeshAgent.SetDestination(targetObject.transform.position);
-        }
+        FindTarget();
     }
 
     private void OnDestroy()
     {
         RankManager.Instance.RemoveRacer(this);
+    }
+
+    public void SetNextTarget(Transform nextTarget)
+    {
+        _navMeshAgent.SetDestination(nextTarget.position);
     }
 }

@@ -25,7 +25,6 @@ public class CoinManager : MonoBehaviour
 
     public void CollectCoin(Vector3 coinWorldPosition)
     {
-        AddCoins(1);
 
         var coinCanvasPosition = Camera.main.WorldToScreenPoint(coinWorldPosition);
         // Spawn and animate 5 flying coins towards the UI

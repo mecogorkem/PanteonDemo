@@ -155,7 +155,7 @@ public class WallPainter : MonoBehaviour
         Color32[] pixels = readTexture.GetPixels32(); 
         foreach (Color32 pixel in pixels)
         {
-            if (pixel.a > 240) // Check if pixel has any opacity (painted)
+            if (pixel.a > 200) // Check if pixel has any opacity (painted)
             {
                 paintedPixels++;
             }
