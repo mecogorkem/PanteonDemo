@@ -18,6 +18,12 @@ public class WallPainter : MonoBehaviour
     [SerializeField] private Texture _sprite;
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField] private Transform wallTransform;
+    
+    [Header("Sound")]
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private float maxVolume = 0.2f;
+    [SerializeField] private float volumeFadeSpeed = 0.5f;
+    private float currentVolume = 0f;
 
     private Color currentColor = Color.yellow;
     private float brushSize = 0.1f;
@@ -95,11 +101,14 @@ public class WallPainter : MonoBehaviour
                 paint(currentPos, brushSize, 0, 1, currentColor);
                 lastPaintedPosition = currentPos;
             }
+            currentVolume = Mathf.MoveTowards(currentVolume, maxVolume, volumeFadeSpeed * Time.deltaTime);
         }
         else
         {
+            currentVolume = Mathf.MoveTowards(currentVolume, 0f, volumeFadeSpeed * Time.deltaTime);
             lastPaintedPosition = null;
         }
+        _audioSource.volume = currentVolume;
     }
 
     private void SetBrushColor(Color color)

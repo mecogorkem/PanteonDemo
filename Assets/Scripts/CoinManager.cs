@@ -39,6 +39,8 @@ public class CoinManager : MonoBehaviour
                 {
                     AddCoins(1);
                     Destroy(flyingCoin);
+                    SoundManager.Instance.PlayCoinSound();
+
                 }); // Destroy the coin after reaching the target
         }
     }

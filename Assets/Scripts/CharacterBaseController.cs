@@ -139,6 +139,12 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
     public void Push(Vector3 direction, float force)
     {
+        SoundManager.Instance.PlayPushSound(this.transform);
+        currentPushForce = direction.normalized * force;
+    }
+
+    public void PushNoSound(Vector3 direction, float force)
+    {
         currentPushForce = direction.normalized * force;
     }
 

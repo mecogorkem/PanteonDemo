@@ -68,7 +68,8 @@ public class GameManager : MonoBehaviour
     {
         starterImage.gameObject.SetActive(true);
         string[] countdownTexts = { "3", "2", "1", "Go" };
-
+        
+        SoundManager.Instance.PlayCountdownSound();
         for (int i = 0; i < countdownTexts.Length; i++)
         {
             starterText.text = countdownTexts[i];

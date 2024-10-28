@@ -14,7 +14,7 @@ public class BasicPushObstacleEffect : ObstacleBase, IStayEffect
         {
             var pushDirection = pushVector.normalized;
             var pushForce = pushVector.magnitude;
-            pushable.Push(pushDirection, pushForce);
+            pushable.PushNoSound(pushDirection, pushForce);
         }
         
     }

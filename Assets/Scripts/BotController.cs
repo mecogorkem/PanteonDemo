@@ -98,6 +98,8 @@ public class BotController : CharacterBaseController
     public void RealDie()
     {
         isDead = false;
+        Instantiate(Resources.Load("DeathAnim"), transform.position, Quaternion.identity);
+
         // Warp the NavMeshAgent to the starting position
         _navMeshAgent.Warp(startingPosition);
         
