@@ -34,7 +34,6 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
         _controller = GetComponent<CharacterController>();
         _animator = GetComponent<Animator>();
         _hasAnimator = _animator != null;
-
         AssignAnimationIDs();
     }
     
@@ -49,6 +48,8 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
         {
             return;
         }
+        _controller.height = 1.6f;
+
         ApplyGravity();
         GatherInput();
         Move();

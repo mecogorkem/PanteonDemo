@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -16,7 +17,6 @@ public class WallPainter : MonoBehaviour
 
     [Header("Painting Settings")]
     [SerializeField] private Material mainMaterial;
-    [SerializeField] private Texture _sprite;
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField] private Transform wallTransform;
     
@@ -42,7 +42,6 @@ public class WallPainter : MonoBehaviour
     int strengthID = Shader.PropertyToID("_Strength");
 
     public Shader texturePaint;
-    private CommandBuffer command;
     private RenderTexture supportTexture;
     private RenderTexture supportTexture2;
     private Texture2D readTexture;
@@ -52,10 +51,9 @@ public class WallPainter : MonoBehaviour
     private void Awake()
     {
         paintMaterial = new Material(texturePaint);
-        command = new CommandBuffer { name = "CommandBuffer - " + gameObject.name };
-        supportTexture = new RenderTexture(900, 900, 0) { filterMode = FilterMode.Bilinear };
-        supportTexture2 = new RenderTexture(900, 900, 0) { filterMode = FilterMode.Bilinear };
-        mainMaterial = new Material(mainMaterial) { mainTexture = _sprite };
+        supportTexture = new RenderTexture(103, 70, 0) { filterMode = FilterMode.Bilinear };
+        supportTexture2 = new RenderTexture(103, 70, 0) { filterMode = FilterMode.Bilinear };
+        mainMaterial = new Material(mainMaterial) { mainTexture = supportTexture2 };
         _meshRenderer.material = mainMaterial;
 
         readTexture = new Texture2D(supportTexture.width, supportTexture.height, TextureFormat.RGBA32, false);
@@ -112,6 +110,11 @@ public class WallPainter : MonoBehaviour
         _audioSource.volume = currentVolume;
     }
 
+    private void FixedUpdate()
+    {
+        CalculatePaintedPercentage();
+    }
+
     private void SetBrushColor(Color color, Button selectedButton)
     {
         currentColor = color;
@@ -137,7 +140,7 @@ public class WallPainter : MonoBehaviour
         }
     }
 
-    public void paint(Vector2 pos, float radius = 0.13f, float hardness = 0, float strength = 1, Color? color = null)
+    public void paint(Vector2 pos, float radius = 0.13f, float hardness = 0, float strength = 1, Color? color = null) 
     {
         paintMaterial.SetVector(positionID, pos);
         paintMaterial.SetFloat(hardnessID, hardness);
@@ -145,15 +148,13 @@ public class WallPainter : MonoBehaviour
         paintMaterial.SetFloat(radiusID, radius);
         paintMaterial.SetColor(colorID, color ?? currentColor);
 
-        command.Blit(mainMaterial.mainTexture, supportTexture, paintMaterial);
-        command.Blit(supportTexture, supportTexture2);
+        Graphics.Blit(supportTexture2, supportTexture, paintMaterial);
+        Graphics.Blit(supportTexture, supportTexture2);
+
         mainMaterial.mainTexture = supportTexture2;
 
-        Graphics.ExecuteCommandBuffer(command);
-        command.Clear();
-
-        CalculatePaintedPercentage();
     }
+
 
     private void CalculatePaintedPercentage()
     {
@@ -163,8 +164,9 @@ public class WallPainter : MonoBehaviour
         RenderTexture.active = null;
 
         int paintedPixels = 0;
-        Color32[] pixels = readTexture.GetPixels32(); 
-        foreach (Color32 pixel in pixels)
+        Color32[] pixels = readTexture.GetPixels32();
+       
+        foreach(Color32 pixel in pixels)
         {
             if (pixel.a > 200)
             {

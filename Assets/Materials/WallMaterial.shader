@@ -11,7 +11,7 @@ Shader "Unlit/WallMaterial"
     }
     SubShader
     {
-        Tags { "RenderType"="Transparent" "Queue" = "Transparent"}
+        Tags { "RenderType"="Opaque" "Queue" = "Transparent"}
         LOD 100
          
         Blend SrcAlpha OneMinusSrcAlpha // Traditional transparency
