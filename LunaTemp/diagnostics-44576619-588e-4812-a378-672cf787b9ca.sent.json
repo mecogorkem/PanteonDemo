@@ -1,0 +1,167 @@
+{
+  "BuildID": "44576619-588e-4812-a378-672cf787b9ca",
+  "Command": "project:build",
+  "ProjectID": "183a878df3c572c46b908bc772bb8712",
+  "ProjectStateHash": "38b8b0611a2c9b87a24cc7ec748ea475aec4a02dff8347c6f2867f2148c9b509",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1731164626288,
+  "EndTime": 1731164655531,
+  "PlaygroundUserID": 18929,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2021.3.45f1\r",
+  "LunaVersion": "6.2.0",
+  "LogCount": 6,
+  "Logs": [
+    {
+      "LogID": "16db15fd-49f7-41d6-b2d7-bbbca6acf539",
+      "Order": 5,
+      "Timestamp": 1731164655751,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "053c4f23-c3f3-4322-ad46-71b561fee4a7",
+      "Order": 5,
+      "Timestamp": 1731164655752,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "1ca8c908-7f43-4a95-8724-76b9218db78d",
+      "Order": 0,
+      "Timestamp": 1731164636188,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1016",
+      "Description": "Extensive usage of Rigidbody Component",
+      "Details": [
+        "There is extensive usage of the Rigidbody component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 11."
+      ],
+      "DescriptionValues": [
+        "Rigidbody"
+      ],
+      "DetailsValues": [
+        "Rigidbody",
+        "10",
+        "11"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "d6f79a19-c78c-489c-ad98-072db9832c35",
+      "Order": 1,
+      "Timestamp": 1731164636189,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1022",
+      "Description": "Extensive use of shader variants",
+      "Details": [
+        "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (28 found). Check Runtime analysis -> shader tab to see used shaders."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "20",
+        "28"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "9d2f0c15-fda1-45cc-a6e7-39f2075a2865",
+      "Order": 2,
+      "Timestamp": 1731164636199,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Platform",
+        "Platform (1)",
+        "FinishLine",
+        "Quad",
+        "Quad"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 5,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ad962f9d-7b24-4d49-9398-599751999b52",
+      "Order": 3,
+      "Timestamp": 1731164636199,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1033",
+      "Description": "Use of unsupported Character Controller detected.",
+      "Details": [
+        "Player",
+        "Girl",
+        "Player",
+        "Girl (1)",
+        "Girl (2)",
+        "Girl (3)",
+        "Girl (4)",
+        "Girl (5)",
+        "Girl (6)",
+        "Girl (7)",
+        "Girl (8)",
+        "Girl (9)"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 12,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

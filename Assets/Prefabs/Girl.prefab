@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 1685103666608907284}
   - component: {fileID: 1685103666608907286}
   - component: {fileID: 9090887337248109207}
+  - component: {fileID: 3829155291759685592}
   m_Layer: 7
   m_Name: Girl
   m_TagString: Bot
@@ -136,6 +137,7 @@ MonoBehaviour:
   gravity: 9.8
   fallThreshold: -10
   pushForceDecayRate: 5
+  navMeshAgent: {fileID: 3829155291759685592}
 --- !u!95 &9090887337248109207
 Animator:
   serializedVersion: 5
@@ -145,8 +147,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991674101414766908}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 4e1523a0ce2b6e8429d23d92ab2203f5, type: 3}
+  m_Controller: {fileID: 9100000, guid: cc4e3e520042f7847b2873f9fa115efe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -157,6 +159,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!195 &3829155291759685592
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991674101414766908}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 10
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2496486392278913200
 GameObject:
   m_ObjectHideFlags: 0

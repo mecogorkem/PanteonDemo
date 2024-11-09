@@ -1,7 +1,11 @@
 using UnityEngine;
+using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class BotController : CharacterBaseController
 {
+	public NavMeshAgent navMeshAgent;
+
 	private Vector3 startingPosition;
 
 	private bool isDead = false;
@@ -24,6 +28,10 @@ public class BotController : CharacterBaseController
 
 	private void FindTarget()
 	{
+		if (navMeshAgent != null)
+		{
+			navMeshAgent.SetDestination(new Vector3(0f, 0f, 100f));
+		}
 	}
 
 	public override void FixedUpdate()
@@ -44,7 +52,6 @@ public class BotController : CharacterBaseController
 
 	protected override void Move()
 	{
-		base.Move();
 	}
 
 	public override void Die()

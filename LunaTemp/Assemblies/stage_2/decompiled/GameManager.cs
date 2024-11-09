@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Luna.Unity;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -132,10 +133,12 @@ public class GameManager : MonoBehaviour
 	public void OpenCompleteGameUI()
 	{
 		completeGameUI.SetActive(true);
+		LifeCycle.GameEnded();
 	}
 
 	public void PlayAgain()
 	{
+		Playable.InstallFullGame();
 		DeathCounter.ResetDeathCounter();
 		SceneManager.LoadScene(0);
 	}

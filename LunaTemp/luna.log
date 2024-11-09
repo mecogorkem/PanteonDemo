@@ -1,33 +1,35 @@
-report@config:load 35.01
+report@config:load 35.10
 Authorized using stored user info.
-report@account:authorize 6.68
+report@account:authorize 6.99
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
-Exporting assets from Unity.........
+Exporting assets from Unity.............
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-report@unity:export 6065.80
-report@config:load 15.23
+report@unity:export 10091.33
+report@config:load 22.26
 Using C:/Users/Gorkem/PanteonDemo2/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[22482] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
 Combined 97 glyphs into bitmap texture at C:/Users/Gorkem/PanteonDemo2/LunaTemp/stage1/tmp/fonts/LiberationSans-22482/output_0.png (56kb)
 Found custom rules for sound Assets/Sound/player_jump.ogg
   {"channels":1,"startTime":"00:00.000","endTime":"00:30.000","lengthInSeconds":0,"bitrate":128,"script":"","ext":"","name":"Assets/Sound/player_jump.ogg","isOverride":true}
-Found custom rules for sound Assets/Sound/1 - Everybody Falls (Fall Guys Theme).mp3
-  {"channels":1,"startTime":"00:00.000","endTime":"01:09.323","lengthInSeconds":69.322998046875,"bitrate":30,"script":"","ext":"","name":"Assets/Sound/1 - Everybody Falls (Fall Guys Theme).mp3","isOverride":true}
+Found custom rules for sound Assets/Sound/3 2 1 Countdown - Sound Effect #timer #coundown #321shorts [ ezmp3.cc ].mp3
+  {"channels":1,"startTime":"00:00.000","endTime":"00:05.000","lengthInSeconds":5,"bitrate":30,"script":"","ext":"","name":"Assets/Sound/3 2 1 Countdown - Sound Effect #timer #coundown #321shorts [ ezmp3.cc ].mp3","isOverride":true}
 Found custom rules for sound Assets/Sound/spray-87676.mp3
   {"channels":1,"startTime":"00:00.000","endTime":"00:05.323","lengthInSeconds":5.322999954223633,"bitrate":60,"script":"","ext":"","name":"Assets/Sound/spray-87676.mp3","isOverride":true}
+Found custom rules for sound Assets/Sound/1 - Everybody Falls (Fall Guys Theme).mp3
+  {"channels":1,"startTime":"00:00.000","endTime":"01:09.323","lengthInSeconds":69.322998046875,"bitrate":30,"script":"","ext":"","name":"Assets/Sound/1 - Everybody Falls (Fall Guys Theme).mp3","isOverride":true}
 Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
 Resources:
 {}
-report@assets:stage2 3517.93
-report@assets:stage3 280.18
+report@assets:stage2 3519.95
+report@assets:stage3 220.48
 [ Stage2 ] Assets postprocessed and bundled successfully
-report@config:unity 0.21
-report@config:load 55.19
-report@config:unity 2.08
+report@config:unity 0.15
+report@config:load 37.47
+report@config:unity 0.10
 ﻿
 [ error ] $﻿
 Diagnostics gathered successfully
@@ -37,52 +39,52 @@ Microsoft (R) Visual C# Compiler version 3.9.0-5.21120.8 (accdcb77)
 Copyright (C) Microsoft Corporation. All rights reserved.
 
 
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\BotController.cs(111,18): warning CS0114: 'BotController.OnDestroy()' hides inherited member 'CharacterBaseController.OnDestroy()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\BotController.cs(114,18): warning CS0114: 'BotController.OnDestroy()' hides inherited member 'CharacterBaseController.OnDestroy()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
 
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(7,40): warning CS0649: Field 'SoundManager.pushSound' is never assigned to, and will always have its default value null
-
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(20,43): warning CS0649: Field 'WallPainter._meshRenderer' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(8,40): warning CS0649: Field 'SoundManager.coinSound' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\PlayerController.cs(9,40): warning CS0649: Field 'PlayerController.playerGameCompleteTransform' is never assigned to, and will always have its default value null
-
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(23,36): warning CS0649: Field 'GameManager.starterImage' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(11,37): warning CS0649: Field 'WallPainter.brushSizeSlider' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CameraFollow.cs(9,40): warning CS0649: Field 'CameraFollow.finishTarget' is never assigned to, and will always have its default value null
-
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(15,37): warning CS0649: Field 'WallPainter.blueButton' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\BotController.cs(11,23): warning CS0169: The field 'BotController.activeTarget' is never used
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(24,42): warning CS0649: Field 'WallPainter._audioSource' is never assigned to, and will always have its default value null
-
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\RankManager.cs(9,43): warning CS0649: Field 'RankManager.rankSprites' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(14,37): warning CS0649: Field 'WallPainter.redButton' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(21,41): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\NextTarget.cs(8,40): warning CS0649: Field 'NextTarget.nextTarget' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\DeathCounter.cs(7,46): warning CS0649: Field 'DeathCounter.deathCounterText' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(16,41): warning CS0649: Field 'WallPainter.canvas' is never assigned to, and will always have its default value null
-
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\Obstacles\ShiningObstacleEffect.cs(6,45): warning CS0649: Field 'ShiningObstacleEffect.shineParticle' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\Joystick.cs(7,44): warning CS0649: Field 'Joystick.joystickBackground' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(10,40): warning CS0649: Field 'SoundManager.botDeathSound' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(25,46): warning CS0649: Field 'GameManager.tapToStartText' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(21,40): warning CS0649: Field 'WallPainter.wallTransform' is never assigned to, and will always have its default value null
-
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(24,43): warning CS0649: Field 'GameManager.starterImages' is never assigned to, and will always have its default value null
 C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CoinManager.cs(11,41): warning CS0649: Field 'CoinManager.flyingCoinPrefab' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(9,40): warning CS0649: Field 'SoundManager.countdownSound' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\Joystick.cs(8,44): warning CS0649: Field 'Joystick.joystickHandle' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CameraFollow.cs(8,40): warning CS0649: Field 'CameraFollow.target' is never assigned to, and will always have its default value null
 
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(12,42): warning CS0649: Field 'WallPainter.paintedPercentageText' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(22,46): warning CS0649: Field 'GameManager.starterText' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(20,41): warning CS0649: Field 'GameManager.completeGameUI' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\PlayerController.cs(8,40): warning CS0649: Field 'PlayerController.playerEndTransform' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(11,40): warning CS0649: Field 'SoundManager.coinFirstInteractionSound' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(9,40): warning CS0649: Field 'SoundManager.countdownSound' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\BotController.cs(11,23): warning CS0169: The field 'BotController.activeTarget' is never used
+
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\PlayerController.cs(9,40): warning CS0649: Field 'PlayerController.playerGameCompleteTransform' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(7,40): warning CS0649: Field 'SoundManager.pushSound' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(20,43): warning CS0649: Field 'WallPainter._meshRenderer' is never assigned to, and will always have its default value null
 
 C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CoinManager.cs(10,46): warning CS0649: Field 'CoinManager.coinCounterText' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(13,37): warning CS0649: Field 'WallPainter.yellowButton' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\RankManager.cs(8,36): warning CS0649: Field 'RankManager.rankImage' is never assigned to, and will always have its default value null
-C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CoinManager.cs(12,40): warning CS0649: Field 'CoinManager.uiTarget' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(15,37): warning CS0649: Field 'WallPainter.blueButton' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\PlayerController.cs(8,40): warning CS0649: Field 'PlayerController.playerEndTransform' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(11,37): warning CS0649: Field 'WallPainter.brushSizeSlider' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\NextTarget.cs(8,40): warning CS0649: Field 'NextTarget.nextTarget' is never assigned to, and will always have its default value null
 
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(16,41): warning CS0649: Field 'WallPainter.canvas' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(13,37): warning CS0649: Field 'WallPainter.yellowButton' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\Joystick.cs(8,44): warning CS0649: Field 'Joystick.joystickHandle' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(20,41): warning CS0649: Field 'GameManager.completeGameUI' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CameraFollow.cs(8,40): warning CS0649: Field 'CameraFollow.target' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(22,46): warning CS0649: Field 'GameManager.starterText' is never assigned to, and will always have its default value null
+
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\DeathCounter.cs(7,46): warning CS0649: Field 'DeathCounter.deathCounterText' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(8,40): warning CS0649: Field 'SoundManager.coinSound' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(21,40): warning CS0649: Field 'WallPainter.wallTransform' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(25,46): warning CS0649: Field 'GameManager.tapToStartText' is never assigned to, and will always have its default value null
+
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(14,37): warning CS0649: Field 'WallPainter.redButton' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\Joystick.cs(7,44): warning CS0649: Field 'Joystick.joystickBackground' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(12,42): warning CS0649: Field 'WallPainter.paintedPercentageText' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(24,43): warning CS0649: Field 'GameManager.starterImages' is never assigned to, and will always have its default value null
+
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\Obstacles\ShiningObstacleEffect.cs(6,45): warning CS0649: Field 'ShiningObstacleEffect.shineParticle' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\RankManager.cs(9,43): warning CS0649: Field 'RankManager.rankSprites' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(23,36): warning CS0649: Field 'GameManager.starterImage' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(11,40): warning CS0649: Field 'SoundManager.coinFirstInteractionSound' is never assigned to, and will always have its default value null
+
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\SoundManager.cs(10,40): warning CS0649: Field 'SoundManager.botDeathSound' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CameraFollow.cs(9,40): warning CS0649: Field 'CameraFollow.finishTarget' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\GameManager.cs(21,41): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\RankManager.cs(8,36): warning CS0649: Field 'RankManager.rankImage' is never assigned to, and will always have its default value null
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\WallPainter.cs(24,42): warning CS0649: Field 'WallPainter._audioSource' is never assigned to, and will always have its default value null
+
+C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\CoinManager.cs(12,40): warning CS0649: Field 'CoinManager.uiTarget' is never assigned to, and will always have its default value null
 C:\Users\Gorkem\PanteonDemo2\Assets\Scripts\BotController.cs(10,17): warning CS0414: The field 'BotController.negativeMove' is assigned but its value is never used
 
 Usercode compiled successfully!
@@ -91,15 +93,16 @@ Usercode compiled successfully!
 code-v2:compose complete successfully!
 report@code-v2:compose 0.19
 Authorized using stored user info.
-report@account:authorize 4.46
+report@account:authorize 3.40
 MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
 
-Build started 9.11.2024 14:49:19.
+Build started 9.11.2024 18:04:05.
 
 
 
 Project "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
 CoreClean:
+
   Deleting file "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
   Deleting file "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
@@ -162,93 +165,96 @@ GenerateTargetFrameworkMonikerAttribute:
 Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
 
 CoreCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2021;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2021_3;UNITY_2021_3_45 /highentropyva+ /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BackgroundMusic.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BasicPushObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CharacterBaseController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinCollectible.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ColorGenerator.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathCounter.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenCYInstruction.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleAudio.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModulePhysics.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModulePhysics2D.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleSprite.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUI.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUnityVersion.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUtils.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\FinishLine.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\FOVCalculator.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IDeathHandler.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IEnterEffect.cs C:\Users\Gorkem\P
-anteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IExitEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IMovable.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IPushable.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IStayEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\LocalRotationController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\NextTarget.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ObstacleBase.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ObstacleTrigger.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PatrolMovementController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Properties\AssemblyInfo.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RotaterPushObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ShiningObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2021;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2021_3;UNITY_2021_3_45 /highentropyva+ /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom
+.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BackgroundMusic.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BasicPushObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CharacterBaseController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinCollectible.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ColorGenerator.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathCounter.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenCYInstruction.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleAudio.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModulePhysics.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModulePhysics2D.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleSprite.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUI.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUnityVersion.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUtils.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\FinishLine.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\FOVCalculator.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IDeathHandler.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IEnterEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IExitEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IMovable.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IPushable.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\IStayEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\LocalRotationController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\NextTarget.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ObstacleBase.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ObstacleTrigger.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PatrolMovementController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Properties\AssemblyInfo.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RotaterPushObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ShiningObstacleEffect.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(11,17): warning CS0649: Field 'WallPainter.brushSizeSlider' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs(11,20): warning CS0649: Field 'PlayerController.playerEndTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\NextTarget.cs(6,20): warning CS0649: Field 'NextTarget.nextTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathCounter.cs(9,26): warning CS0649: Field 'DeathCounter.deathCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(9,20): warning CS0649: Field 'SoundManager.coinSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(11,21): warning CS0649: Field 'CoinManager.flyingCoinPrefab' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(7,24): warning CS0649: Field 'Joystick.joystickBackground' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(37,23): warning CS0649: Field 'GameManager.starterImages' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(6,20): warning CS0649: Field 'SoundManager.pushSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs(14,20): warning CS0649: Field 'PlayerController.playerGameCompleteTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(8,20): warning CS0649: Field 'CameraFollow.target' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(20,17): warning CS0649: Field 'WallPainter.redButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ShiningObstacleEffect.cs(9,25): warning CS0649: Field 'ShiningObstacleEffect.shineParticle' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(33,16): warning CS0649: Field 'GameManager.starterImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(40,26): warning CS0649: Field 'GameManager.tapToStartText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(39,26): warning CS0649: Field 'GameManager.tapToStartText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathCounter.cs(9,26): warning CS0649: Field 'DeathCounter.deathCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(14,22): warning CS0649: Field 'WallPainter.paintedPercentageText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(40,22): warning CS0649: Field 'WallPainter._audioSource' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(11,20): warning CS0649: Field 'CameraFollow.finishTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(33,23): warning CS0649: Field 'WallPainter._meshRenderer' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(7,24): warning CS0649: Field 'Joystick.joystickBackground' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\NextTarget.cs(6,20): warning CS0649: Field 'NextTarget.nextTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(36,23): warning CS0649: Field 'GameManager.starterImages' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(28,21): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(23,17): warning CS0649: Field 'WallPainter.blueButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(10,24): warning CS0649: Field 'Joystick.joystickHandle' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(11,17): warning CS0649: Field 'WallPainter.brushSizeSlider' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(34,16): warning CS0649: Field 'GameManager.starterImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(14,20): warning CS0649: Field 'CoinManager.uiTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs(9,16): warning CS0649: Field 'RankManager.rankImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(15,20): warning CS0649: Field 'SoundManager.botDeathSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(17,17): warning CS0649: Field 'WallPainter.yellowButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(15,20): warning CS0169: The field 'BotController.activeTarget' is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs(12,23): warning CS0649: Field 'RankManager.rankSprites' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(14,22): warning CS0649: Field 'WallPainter.paintedPercentageText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(12,20): warning CS0649: Field 'SoundManager.countdownSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(31,26): warning CS0649: Field 'GameManager.starterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(11,20): warning CS0649: Field 'CameraFollow.finishTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(8,26): warning CS0649: Field 'CoinManager.coinCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(11,20): warning CS0169: The field 'BotController.activeTarget' is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(11,21): warning CS0649: Field 'CoinManager.flyingCoinPrefab' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(25,21): warning CS0649: Field 'GameManager.completeGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(36,20): warning CS0649: Field 'WallPainter.wallTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(17,17): warning CS0649: Field 'WallPainter.yellowButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(18,20): warning CS0649: Field 'SoundManager.coinFirstInteractionSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(26,21): warning CS0649: Field 'WallPainter.canvas' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(30,26): warning CS0649: Field 'GameManager.starterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(8,20): warning CS0649: Field 'CameraFollow.target' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs(11,20): warning CS0649: Field 'PlayerController.playerEndTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(27,21): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(40,22): warning CS0649: Field 'WallPainter._audioSource' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(12,20): warning CS0649: Field 'SoundManager.countdownSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(23,17): warning CS0649: Field 'WallPainter.blueButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(15,20): warning CS0649: Field 'SoundManager.botDeathSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(9,20): warning CS0649: Field 'SoundManager.coinSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(10,24): warning CS0649: Field 'Joystick.joystickHandle' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(33,23): warning CS0649: Field 'WallPainter._meshRenderer' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(6,20): warning CS0649: Field 'SoundManager.pushSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(24,21): warning CS0649: Field 'GameManager.completeGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(14,20): warning CS0649: Field 'CoinManager.uiTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(9,14): warning CS0414: The field 'BotController.negativeMove' is assigned but its value is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(13,14): warning CS0414: The field 'BotController.negativeMove' is assigned but its value is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
-  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
-  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
@@ -263,6 +269,7 @@ _CopyFilesMarkedCopyLocal:
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
@@ -273,9 +280,9 @@ _CopyFilesMarkedCopyLocal:
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
 
-  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
-
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
   Copying file from "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
@@ -296,7 +303,6 @@ BridgeNetCompilerTask:
   Bridge started
 
       To enable detailed logging, configure "logging" in bridge.json.
-
       https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
 
   Bridge done
@@ -307,63 +313,66 @@ Done Building Project "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCo
 Build succeeded.
 
 
-
 "C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+
 (CoreCompile target) -> 
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(11,17): warning CS0649: Field 'WallPainter.brushSizeSlider' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\NextTarget.cs(6,20): warning CS0649: Field 'NextTarget.nextTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathCounter.cs(9,26): warning CS0649: Field 'DeathCounter.deathCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(11,21): warning CS0649: Field 'CoinManager.flyingCoinPrefab' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs(11,20): warning CS0649: Field 'PlayerController.playerEndTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(9,20): warning CS0649: Field 'SoundManager.coinSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(7,24): warning CS0649: Field 'Joystick.joystickBackground' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(37,23): warning CS0649: Field 'GameManager.starterImages' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(6,20): warning CS0649: Field 'SoundManager.pushSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs(14,20): warning CS0649: Field 'PlayerController.playerGameCompleteTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(8,20): warning CS0649: Field 'CameraFollow.target' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(20,17): warning CS0649: Field 'WallPainter.redButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\ShiningObstacleEffect.cs(9,25): warning CS0649: Field 'ShiningObstacleEffect.shineParticle' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(33,16): warning CS0649: Field 'GameManager.starterImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(39,26): warning CS0649: Field 'GameManager.tapToStartText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(14,22): warning CS0649: Field 'WallPainter.paintedPercentageText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(11,20): warning CS0649: Field 'CameraFollow.finishTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(7,24): warning CS0649: Field 'Joystick.joystickBackground' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(36,23): warning CS0649: Field 'GameManager.starterImages' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs(9,16): warning CS0649: Field 'RankManager.rankImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs(12,23): warning CS0649: Field 'RankManager.rankSprites' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(8,26): warning CS0649: Field 'CoinManager.coinCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(11,20): warning CS0169: The field 'BotController.activeTarget' is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(36,20): warning CS0649: Field 'WallPainter.wallTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(40,26): warning CS0649: Field 'GameManager.tapToStartText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\DeathCounter.cs(9,26): warning CS0649: Field 'DeathCounter.deathCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(40,22): warning CS0649: Field 'WallPainter._audioSource' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(33,23): warning CS0649: Field 'WallPainter._meshRenderer' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\NextTarget.cs(6,20): warning CS0649: Field 'NextTarget.nextTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(28,21): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(23,17): warning CS0649: Field 'WallPainter.blueButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(10,24): warning CS0649: Field 'Joystick.joystickHandle' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(11,17): warning CS0649: Field 'WallPainter.brushSizeSlider' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(34,16): warning CS0649: Field 'GameManager.starterImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(14,20): warning CS0649: Field 'CoinManager.uiTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs(9,16): warning CS0649: Field 'RankManager.rankImage' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(15,20): warning CS0649: Field 'SoundManager.botDeathSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(17,17): warning CS0649: Field 'WallPainter.yellowButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(15,20): warning CS0169: The field 'BotController.activeTarget' is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\RankManager.cs(12,23): warning CS0649: Field 'RankManager.rankSprites' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(14,22): warning CS0649: Field 'WallPainter.paintedPercentageText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(12,20): warning CS0649: Field 'SoundManager.countdownSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(31,26): warning CS0649: Field 'GameManager.starterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(11,20): warning CS0649: Field 'CameraFollow.finishTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(8,26): warning CS0649: Field 'CoinManager.coinCounterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(11,21): warning CS0649: Field 'CoinManager.flyingCoinPrefab' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(25,21): warning CS0649: Field 'GameManager.completeGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(36,20): warning CS0649: Field 'WallPainter.wallTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(18,20): warning CS0649: Field 'SoundManager.coinFirstInteractionSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(26,21): warning CS0649: Field 'WallPainter.canvas' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(30,26): warning CS0649: Field 'GameManager.starterText' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CameraFollow.cs(8,20): warning CS0649: Field 'CameraFollow.target' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\PlayerController.cs(11,20): warning CS0649: Field 'PlayerController.playerEndTransform' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(27,21): warning CS0649: Field 'GameManager.startGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(40,22): warning CS0649: Field 'WallPainter._audioSource' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(12,20): warning CS0649: Field 'SoundManager.countdownSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(23,17): warning CS0649: Field 'WallPainter.blueButton' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(15,20): warning CS0649: Field 'SoundManager.botDeathSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(9,20): warning CS0649: Field 'SoundManager.coinSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\Joystick.cs(10,24): warning CS0649: Field 'Joystick.joystickHandle' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\WallPainter.cs(33,23): warning CS0649: Field 'WallPainter._meshRenderer' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs(6,20): warning CS0649: Field 'SoundManager.pushSound' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\GameManager.cs(24,21): warning CS0649: Field 'GameManager.completeGameUI' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\CoinManager.cs(14,20): warning CS0649: Field 'CoinManager.uiTarget' is never assigned to, and will always have its default value null [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(9,14): warning CS0414: The field 'BotController.negativeMove' is assigned but its value is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Gorkem\PanteonDemo2\LunaTemp\Assemblies\stage_2\decompiled\BotController.cs(13,14): warning CS0414: The field 'BotController.negativeMove' is assigned but its value is never used [C:\Users\Gorkem\Downloads\6.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     36 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:07.78
+
+Time Elapsed 00:00:07.79
 
 Source code compiled successfully!
 ﻿
 [ error ] $﻿
 Diagnostics gathered successfully
-report@code:build 10526.67
-report@diagnostics:verify 0.55
-report@diagnostics:upload 1656.42
-report@code:stage 10926.52
+report@code:build 10543.42
+report@diagnostics:verify 0.44
+report@diagnostics:upload 1721.63
+report@code:stage 9688.26
 [ Stage3 ] Code compiled and bundled successfully.
-report@code:bundle 27688.69
-report@package:stage 993.05
+report@code:bundle 26606.71
+report@package:stage 884.94
 [ Stage4 ] Target platform: develop
 [ Stage4 ] Package bundled successfully
-report@assets:stats 0.12
+report@assets:stats 0.13

@@ -3,246 +3,173 @@
   <component name="ChangeListManager">
     <list default="true" id="87b4b08e-711f-4fd1-9080-5cf869ea6ab0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PanteonDemo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PanteonDemo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/WallMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/WallMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Girl.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Girl.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RotaterObstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RotaterObstacle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/StaticObstacle (2).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/StaticObstacle (2).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/StaticObstacle (2).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/StaticObstacle (2).prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SVC_Luna.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SVC_Luna.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WallPainter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WallPainter.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BotController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterBaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterBaseController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Coin/Coin_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Coin/Coin_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Half Donut/Half_Donut_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Half Donut/Half_Donut_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform_Blue_Materail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform_Blue_Materail.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform_Orange_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform_Orange_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform_Purple_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotating Platform/RotatingPlatform_Purple_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/RotatingStick.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/RotatingStick.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/RotatingStick_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/RotatingStick_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/Rotator.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/Rotator.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/Rotator_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Rotator/Rotator_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Shining Obstacle/ShiningObstacle_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/DynamicObstacles/Shining Obstacle/ShiningObstacle_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/StationaryObstacles/StaticObstacle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/StationaryObstacles/StaticObstacle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/StationaryObstacles/StaticObstacle_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Obstacles/StationaryObstacles/StaticObstacle_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/Character_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/Character_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/Character_Skin_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/Character_Skin_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/Girl_Costume_Texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/Girl_Costume_Texture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Platform/Platform_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Platform/Platform_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Platform/Platform_Shader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Platform/Platform_Shader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/Platform/Water_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/Platform/Water_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/PlayerCharacter/Player_Skin_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestProjectAssets/PlayerCharacter/Player_Skin_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallPainter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallPainter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/CharacterAnimation.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestProjectAssets/OpponentCharacter/CharacterAnimation.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/.buildID" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/.buildID" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_1/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_1/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/BotController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/diagnostics-e7f149d5-57d3-494b-a2f4-808ec6890876.sent.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/CharacterBaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/CharacterBaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/WallPainter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/Assemblies/stage_2/decompiled/WallPainter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/diagnostics-1844aca8-f177-46b4-8cc2-2a68d0f7a6e5.sent.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/luna-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/luna-cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/luna.log" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/luna.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/project-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/project-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/blend-trees/24024.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/blend-trees/24024.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/animator-controllers/22536.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/animator-controllers/22536.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/blend-trees/22916.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/blend-trees/22916.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/bundles/addressables.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/bundles/addressables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/cubemaps/-768194.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/cubemaps/-768194.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/cubemaps/36106.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22378.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22378.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22458.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22458.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22530.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22530.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22532.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22546.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22546.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22554.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22554.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22596.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22596.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22652.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22652.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22678.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22678.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22822.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22822.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22894.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22894.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22964.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22964.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/23376.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/23376.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/23944.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/23944.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/24010.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/24010.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/24416.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/24416.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/22724.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/22782.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/22824.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/22824.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/22962.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/22962.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/23942.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/23942.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/23946.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/meshes/23946.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-770808.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-770838.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-771328.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-771344.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-771944.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-771990.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-772018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-772032.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-772082.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22388.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22392.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22392.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22432.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22470.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22470.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22542.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22542.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22580.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22580.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22600.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22600.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22608.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22608.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/36164.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/36332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/36484.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/36490.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/36518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/36598.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/cubemaps/-1210.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/cubemaps/-1210.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/cubemaps/23204.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/22508.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/23100.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/23100.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/materials/720.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-62740.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-62770.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63004.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63378.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63698.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63814.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-63860.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-64012.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-64026.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/-64076.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22318.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22318.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22374.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22374.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22422.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/22422.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/27872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/prefabs/27966.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/project-settings/-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/project-settings/-1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/resources/0.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/resources/0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scenes/0.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scenes/0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scenes/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scenes/1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22396.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22396.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22618.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22618.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24030.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24030.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24032.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24032.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24036.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24036.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24042.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/24042.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/150.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/150.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/298.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/298.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/396.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/64.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/64.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-772258.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-772258.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-772474.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-772474.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/24170.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/24170.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22322.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22322.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22484.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22926.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22926.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22928.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22928.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22932.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22932.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22938.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/scriptable-objects/22938.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/148.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/148.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/48.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/48.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/shaders/8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-64254.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-64254.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-64472.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/assets/textures/-64472.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/js/deserializers.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/js/deserializers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/js/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/js/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/js/rootPaths.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/js/rootPaths.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/js/roots.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/js/roots.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22614.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22614.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22620.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22620.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22626.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22626.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22628.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22628.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22630.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22630.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22632.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22632.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22634.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22634.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22646.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22646.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24048.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24048.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24168.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24168.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24172.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24172.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24176.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24176.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24182.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24182.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24184.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24184.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24186.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24186.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24190.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24190.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24194.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24194.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24196.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24196.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24198.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24198.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24200.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24202.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/24202.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/726.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/726.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/blend-trees/24024.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/blend-trees/24024.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/cubemaps/-768194.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/cubemaps/-768194.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/cubemaps/36106.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22378.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22378.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22458.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22458.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22530.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22530.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22532.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22546.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22546.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22554.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22554.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22596.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22596.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22652.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22652.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22678.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22678.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22822.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22822.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22894.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22894.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22964.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22964.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/23376.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/23376.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/23944.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/23944.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/24010.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/24010.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/24416.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/24416.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22724.blob" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22724.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22782.blob" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22782.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22824.blob" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22824.blob" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22824.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22824.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22962.blob" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22962.blob" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22962.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/22962.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23942.blob" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23942.blob" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23942.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23942.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23946.blob" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23946.blob" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23946.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/meshes/23946.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-770808.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-770838.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-771328.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-771344.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-771944.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-771990.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-772018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-772032.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-772082.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22388.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22392.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22392.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22432.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22470.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22470.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22542.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22542.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22580.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22580.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22600.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22600.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22608.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22608.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/36164.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/36332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/36484.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/36490.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/36518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/36598.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/sounds/ffmpeg/22384.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/sounds/ffmpeg/22384.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22480.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22480.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22486.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22486.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22492.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22492.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22494.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22494.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22496.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22496.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22498.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22498.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22500.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22512.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22944.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/22944.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23038.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23038.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23042.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23042.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23044.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23044.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23136.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23136.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23140.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23140.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23146.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23146.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23208.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23208.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23210.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23210.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23212.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23212.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23214.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23214.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23216.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23218.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/23218.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/738.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage1/tmp/textures/convert/738.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/animator-controllers/22536.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/animator-controllers/22536.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/blend-trees/22916.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/blend-trees/22916.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/cubemaps/-1210.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/cubemaps/-1210.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/cubemaps/23204.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/22508.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/23100.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/23100.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/materials/720.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-62740.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-62770.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63004.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63234.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63378.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63698.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63814.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-63860.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-64012.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-64026.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/-64076.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22318.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22318.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22374.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22374.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22422.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/22422.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/27872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/prefabs/27966.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/project-settings/-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/project-settings/-1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/resources/0.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/resources/0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scenes/0.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scenes/0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scenes/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scenes/1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22396.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22396.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22618.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22618.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24030.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24030.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24032.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24032.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24036.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24036.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24042.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/24042.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/150.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/150.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/150_shaderPrograms.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/150_shaderPrograms.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/20_shaderPrograms.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/298.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/298.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/298_shaderPrograms.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/298_shaderPrograms.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/396.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/396_shaderPrograms.glsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/64.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/64.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/64_shaderPrograms.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/64_shaderPrograms.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-772258.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-772258.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-772474.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-772474.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/22614.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/22614.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/24170.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/24170.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22322.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22322.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22484.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22926.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22926.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22928.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22928.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22932.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22932.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22938.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/scriptable-objects/22938.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/148.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/148.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/48.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/48.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/64_shaderPrograms.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/68_shaderPrograms.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/shaders/8_shaderPrograms.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/sounds/22384.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/sounds/22384.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-64254.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-64254.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-64472.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/-64472.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/22480.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/assets/textures/22480.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/js/deserializers.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/js/deserializers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/js/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/js/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage2/js/rootPaths.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage2/js/rootPaths.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/-772258.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/-772474.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/22614.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/22614.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/-64254.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/-64472.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/22384.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/22384.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/22480.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/22480.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/bundle.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/bundle.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/data.blob" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-1/data.blob" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-2/bundle.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/bundles/-2/bundle.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/assets/shaders.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/assets/shaders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/luna/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/luna/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/Bridge.Locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/Bridge.Locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/DOTween.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/DOTween.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/JetBrains.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/JetBrains.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/TextMeshPro.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/TextMeshPro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/UnityEngine.UI.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/UnityEngine.UI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/UnityEngine.UniversalRenderPipeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/UnityEngine.UniversalRenderPipeline.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/UnityScriptsCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/UnityScriptsCompiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/bridge.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/bridge.meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/newtonsoft.json.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/engine/unity/bin/newtonsoft.json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/js/deserializers.js" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/js/deserializers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/js/playable_health_check.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/js/playable_health_check.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/js/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/js/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/js/rootPaths.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage3/js/rootPaths.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage3/stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/-772258.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/-772474.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/22614.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/22614.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/create-hub/Deneme_build.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/-64254.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/-64472.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/22384.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/22384.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/22480.png" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/22480.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/bundle.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/bundle.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/data.blob" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-1/data.blob" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-2/bundle.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/assets/bundles/-2/bundle.json" afterDir="false" />
@@ -253,9 +180,6 @@
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/js/playground.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/js/playground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/js/rootPaths.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/js/rootPaths.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunaTemp/stage4/develop/luna.json" beforeDir="false" afterPath="$PROJECT_DIR$/LunaTemp/stage4/develop/luna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/luna.json" beforeDir="false" afterPath="$PROJECT_DIR$/luna.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -271,27 +195,30 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc88c87c01184d1499d92d3b79a10ce615b400/7d/f3964e40/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc88c87c01184d1499d92d3b79a10ce615b400/f2/7b6dcbb4/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2oaQinbssynirvtwgVxuphWKYnD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Gorkem\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Gorkem\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Gorkem\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Gorkem\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Gorkem\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Gorkem\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe" />
@@ -339,6 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731105337229</updated>
       <workItem from="1731105342056" duration="1391000" />
+      <workItem from="1731152300304" duration="4146000" />
     </task>
     <servers />
   </component>

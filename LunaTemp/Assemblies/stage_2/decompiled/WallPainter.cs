@@ -163,7 +163,10 @@ public class WallPainter : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		CalculatePaintedPercentage();
+		if (!GameManager.Instance.isGameCompleted)
+		{
+			CalculatePaintedPercentage();
+		}
 	}
 
 	private void SetBrushColor(Color color, Button selectedButton)

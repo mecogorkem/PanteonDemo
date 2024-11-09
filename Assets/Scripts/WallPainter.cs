@@ -112,6 +112,7 @@ public class WallPainter : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(GameManager.Instance.isGameCompleted) return;
         CalculatePaintedPercentage();
     }
 

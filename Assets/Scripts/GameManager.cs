@@ -127,17 +127,14 @@ public class GameManager : MonoBehaviour
     public void OpenCompleteGameUI()
     {
         completeGameUI.SetActive(true);
-#if LUNA_IS_PRESENT || LUNA_EDITOR_SOURCES
         Luna.Unity.LifeCycle.GameEnded();
-#endif
+
     }
     
     public void PlayAgain()
     {
-#if LUNA_IS_PRESENT || LUNA_EDITOR_SOURCES
         Luna.Unity.Playable.InstallFullGame();
-        return;
-#endif
+
         DeathCounter.ResetDeathCounter();
         SceneManager.LoadScene(0);
     }

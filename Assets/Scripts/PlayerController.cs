@@ -37,7 +37,7 @@ public class PlayerController : CharacterBaseController
                 {
                     _animator.SetFloat(_animIDSpeed, 0);
                     _animator.SetFloat(_animIDMotionSpeed, 0.5f);
-                    _animator.Play("Clapping");
+                    _animator.SetBool(_animIEnd, true);
                     GameManager.Instance.OpenCompleteGameUI();
                 }
             });

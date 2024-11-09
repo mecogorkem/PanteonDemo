@@ -28,6 +28,9 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
     protected bool _hasAnimator;
     protected int _animIDSpeed;
     protected int _animIDMotionSpeed;
+    protected int _animIEnd;
+    
+    
 
     protected virtual void Awake()
     {
@@ -53,6 +56,7 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
         ApplyGravity();
         GatherInput();
         Move();
+        AnimatorUpdate();
         ApplyPushForce();
         CheckFallBelowThreshold();
     }
@@ -63,6 +67,7 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
         {
             _animIDSpeed = Animator.StringToHash("Speed");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            _animIEnd = Animator.StringToHash("End");
         }
     }
 
@@ -101,9 +106,14 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
         _controller.Move(totalMovement * Time.deltaTime);
         
-        // Update animator if available
+       
+    }
+    
+    protected virtual void AnimatorUpdate()
+    {
         if (_hasAnimator)
         {
+            float inputMagnitude = Mathf.Clamp01(moveDirection.magnitude);
             _animator.SetFloat(_animIDSpeed, _speed);
             _animator.SetFloat(_animIDMotionSpeed, inputMagnitude+0.5f);
         }

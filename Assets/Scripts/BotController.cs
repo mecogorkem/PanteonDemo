@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-// [RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(NavMeshAgent))]
 public class BotController : CharacterBaseController
 {
-    // private NavMeshAgent _navMeshAgent;
+    public NavMeshAgent navMeshAgent;
     private Vector3 startingPosition;
     private bool isDead = false;
     private int negativeMove = 0;
@@ -12,9 +12,7 @@ public class BotController : CharacterBaseController
     protected override void Awake()
     {
         base.Awake();
-        // _navMeshAgent = GetComponent<NavMeshAgent>();
-        // _navMeshAgent.updatePosition = false;
-        // _navMeshAgent.updateRotation = false;
+   
         startingPosition = transform.position;
     }
 
@@ -27,10 +25,16 @@ public class BotController : CharacterBaseController
     private void FindTarget()
     {
         // GameObject targetObject = GameObject.FindGameObjectWithTag("Target");
+        if (navMeshAgent != null)
+        {
+            navMeshAgent.SetDestination(new Vector3(0,0,100));
+
+        }
+        //
         // if (targetObject != null)
         // {
-        //     _navMeshAgent.SetDestination(targetObject.transform.position);
-        //     activeTarget = targetObject.transform;
+        //     _navMeshAgent.SetDestination(new Vector3(0,0,100));
+        //     // activeTarget = targetObject.transform;
         //     negativeMove = 0;
         // }
         
@@ -85,7 +89,6 @@ public class BotController : CharacterBaseController
 
     protected override void Move()
     {
-        base.Move();
 
         // Sync NavMeshAgent position with CharacterController
         // _navMeshAgent.nextPosition = transform.position;
