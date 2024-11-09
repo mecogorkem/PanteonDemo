@@ -54,6 +54,8 @@ public class GameManager : MonoBehaviour
 	{
 		startGameUI.SetActive(true);
 		AnimateTapToStart();
+		QualitySettings.vSyncCount = 0;
+		Application.targetFrameRate = 60;
 	}
 
 	private void Update()

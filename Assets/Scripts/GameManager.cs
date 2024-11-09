@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     {
         startGameUI.SetActive(true);
         AnimateTapToStart(); // Start "Tap to Start" animation
+        QualitySettings.vSyncCount = 0; // VSync'i devre dışı bırak
+        Application.targetFrameRate = 60; // Hedef FPS'yi ayarla
     }
 
     private void Update()
@@ -125,10 +127,17 @@ public class GameManager : MonoBehaviour
     public void OpenCompleteGameUI()
     {
         completeGameUI.SetActive(true);
+#if LUNA_IS_PRESENT || LUNA_EDITOR_SOURCES
+        Luna.Unity.LifeCycle.GameEnded();
+#endif
     }
     
     public void PlayAgain()
     {
+#if LUNA_IS_PRESENT || LUNA_EDITOR_SOURCES
+        Luna.Unity.Playable.InstallFullGame();
+        return;
+#endif
         DeathCounter.ResetDeathCounter();
         SceneManager.LoadScene(0);
     }

@@ -2289,6 +2289,8 @@ if ( TRACE ) { TRACE( "GameManager#Start", this ); }
 
                 this["startGameUI"].SetActive(true);
                 this.AnimateTapToStart();
+                pc.QualitySettings.instance.vSyncCount = 0;
+                UnityEngine.Application.targetFrameRate = 60;
             },
             /*GameManager.Start end.*/
 
@@ -3599,7 +3601,7 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     /*BasicPushObstacleEffect end.*/
 
     /*BotController start.*/
-    $m("BotController", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.AI.NavMeshAgent)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"ov":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"a":1,"n":"FindTarget","t":8,"sn":"FindTarget","rt":$n[0].Void},{"ov":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"ov":true,"a":3,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy$1","rt":$n[0].Void},{"a":2,"n":"RealDie","t":8,"sn":"RealDie","rt":$n[0].Void},{"a":2,"n":"SetNextTarget","t":8,"pi":[{"n":"nextTarget","pt":$n[1].Transform,"ps":0}],"sn":"SetNextTarget","rt":$n[0].Void,"p":[$n[1].Transform]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"activeTarget","t":4,"rt":$n[1].Transform,"sn":"activeTarget"},{"a":1,"n":"isDead","t":4,"rt":$n[0].Boolean,"sn":"isDead","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"negativeMove","t":4,"rt":$n[0].Int32,"sn":"negativeMove","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"startingPosition","t":4,"rt":$n[1].Vector3,"sn":"startingPosition"}]}; }, $n);
+    $m("BotController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"ov":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"a":1,"n":"FindTarget","t":8,"sn":"FindTarget","rt":$n[0].Void},{"ov":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"ov":true,"a":3,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy$1","rt":$n[0].Void},{"a":2,"n":"RealDie","t":8,"sn":"RealDie","rt":$n[0].Void},{"a":2,"n":"SetNextTarget","t":8,"pi":[{"n":"nextTarget","pt":$n[1].Transform,"ps":0}],"sn":"SetNextTarget","rt":$n[0].Void,"p":[$n[1].Transform]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"activeTarget","t":4,"rt":$n[1].Transform,"sn":"activeTarget"},{"a":1,"n":"isDead","t":4,"rt":$n[0].Boolean,"sn":"isDead","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"negativeMove","t":4,"rt":$n[0].Int32,"sn":"negativeMove","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"startingPosition","t":4,"rt":$n[1].Vector3,"sn":"startingPosition"}]}; }, $n);
     /*BotController end.*/
 
     /*CameraFollow start.*/

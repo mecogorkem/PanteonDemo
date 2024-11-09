@@ -3898,7 +3898,7 @@
             },
             {
                 "name": "UnityEngine.FogMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.FontStyle",
@@ -33498,11 +33498,11 @@
                     },
                     {
                         "name": "Die",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RealDie",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDestroy$1",

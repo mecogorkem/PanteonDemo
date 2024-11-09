@@ -74,9 +74,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1218234309410583430}
   - component: {fileID: 1685103666608907284}
-  - component: {fileID: 1685103666608907282}
   - component: {fileID: 1685103666608907286}
-  - component: {fileID: 1685103666608907287}
+  - component: {fileID: 9090887337248109207}
   m_Layer: 7
   m_Name: Girl
   m_TagString: Bot
@@ -97,7 +96,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1681734627908993215}
-  - {fileID: 790440771105567322}
   - {fileID: 7376210259055857553}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -120,27 +118,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.87, z: 0}
---- !u!95 &1685103666608907282
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991674101414766908}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 4e1523a0ce2b6e8429d23d92ab2203f5, type: 3}
-  m_Controller: {fileID: 9100000, guid: de77e7d70f9f716489bb20481bf0e2e3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1685103666608907286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,28 +136,27 @@ MonoBehaviour:
   gravity: 9.8
   fallThreshold: -10
   pushForceDecayRate: 5
---- !u!195 &1685103666608907287
-NavMeshAgent:
+--- !u!95 &9090887337248109207
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991674101414766908}
   m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 10
-  m_Acceleration: 20
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 2
-  m_AutoTraverseOffMeshLink: 0
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1.6
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 2
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2496486392278913200
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +380,7 @@ Transform:
   m_Children:
   - {fileID: 8135104790311484252}
   m_Father: {fileID: 1218234309410583430}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5075685667852008186
 GameObject:
@@ -736,113 +712,6 @@ Transform:
   m_Father: {fileID: 3440935358353662437}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6863419072386362162
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 790440771105567322}
-  - component: {fileID: 8845462331381768092}
-  m_Layer: 7
-  m_Name: girl_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &790440771105567322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6863419072386362162}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1218234309410583430}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &8845462331381768092
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6863419072386362162}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 580b907089b848d4e846302280c10bff, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 8486660057261700498, guid: 4e1523a0ce2b6e8429d23d92ab2203f5, type: 3}
-  m_Bones:
-  - {fileID: 8135104790311484252}
-  - {fileID: 4908139608690032172}
-  - {fileID: 7172303754044794829}
-  - {fileID: 3440935358353662437}
-  - {fileID: 5262963933318347543}
-  - {fileID: 7516588952944576711}
-  - {fileID: 1409260606048902250}
-  - {fileID: 2432320841743895306}
-  - {fileID: 556414943999188774}
-  - {fileID: 43959549650390661}
-  - {fileID: 3984473319582599112}
-  - {fileID: 9078074724965054088}
-  - {fileID: 2986612261518054058}
-  - {fileID: 5299990077743226689}
-  - {fileID: 7781431757941304521}
-  - {fileID: 7851774803536310204}
-  - {fileID: 2159429975528665512}
-  - {fileID: 2005543316995484238}
-  - {fileID: 4803151790182399764}
-  - {fileID: 3163363736233617224}
-  - {fileID: 2487041739249249005}
-  - {fileID: 7217438168139921314}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 8135104790311484252}
-  m_AABB:
-    m_Center: {x: -0.0000049499795, y: 0.004044093, z: -0.0015375338}
-    m_Extent: {x: 0.0069719097, y: 0.008863821, z: 0.004803509}
-  m_DirtyAABB: 0
 --- !u!1 &6977035439971032460
 GameObject:
   m_ObjectHideFlags: 0

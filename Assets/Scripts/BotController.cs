@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
+// [RequireComponent(typeof(NavMeshAgent))]
 public class BotController : CharacterBaseController
 {
     // private NavMeshAgent _navMeshAgent;

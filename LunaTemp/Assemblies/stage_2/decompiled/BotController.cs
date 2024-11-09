@@ -1,7 +1,5 @@
 using UnityEngine;
-using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class BotController : CharacterBaseController
 {
 	private Vector3 startingPosition;

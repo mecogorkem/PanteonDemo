@@ -1,0 +1,244 @@
+{
+  "BuildID": "1844aca8-f177-46b4-8cc2-2a68d0f7a6e5",
+  "Command": "project:build",
+  "ProjectID": "183a878df3c572c46b908bc772bb8712",
+  "ProjectStateHash": "cf83eb354cf210e58752a23a106b6b3ef4d4a3463ca540131c81decaf5b05b6f",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1731152943877,
+  "EndTime": 1731152969055,
+  "PlaygroundUserID": 18929,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2021.3.45f1\r",
+  "LunaVersion": "6.2.0",
+  "LogCount": 9,
+  "Logs": [
+    {
+      "LogID": "60ca2c68-071d-4df1-a312-4e33059e7dc4",
+      "Order": 6,
+      "Timestamp": 1731152969275,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: Playable.InstallFullGame",
+      "Details": [
+        "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "DetailsValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "967c9cfd-d5e9-4284-a9fb-ce98c18ce5bb",
+      "Order": 6,
+      "Timestamp": 1731152969276,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: LifeCycle.GameEnded",
+      "Details": [
+        "You are not using the Luna API: LifeCycle.GameEnded. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "DetailsValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3e74927b-349f-43b8-8d72-dd0e1dc2d1b1",
+      "Order": 6,
+      "Timestamp": 1731152969276,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "1c3ff0cb-49b0-4c4e-a8c7-24222b422e7a",
+      "Order": 6,
+      "Timestamp": 1731152969276,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "60d116db-4ebc-4319-980f-ff91be255406",
+      "Order": 0,
+      "Timestamp": 1731152950354,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1016",
+      "Description": "Extensive usage of Rigidbody Component",
+      "Details": [
+        "There is extensive usage of the Rigidbody component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 11."
+      ],
+      "DescriptionValues": [
+        "Rigidbody"
+      ],
+      "DetailsValues": [
+        "Rigidbody",
+        "10",
+        "11"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "417b7bce-81c2-4751-83c0-c328fd7d6152",
+      "Order": 1,
+      "Timestamp": 1731152950355,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1022",
+      "Description": "Extensive use of shader variants",
+      "Details": [
+        "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (38 found). Check Runtime analysis -> shader tab to see used shaders."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "20",
+        "38"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "18ad2065-a10b-4b84-9784-59c54ab2f171",
+      "Order": 2,
+      "Timestamp": 1731152950360,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF Atlas",
+        "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "25e6d91a-47e7-47b4-af22-6cc6a5cddb06",
+      "Order": 3,
+      "Timestamp": 1731152950360,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Platform",
+        "Platform (1)",
+        "StaticObstacle (2)",
+        "FinishLine",
+        "Quad",
+        "Cube",
+        "Quad"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 7,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "b6b00620-e4e6-43da-8668-e64e2fe73a09",
+      "Order": 4,
+      "Timestamp": 1731152950360,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1033",
+      "Description": "Use of unsupported Character Controller detected.",
+      "Details": [
+        "Player",
+        "Girl",
+        "Player",
+        "Girl (1)",
+        "Girl (2)",
+        "Girl (3)",
+        "Girl (4)",
+        "Girl (5)",
+        "Girl (6)",
+        "Girl (7)",
+        "Girl (8)",
+        "Girl (9)"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 12,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}
