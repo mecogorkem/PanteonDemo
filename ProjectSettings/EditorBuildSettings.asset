@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WallPainter.unity
     guid: 9e8669abc4513fc4b8f3ce12b82a8040
+  - enabled: 1
+    path: Assets/Scenes/First_Playable.unity
+    guid: 6d97614807bf8c94e886df8c04913fc0
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 705f7dd2ab172814f9b055267162a0ba,
       type: 2}

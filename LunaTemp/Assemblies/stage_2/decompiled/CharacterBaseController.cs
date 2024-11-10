@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -25,11 +26,11 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
 	protected CharacterController _controller;
 
-	protected Animator _animator;
+	public Animator _animator;
 
 	protected Vector3 currentPushForce = Vector3.zero;
 
-	protected Vector3 moveDirection = Vector3.zero;
+	public Vector3 moveDirection = Vector3.zero;
 
 	protected float _speed;
 
@@ -39,13 +40,15 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
 	protected float _verticalVelocity;
 
-	protected bool _hasAnimator;
+	public bool _hasAnimator;
 
-	protected int _animIDSpeed;
+	public int _animIDSpeed;
 
-	protected int _animIDMotionSpeed;
+	public int _animIDMotionSpeed;
 
-	protected int _animIEnd;
+	public int _animIEnd;
+
+	protected int _animIsDead;
 
 	private float currentHorizontalSpeed;
 
@@ -59,17 +62,14 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
 	private float rotation;
 
+	public Action OnDeath;
+
 	protected virtual void Awake()
 	{
 		_controller = GetComponent<CharacterController>();
 		_animator = GetComponent<Animator>();
 		_hasAnimator = _animator != null;
 		AssignAnimationIDs();
-	}
-
-	protected virtual void Start()
-	{
-		RankManager.Instance.AddRacer(this);
 	}
 
 	public virtual void FixedUpdate()
@@ -93,6 +93,7 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 			_animIDSpeed = Animator.StringToHash("Speed");
 			_animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
 			_animIEnd = Animator.StringToHash("End");
+			_animIsDead = Animator.StringToHash("IsDead");
 		}
 	}
 
@@ -182,7 +183,10 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 		}
 	}
 
-	public abstract void Die();
+	public virtual void Die()
+	{
+		OnDeath?.Invoke();
+	}
 
 	public virtual void OnDestroy()
 	{

@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI tapToStartText; // New "Tap to Start" text element
     private bool starterFlag = false;
     public bool isGameCompleted;
+    
+    [SerializeField] private bool skipStartScreen = false;
 
     private void Awake()
     {
@@ -68,6 +70,12 @@ public class GameManager : MonoBehaviour
     // Countdown coroutine to show "3-2-1-Go" with animations
     private IEnumerator StartCountdown()
     {
+        if (skipStartScreen)
+        {
+            StartGame();
+            startGameUI.SetActive(false);
+            yield break;
+        }
         starterImage.gameObject.SetActive(true);
         string[] countdownTexts = { "3", "2", "1", "Go" };
         
@@ -109,7 +117,10 @@ public class GameManager : MonoBehaviour
     // Load the wall-painting scene additively
     private void LoadWallPaintingScene()
     {
-        Joystick.Instance.gameObject.SetActive(false);
+        if (Joystick.Instance != null)
+        {
+            Joystick.Instance.gameObject.SetActive(false);
+        }
         
         if (!SceneManager.GetSceneByName(paintingScene).isLoaded)
         {
@@ -136,6 +147,6 @@ public class GameManager : MonoBehaviour
         Luna.Unity.Playable.InstallFullGame();
 
         DeathCounter.ResetDeathCounter();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

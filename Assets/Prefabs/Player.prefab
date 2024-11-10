@@ -792,6 +792,7 @@ GameObject:
   - component: {fileID: 7633735618463456382}
   - component: {fileID: 7633735618463456379}
   - component: {fileID: 7633735618463456377}
+  - component: {fileID: 3115599667426267642}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -891,6 +892,24 @@ MonoBehaviour:
   gravity: 9.8
   fallThreshold: -10
   pushForceDecayRate: 5
+  _animator: {fileID: 0}
+  moveDirection: {x: 0, y: 0, z: 0}
+  _hasAnimator: 0
+  _animIDSpeed: 0
+  _animIDMotionSpeed: 0
+  _animIEnd: 0
+--- !u!114 &3115599667426267642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291631022702979298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfb97f19023f6d46b662adfd3f84605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   playerEndTransform: {fileID: 0}
   playerGameCompleteTransform: {fileID: 0}
 --- !u!1 &7633735619683026758

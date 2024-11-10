@@ -43,6 +43,9 @@ public class GameManager : MonoBehaviour
 
 	public bool isGameCompleted;
 
+	[SerializeField]
+	private bool skipStartScreen = false;
+
 	public static GameManager Instance { get; private set; }
 
 	private void Awake()
@@ -83,6 +86,12 @@ public class GameManager : MonoBehaviour
 
 	private IEnumerator StartCountdown()
 	{
+		if (skipStartScreen)
+		{
+			StartGame();
+			startGameUI.SetActive(false);
+			yield break;
+		}
 		starterImage.gameObject.SetActive(true);
 		string[] countdownTexts = new string[4] { "3", "2", "1", "Go" };
 		SoundManager.Instance.PlayCountdownSound();
@@ -117,7 +126,10 @@ public class GameManager : MonoBehaviour
 
 	private void LoadWallPaintingScene()
 	{
-		Joystick.Instance.gameObject.SetActive(false);
+		if (Joystick.Instance != null)
+		{
+			Joystick.Instance.gameObject.SetActive(false);
+		}
 		if (!SceneManager.GetSceneByName(paintingScene).isLoaded)
 		{
 			SceneManager.LoadScene(paintingScene, LoadSceneMode.Additive);
@@ -140,6 +152,6 @@ public class GameManager : MonoBehaviour
 	{
 		Playable.InstallFullGame();
 		DeathCounter.ResetDeathCounter();
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }

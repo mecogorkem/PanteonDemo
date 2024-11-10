@@ -1,4 +1,4 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AINode#init","BackgroundMusic#Awake","ObstacleBase#Awake","ObstacleBase#IsPlayerOrBot","ObstacleBase#OnTriggerEnter","ObstacleBase#OnTriggerStay","ObstacleBase#OnTriggerExit","CameraFollow#init","CameraFollow#Start","CameraFollow#LateUpdate","CameraFollow#MoveToFinishTarget","CoinCollectible#init","CoinCollectible#OnTriggerEnter","CoinManager#init","CoinManager#Awake","CoinManager#Start","CoinManager#CollectCoin","CoinManager#AddCoins","CoinManager#UpdateCoinUI","ColorGenerator#init","ColorGenerator#GenerateRandomVibrantColor","DeathCounter#init","DeathCounter#ResetDeathCounter","DeathCounter#Start","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","FinishLine#OnTriggerEnter","FOVCalculator#Start","FOVCalculator#CalculateVerticalFOV","GameManager#init","GameManager#Awake","GameManager#Start","GameManager#Update","GameManager#AnimateTapToStart","GameManager#HideTapToStartText","GameManager#StartCountdown","GameManager#StartGame","GameManager#FinishLine","GameManager#LoadWallPaintingScene","GameManager#CompleteGame","GameManager#OpenCompleteGameUI","GameManager#PlayAgain","Joystick#init","Joystick#Awake","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#OnPointerUp","Joystick#GetInputVector","LocalRotationController#init","LocalRotationController#Update","LocalRotationController#Rotate","NodeManager#init","NodeManager#Awake","NodeManager#SortNodesByZAxis","NodeManager#GetFirstNode","PatrolMovementController#init","PatrolMovementController#Update","PatrolMovementController#Move","RankManager#init","RankManager#Awake","RankManager#FixedUpdate","RankManager#UpdatePlayerRank","RankManager#RemoveRacer","RankManager#AddRacer","SoundManager#Awake","SoundManager#PlaySoundEffect","SoundManager#PlayPushSound","SoundManager#PlayCoinSound","SoundManager#PlayCountdownSound","SoundManager#PlayBotDeathSound","SoundManager#PlayCoinFirstInteractionSound","WallPainter#init","WallPainter#Awake","WallPainter#Start","WallPainter#CompleteGame","WallPainter#Update","WallPainter#FixedUpdate","WallPainter#SetBrushColor","WallPainter#SetBrushSize","WallPainter#PaintBetweenPositions","WallPainter#paint","WallPainter#CalculatePaintedPercentage","WallPainter#UpdatePaintedPercentageText","BasicPushObstacleEffect#init","BasicPushObstacleEffect#OnStayEffect","CharacterBaseController#init","CharacterBaseController#Awake","CharacterBaseController#Start","CharacterBaseController#FixedUpdate","CharacterBaseController#AssignAnimationIDs","CharacterBaseController#Move","CharacterBaseController#AnimatorUpdate","CharacterBaseController#ApplyGravity","CharacterBaseController#ApplyPushForce","CharacterBaseController#Push","CharacterBaseController#PushNoSound","CharacterBaseController#CheckFallBelowThreshold","CharacterBaseController#OnDestroy","DeathObstacleEffect#OnEnterEffect","RotaterPushObstacleEffect#init","RotaterPushObstacleEffect#OnEnterEffect","ShiningObstacleEffect#init","ShiningObstacleEffect#Awake","ShiningObstacleEffect#OnEnterEffect","BotController#init","BotController#Awake","BotController#Start","BotController#FixedUpdate","BotController#GatherInput","BotController#UpdateTargetPosition","BotController#Die","BotController#RealDie","PlayerController#init","PlayerController#Start","PlayerController#MoveToGameCompleteTarget","PlayerController#MoveToFinishTarget","PlayerController#GatherInput","PlayerController#Die"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AINode#init","BackgroundMusic#Awake","ObstacleBase#Awake","ObstacleBase#IsPlayerOrBot","ObstacleBase#OnTriggerEnter","ObstacleBase#OnTriggerStay","ObstacleBase#OnTriggerExit","BombPrefab#init","BombPrefab#OnTriggerEnter","CameraFollow#init","CameraFollow#Start","CameraFollow#LateUpdate","CameraFollow#MoveToFinishTarget","Collectable#init","Collectable#Start","Collectable#CoinMove","CoinManager#init","CoinManager#Awake","CoinManager#Start","CoinManager#CollectCoin","CoinManager#AddCoins","CoinManager#UpdateCoinUI","ColorGenerator#init","ColorGenerator#GenerateRandomVibrantColor","DeathCounter#init","DeathCounter#ResetDeathCounter","DeathCounter#Start","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","FinishLine#OnTriggerEnter","FOVCalculator#Start","FOVCalculator#CalculateVerticalFOV","GameManager#init","GameManager#Awake","GameManager#Start","GameManager#Update","GameManager#AnimateTapToStart","GameManager#HideTapToStartText","GameManager#StartCountdown","GameManager#StartGame","GameManager#FinishLine","GameManager#LoadWallPaintingScene","GameManager#CompleteGame","GameManager#OpenCompleteGameUI","GameManager#PlayAgain","Joystick#init","Joystick#Awake","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#OnPointerUp","Joystick#GetInputVector","LocalRotationController#init","LocalRotationController#Update","LocalRotationController#Rotate","NodeManager#init","NodeManager#Awake","NodeManager#SortNodesByZAxis","NodeManager#GetFirstNode","PatrolMovementController#init","PatrolMovementController#Update","PatrolMovementController#Move","Player#Start","Player#MoveToGameCompleteTarget","Player#MoveToFinishTarget","Player#Die","PowerupManager#init","PowerupManager#Clicked","PowerupManager#Awake","PowerupManager#CollectPowerUp","PowerupManager#HandlePowerUpPlacement","PowerupManager#GetTextForPowerUp","PowerupManager#GetPowerUpPrefab","RankManager#init","RankManager#Awake","RankManager#FixedUpdate","RankManager#UpdatePlayerRank","RankManager#RemoveRacer","RankManager#GetFirstRacerPosition","SoundManager#Awake","SoundManager#PlaySoundEffect","SoundManager#PlayPushSound","SoundManager#PlayCoinSound","SoundManager#PlayCountdownSound","SoundManager#PlayBotDeathSound","SoundManager#PlayCoinFirstInteractionSound","WallPainter#init","WallPainter#Awake","WallPainter#Start","WallPainter#CompleteGame","WallPainter#Update","WallPainter#FixedUpdate","WallPainter#SetBrushColor","WallPainter#SetBrushSize","WallPainter#PaintBetweenPositions","WallPainter#paint","WallPainter#CalculatePaintedPercentage","WallPainter#UpdatePaintedPercentageText","BasicPushObstacleEffect#init","BasicPushObstacleEffect#OnStayEffect","CharacterBaseController#init","CharacterBaseController#Awake","CharacterBaseController#FixedUpdate","CharacterBaseController#AssignAnimationIDs","CharacterBaseController#Move","CharacterBaseController#AnimatorUpdate","CharacterBaseController#ApplyGravity","CharacterBaseController#ApplyPushForce","CharacterBaseController#Push","CharacterBaseController#PushNoSound","CharacterBaseController#CheckFallBelowThreshold","CharacterBaseController#Die","CharacterBaseController#OnDestroy","CoinCollectible#OnTriggerEnter","DeathObstacleEffect#OnEnterEffect","PowerUp#OnTriggerEnter","RotaterPushObstacleEffect#init","RotaterPushObstacleEffect#OnEnterEffect","ShiningObstacleEffect#init","ShiningObstacleEffect#Awake","ShiningObstacleEffect#OnEnterEffect","BotController#init","BotController#Awake","BotController#Start","BotController#FixedUpdate","BotController#GatherInput","BotController#UpdateTargetPosition","BotController#Die","BotController#RealDie","BotController#DeathAnim","PlayerController#init","PlayerController#Start","PlayerController#GatherInput","PlayerController#Die"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -120,6 +120,42 @@ if ( TRACE ) { TRACE( "ObstacleBase#OnTriggerExit", this ); }
     });
     /*ObstacleBase end.*/
 
+    /*BombPrefab start.*/
+    Bridge.define("BombPrefab", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            isCollected: false,
+            explosionEffect: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "BombPrefab#init", this ); }
+
+                this.isCollected = false;
+            }
+        },
+        methods: {
+            /*BombPrefab.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "BombPrefab#OnTriggerEnter", this ); }
+
+                if (!this.isCollected && other.CompareTag("Bot")) {
+                    this.isCollected = true;
+                    var character = other.GetComponent(CharacterBaseController);
+                    character.Die();
+                    this.explosionEffect.Play();
+                    DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale(this.transform, 0.0, 0.25), function () {
+                        UnityEngine.Object.Destroy(Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject);
+                    });
+                }
+            },
+            /*BombPrefab.OnTriggerEnter end.*/
+
+
+        }
+    });
+    /*BombPrefab end.*/
+
     /*IDeathHandler start.*/
     Bridge.define("IDeathHandler", {
         $kind: 3
@@ -186,36 +222,44 @@ if ( TRACE ) { TRACE( "CameraFollow#MoveToFinishTarget", this ); }
     });
     /*CameraFollow end.*/
 
-    /*CoinCollectible start.*/
-    Bridge.define("CoinCollectible", {
+    /*Collectable start.*/
+    Bridge.define("Collectable", {
         inherits: [UnityEngine.MonoBehaviour],
         fields: {
+            distance: 0,
+            moveTime: 0,
             isCollected: false
         },
         ctors: {
             init: function () {
-if ( TRACE ) { TRACE( "CoinCollectible#init", this ); }
+if ( TRACE ) { TRACE( "Collectable#init", this ); }
 
+                this.distance = 0.25;
+                this.moveTime = 1.0;
                 this.isCollected = false;
             }
         },
         methods: {
-            /*CoinCollectible.OnTriggerEnter start.*/
-            OnTriggerEnter: function (other) {
-if ( TRACE ) { TRACE( "CoinCollectible#OnTriggerEnter", this ); }
+            /*Collectable.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Collectable#Start", this ); }
 
-                if (!this.isCollected && other.CompareTag("Player")) {
-                    this.isCollected = true;
-                    CoinManager["Instance"].CollectCoin(this.transform.position.$clone());
-                    UnityEngine.Object.Destroy(Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject);
-                }
+                this.CoinMove();
             },
-            /*CoinCollectible.OnTriggerEnter end.*/
+            /*Collectable.Start end.*/
+
+            /*Collectable.CoinMove start.*/
+            CoinMove: function () {
+if ( TRACE ) { TRACE( "Collectable#CoinMove", this ); }
+
+                DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMoveY(this.transform, this.transform.position.y + this.distance, this.moveTime), -1, DG.Tweening.LoopType.Yoyo), DG.Tweening.Ease["InOutSine"]);
+            },
+            /*Collectable.CoinMove end.*/
 
 
         }
     });
-    /*CoinCollectible end.*/
+    /*Collectable end.*/
 
     /*CoinManager start.*/
     Bridge.define("CoinManager", {
@@ -2281,7 +2325,8 @@ if ( TRACE ) { TRACE( "FOVCalculator#CalculateVerticalFOV", this ); }
             "starterImages": null,
             tapToStartText: null,
             starterFlag: false,
-            isGameCompleted: false
+            isGameCompleted: false,
+            skipStartScreen: false
         },
         ctors: {
             init: function () {
@@ -2290,6 +2335,7 @@ if ( TRACE ) { TRACE( "GameManager#init", this ); }
                 this.paintingScene = "WallPainter";
                 this.isRunnerGameStarted = false;
                 this.starterFlag = false;
+                this.skipStartScreen = false;
             }
         },
         methods: {
@@ -2359,22 +2405,37 @@ if ( TRACE ) { TRACE( "GameManager#StartCountdown", this ); }
                         for (;;) {
                             switch ($step) {
                                 case 0: {
+                                    if (this.skipStartScreen) {
+                                            $step = 1;
+                                            continue;
+                                        } 
+                                        $step = 2;
+                                        continue;
+                                }
+                                case 1: {
+                                    this.StartGame();
+                                        this["startGameUI"].SetActive(false);
+                                        return false;
+                                    $step = 2;
+                                    continue;
+                                }
+                                case 2: {
                                     this["starterImage"].gameObject.SetActive(true);
                                         countdownTexts = System.Array.init(["3", "2", "1", "Go"], System.String);
                                         SoundManager["Instance"].PlayCountdownSound();
                                         i = 0;
-                                        $step = 1;
+                                        $step = 3;
                                         continue;
                                 }
-                                case 1: {
+                                case 3: {
                                     if ( i < countdownTexts.length ) {
-                                            $step = 2;
+                                            $step = 4;
                                             continue;
                                         }
-                                    $step = 5;
+                                    $step = 7;
                                     continue;
                                 }
-                                case 2: {
+                                case 4: {
                                     this.starterText.text = countdownTexts[i];
                                         if (i < this["starterImages"].Count) {
                                             this["starterImage"].sprite = this["starterImages"].getItem(i);
@@ -2383,19 +2444,19 @@ if ( TRACE ) { TRACE( "GameManager#StartCountdown", this ); }
                                         DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale$1(this["starterImage"].transform, new pc.Vec3( 1, 1, 1 ), 0.5), DG.Tweening.Ease.OutBounce);
                                         DG.Tweening.TweenSettingsExtensions.SetDelay(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale$1(this["starterImage"].transform, pc.Vec3.ZERO.clone().clone().scale( 2.0 ), 0.5), DG.Tweening.Ease["InBack"]), 0.5);
                                         $enumerator.current = new UnityEngine.WaitForSeconds(1.0);
-                                        $step = 3;
+                                        $step = 5;
                                         return true;
                                 }
-                                case 3: {
-                                    $step = 4;
-                                    continue;
-                                }
-                                case 4: {
-                                    i = (i + 1) | 0;
-                                    $step = 1;
-                                    continue;
-                                }
                                 case 5: {
+                                    $step = 6;
+                                    continue;
+                                }
+                                case 6: {
+                                    i = (i + 1) | 0;
+                                    $step = 3;
+                                    continue;
+                                }
+                                case 7: {
                                     this["startGameUI"].SetActive(false);
                                         this.StartGame();
 
@@ -2437,7 +2498,9 @@ if ( TRACE ) { TRACE( "GameManager#FinishLine", this ); }
             LoadWallPaintingScene: function () {
 if ( TRACE ) { TRACE( "GameManager#LoadWallPaintingScene", this ); }
 
-                Joystick["Instance"].gameObject.SetActive(false);
+                if (UnityEngine.MonoBehaviour.op_Inequality(Joystick["Instance"], null)) {
+                    Joystick["Instance"].gameObject.SetActive(false);
+                }
                 if (!UnityEngine.SceneManagement.SceneManager.GetSceneByName(this.paintingScene).isLoaded) {
                     UnityEngine.SceneManagement.SceneManager.LoadScene$3(this.paintingScene, UnityEngine.SceneManagement.LoadSceneMode.Additive);
                 }
@@ -2732,6 +2795,288 @@ if ( TRACE ) { TRACE( "PatrolMovementController#Move", this ); }
     });
     /*PatrolMovementController end.*/
 
+    /*Player start.*/
+    Bridge.define("Player", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            playerEndTransform: null,
+            playerGameCompleteTransform: null,
+            _characterBaseController: null
+        },
+        methods: {
+            /*Player.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "Player#Start", this ); }
+
+                var ınstance = GameManager["Instance"];
+                ınstance.onRunnerGameEnd = Bridge.fn.combine(ınstance.onRunnerGameEnd, Bridge.fn.cacheBind(this, this.MoveToFinishTarget));
+                var ınstance2 = GameManager["Instance"];
+                ınstance2.onGameComplete = Bridge.fn.combine(ınstance2.onGameComplete, Bridge.fn.cacheBind(this, this.MoveToGameCompleteTarget));
+                this._characterBaseController = this.GetComponent(CharacterBaseController);
+                this._characterBaseController.OnDeath = Bridge.fn.cacheBind(this, this.Die);
+            },
+            /*Player.Start end.*/
+
+            /*Player.MoveToGameCompleteTarget start.*/
+            MoveToGameCompleteTarget: function () {
+if ( TRACE ) { TRACE( "Player#MoveToGameCompleteTarget", this ); }
+
+                if (this._characterBaseController._hasAnimator) {
+                    this._characterBaseController._animator.SetFloat(this._characterBaseController["_animIDSpeed"], 1.0);
+                    this._characterBaseController._animator.SetFloat(this._characterBaseController["_animIDMotionSpeed"], 0.5);
+                }
+                var duration = 0.5;
+                var finishPosition = this.playerGameCompleteTransform.position.$clone();
+                var finishRotation = this.playerGameCompleteTransform.rotation.$clone();
+                var tweenerCore = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(this.transform, finishPosition.$clone(), duration), DG.Tweening.Ease["InOutSine"]);
+                tweenerCore.onComplete = Bridge.fn.combine(tweenerCore.onComplete, Bridge.fn.bind(this, function () {
+                        var tweenerCore2 = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.ShortcutExtensions.DORotate(this.transform, finishRotation.getPositiveEulerAngles().$clone(), duration), DG.Tweening.Ease["InOutSine"]);
+                        tweenerCore2.onComplete = Bridge.fn.combine(tweenerCore2.onComplete, Bridge.fn.bind(this, function () {
+                                if (this._characterBaseController._hasAnimator) {
+                                    this._characterBaseController._animator.SetFloat(this._characterBaseController["_animIDSpeed"], 0.0);
+                                    this._characterBaseController._animator.SetFloat(this._characterBaseController["_animIDMotionSpeed"], 0.5);
+                                    this._characterBaseController._animator.SetBool(this._characterBaseController["_animIEnd"], true);
+                                    GameManager["Instance"].OpenCompleteGameUI();
+                                }
+                            }));
+                    }));
+                this._characterBaseController.moveDirection = pc.Vec3.ZERO.clone();
+            },
+            /*Player.MoveToGameCompleteTarget end.*/
+
+            /*Player.MoveToFinishTarget start.*/
+            MoveToFinishTarget: function () {
+if ( TRACE ) { TRACE( "Player#MoveToFinishTarget", this ); }
+
+                var duration = 0.5;
+                var finishPosition = this.playerEndTransform.position.$clone();
+                var finishRotation = this.playerEndTransform.rotation.$clone();
+                DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.ShortcutExtensions.DORotate(this.transform, finishRotation.getPositiveEulerAngles().$clone(), duration), DG.Tweening.Ease["InOutSine"]);
+                var tweenerCore = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(this.transform, finishPosition.$clone(), duration), DG.Tweening.Ease["InOutSine"]);
+                tweenerCore.onComplete = Bridge.fn.combine(tweenerCore.onComplete, Bridge.fn.bind(this, function () {
+                        if (this._characterBaseController._hasAnimator) {
+                            this._characterBaseController._animator.SetFloat(this._characterBaseController["_animIDSpeed"], 0.0);
+                            this._characterBaseController._animator.SetFloat(this._characterBaseController["_animIDMotionSpeed"], 0.5);
+                        }
+                    }));
+                this._characterBaseController.moveDirection = pc.Vec3.ZERO.clone();
+            },
+            /*Player.MoveToFinishTarget end.*/
+
+            /*Player.Die start.*/
+            Die: function () {
+if ( TRACE ) { TRACE( "Player#Die", this ); }
+
+                UnityEngine.SceneManagement.SceneManager.LoadScene$2(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            },
+            /*Player.Die end.*/
+
+
+        }
+    });
+    /*Player end.*/
+
+    /*PowerupManager start.*/
+    Bridge.define("PowerupManager", {
+        inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                "Instance": null
+            }
+        },
+        fields: {
+            bananaPrefab: null,
+            placePowerUpText: null,
+            cursor: null,
+            "powerUpUI": null,
+            isClicked: false
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "PowerupManager#init", this ); }
+
+                this.isClicked = false;
+            }
+        },
+        methods: {
+            /*PowerupManager.Clicked start.*/
+            Clicked: function () {
+if ( TRACE ) { TRACE( "PowerupManager#Clicked", this ); }
+
+                this.isClicked = true;
+            },
+            /*PowerupManager.Clicked end.*/
+
+            /*PowerupManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "PowerupManager#Awake", this ); }
+
+                PowerupManager["Instance"] = this;
+                DG.Tweening.TweenSettingsExtensions.SetUpdate(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale$1(this.placePowerUpText.transform$1, new pc.Vec3( 1, 1, 1 ).clone().scale( 1.5 ), 0.5), -1, DG.Tweening.LoopType.Yoyo), DG.Tweening.Ease["InOutSine"]), true);
+                DG.Tweening.TweenSettingsExtensions.SetUpdate(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale$1(this.cursor.transform, new pc.Vec3( 1, 1, 1 ).clone().scale( 1.5 ), 0.5), -1, DG.Tweening.LoopType.Yoyo), DG.Tweening.Ease["InOutSine"]), true);
+            },
+            /*PowerupManager.Awake end.*/
+
+            /*PowerupManager.CollectPowerUp start.*/
+            CollectPowerUp: function (powerUpType) {
+if ( TRACE ) { TRACE( "PowerupManager#CollectPowerUp", this ); }
+
+                this.StartCoroutine$1(this.HandlePowerUpPlacement(powerUpType));
+            },
+            /*PowerupManager.CollectPowerUp end.*/
+
+            /*PowerupManager.HandlePowerUpPlacement start.*/
+            HandlePowerUpPlacement: function (powerUpType) {
+if ( TRACE ) { TRACE( "PowerupManager#HandlePowerUpPlacement", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    slowdownDuration,
+                    elapsed,
+                    powerUpPlaced,
+                    firstPlayerPos,
+                    screenPos,
+                    mousePosition,
+                    ray,
+                    hit,
+                    powerUpPrefab,
+                    prefabPos,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    slowdownDuration = 0.3;
+                                        elapsed = 0.0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 1: {
+                                    if ( elapsed < slowdownDuration ) {
+                                            $step = 2;
+                                            continue;
+                                        } 
+                                        $step = 4;
+                                        continue;
+                                }
+                                case 2: {
+                                    elapsed += UnityEngine.Time.unscaledDeltaTime;
+                                        UnityEngine.Time.timeScale = pc.math.lerp(1.0, 0.4, elapsed / slowdownDuration);
+                                        $enumerator.current = new UnityEngine.WaitForSecondsRealtime(0.02);
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 4: {
+                                    this["powerUpUI"].SetActive(true);
+                                        UnityEngine.Time.timeScale = 0.0;
+                                        powerUpPlaced = false;
+                                        firstPlayerPos = RankManager["Instance"].GetFirstRacerPosition().add( new pc.Vec3( 0, 0, 1 ).clone().scale( 2.0 ) );
+                                        screenPos = UnityEngine.Camera.main.WorldToScreenPoint(firstPlayerPos);
+                                        this.cursor.position = screenPos.$clone();
+                                        this.placePowerUpText.text = this.GetTextForPowerUp(powerUpType);
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 5: {
+                                    if ( !powerUpPlaced ) {
+                                            $step = 6;
+                                            continue;
+                                        } 
+                                        $step = 8;
+                                        continue;
+                                }
+                                case 6: {
+                                    if (UnityEngine.Input.GetMouseButtonDown(0)) {
+                                            mousePosition = UnityEngine.Input.mousePosition.$clone();
+                                            ray = UnityEngine.Camera.main.ScreenPointToRay(mousePosition);
+                                            hit = { v : new UnityEngine.RaycastHit() };
+                                            if (UnityEngine.Physics.Raycast$1(ray, hit, Number.POSITIVE_INFINITY)) {
+                                                powerUpPrefab = this.GetPowerUpPrefab(powerUpType);
+                                                if (UnityEngine.GameObject.op_Inequality(powerUpPrefab, null)) {
+                                                    UnityEngine.Time.timeScale = 1.0;
+                                                    prefabPos = hit.v.point.$clone();
+                                                    prefabPos.y = 0.0;
+                                                    UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, powerUpPrefab, prefabPos, pc.Quat.IDENTITY.clone());
+                                                    powerUpPlaced = true;
+                                                } else {
+                                                    UnityEngine.Debug.LogError$2("Power-up prefab not found for type: " + System.Enum.toString(PowerUpType, powerUpType));
+                                                }
+                                            }
+                                            hit.v = Bridge.getDefaultValue(UnityEngine.RaycastHit);
+                                        }
+                                        $enumerator.current = null;
+                                        $step = 7;
+                                        return true;
+                                }
+                                case 7: {
+                                    
+                                        $step = 5;
+                                        continue;
+                                }
+                                case 8: {
+                                    this["powerUpUI"].SetActive(false);
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*PowerupManager.HandlePowerUpPlacement end.*/
+
+            /*PowerupManager.GetTextForPowerUp start.*/
+            GetTextForPowerUp: function (powerUpType) {
+if ( TRACE ) { TRACE( "PowerupManager#GetTextForPowerUp", this ); }
+
+                if (powerUpType === PowerUpType.Bomb) {
+                    return "Place the banana on the track!";
+                }
+                return "Place the power-up on the track!";
+            },
+            /*PowerupManager.GetTextForPowerUp end.*/
+
+            /*PowerupManager.GetPowerUpPrefab start.*/
+            GetPowerUpPrefab: function (powerUpType) {
+if ( TRACE ) { TRACE( "PowerupManager#GetPowerUpPrefab", this ); }
+
+                if (powerUpType === PowerUpType.Bomb) {
+                    return this.bananaPrefab;
+                }
+                return null;
+            },
+            /*PowerupManager.GetPowerUpPrefab end.*/
+
+
+        }
+    });
+    /*PowerupManager end.*/
+
+    /*PowerUpType start.*/
+    Bridge.define("PowerUpType", {
+        $kind: 6,
+        statics: {
+            fields: {
+                Bomb: 0
+            }
+        }
+    });
+    /*PowerUpType end.*/
+
     /*RankManager start.*/
     Bridge.define("RankManager", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -2760,6 +3105,13 @@ if ( TRACE ) { TRACE( "RankManager#init", this ); }
 if ( TRACE ) { TRACE( "RankManager#Awake", this ); }
 
                 RankManager["Instance"] = this;
+                this.racers = System.Array.init(this.transform.childCount, null, CharacterBaseController);
+                for (var i = 0; i < this.transform.childCount; i = (i + 1) | 0) {
+                    this.racers[i] = this.transform.GetChild(i).GetComponent(CharacterBaseController);
+                    if (this.transform.GetChild(i).CompareTag("Player")) {
+                        this.player = this.racers[i];
+                    }
+                }
             },
             /*RankManager.Awake end.*/
 
@@ -2777,11 +3129,11 @@ if ( TRACE ) { TRACE( "RankManager#FixedUpdate", this ); }
             UpdatePlayerRank: function () {
 if ( TRACE ) { TRACE( "RankManager#UpdatePlayerRank", this ); }
 
-                this.racers = System.Linq.Enumerable.from(this.racers, CharacterBaseController).orderByDescending(function (r) {
-                        return r.transform.position.z;
-                    }).toList(CharacterBaseController);
-                var playerRank = (this.racers.indexOf(this.player) + this.alreadyFinishedPlayer) | 0;
-                this["rankImage"].sprite = this.rankSprites.getItem(playerRank);
+                System.Array.sort(this.racers, function (racer1, racer2) {
+                        return Bridge.compare(racer2.transform.position.z, racer1.transform.position.z);
+                    });
+                var playerRank = (System.Array.indexOfT(this.racers, this.player) + this.alreadyFinishedPlayer) | 0;
+                this["rankImage"].sprite = this.rankSprites[playerRank];
             },
             /*RankManager.UpdatePlayerRank end.*/
 
@@ -2789,21 +3141,41 @@ if ( TRACE ) { TRACE( "RankManager#UpdatePlayerRank", this ); }
             RemoveRacer: function (racer) {
 if ( TRACE ) { TRACE( "RankManager#RemoveRacer", this ); }
 
-                this.racers.remove(racer);
+                var newRacers = System.Array.init(((this.racers.length - 1) | 0), null, CharacterBaseController);
+                var index = 0;
+                for (var i = 0; i < this.racers.length; i = (i + 1) | 0) {
+                    if (UnityEngine.MonoBehaviour.op_Inequality(this.racers[i], racer)) {
+                        newRacers[index] = this.racers[i];
+                        index = (index + 1) | 0;
+                    }
+                }
+                this.racers = newRacers;
                 this.alreadyFinishedPlayer = (this.alreadyFinishedPlayer + 1) | 0;
             },
             /*RankManager.RemoveRacer end.*/
 
-            /*RankManager.AddRacer start.*/
-            AddRacer: function (characterBaseController) {
-if ( TRACE ) { TRACE( "RankManager#AddRacer", this ); }
+            /*RankManager.GetFirstRacerPosition start.*/
+            GetFirstRacerPosition: function () {
+if ( TRACE ) { TRACE( "RankManager#GetFirstRacerPosition", this ); }
 
-                this.racers.add(characterBaseController);
-                if (characterBaseController.CompareTag("Player")) {
-                    this.player = characterBaseController;
+                var $t;
+                var array = this.racers;
+                $t = Bridge.getEnumerator(array);
+                try {
+                    while ($t.moveNext()) {
+                        var racer = $t.Current;
+                        if (!racer.CompareTag("Player")) {
+                            return racer.transform.position.$clone();
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
                 }
+                return this.player.transform.position.$clone();
             },
-            /*RankManager.AddRacer end.*/
+            /*RankManager.GetFirstRacerPosition end.*/
 
 
         }
@@ -3175,16 +3547,19 @@ if ( TRACE ) { TRACE( "BasicPushObstacleEffect#OnStayEffect", this ); }
             "_animIDSpeed": 0,
             "_animIDMotionSpeed": 0,
             "_animIEnd": 0,
+            "_animIsDead": 0,
             currentHorizontalSpeed: 0,
             speedOffset: 0,
             inputMagnitude: 0,
             totalMovement: null,
             targetSpeed: 0,
-            rotation: 0
+            rotation: 0,
+            OnDeath: null
         },
         alias: [
             "Push", "IPushable$Push",
-            "PushNoSound", "IPushable$PushNoSound"
+            "PushNoSound", "IPushable$PushNoSound",
+            "Die", "IDeathHandler$Die"
         ],
         ctors: {
             init: function () {
@@ -3216,14 +3591,6 @@ if ( TRACE ) { TRACE( "CharacterBaseController#Awake", this ); }
             },
             /*CharacterBaseController.Awake end.*/
 
-            /*CharacterBaseController.Start start.*/
-            Start: function () {
-if ( TRACE ) { TRACE( "CharacterBaseController#Start", this ); }
-
-                RankManager["Instance"].AddRacer(this);
-            },
-            /*CharacterBaseController.Start end.*/
-
             /*CharacterBaseController.FixedUpdate start.*/
             FixedUpdate: function () {
 if ( TRACE ) { TRACE( "CharacterBaseController#FixedUpdate", this ); }
@@ -3248,6 +3615,7 @@ if ( TRACE ) { TRACE( "CharacterBaseController#AssignAnimationIDs", this ); }
                     this["_animIDSpeed"] = UnityEngine.Animator.StringToHash("Speed");
                     this["_animIDMotionSpeed"] = UnityEngine.Animator.StringToHash("MotionSpeed");
                     this["_animIEnd"] = UnityEngine.Animator.StringToHash("End");
+                    this["_animIsDead"] = UnityEngine.Animator.StringToHash("IsDead");
                 }
             },
             /*CharacterBaseController.AssignAnimationIDs end.*/
@@ -3344,6 +3712,14 @@ if ( TRACE ) { TRACE( "CharacterBaseController#CheckFallBelowThreshold", this );
             },
             /*CharacterBaseController.CheckFallBelowThreshold end.*/
 
+            /*CharacterBaseController.Die start.*/
+            Die: function () {
+if ( TRACE ) { TRACE( "CharacterBaseController#Die", this ); }
+
+                !Bridge.staticEquals(this.OnDeath, null) ? this.OnDeath() : null;
+            },
+            /*CharacterBaseController.Die end.*/
+
             /*CharacterBaseController.OnDestroy start.*/
             OnDestroy: function () {
 if ( TRACE ) { TRACE( "CharacterBaseController#OnDestroy", this ); }
@@ -3356,6 +3732,29 @@ if ( TRACE ) { TRACE( "CharacterBaseController#OnDestroy", this ); }
         }
     });
     /*CharacterBaseController end.*/
+
+    /*CoinCollectible start.*/
+    Bridge.define("CoinCollectible", {
+        inherits: [Collectable],
+        methods: {
+            /*CoinCollectible.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "CoinCollectible#OnTriggerEnter", this ); }
+
+                if (!this.isCollected && other.CompareTag("Player")) {
+                    this.isCollected = true;
+                    CoinManager["Instance"].CollectCoin(this.transform.position.$clone());
+                    DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale(this.transform, 0.0, 0.25), function () {
+                        Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject.SetActive(false);
+                    });
+                }
+            },
+            /*CoinCollectible.OnTriggerEnter end.*/
+
+
+        }
+    });
+    /*CoinCollectible end.*/
 
     /*DeathObstacleEffect start.*/
     Bridge.define("DeathObstacleEffect", {
@@ -3375,6 +3774,32 @@ if ( TRACE ) { TRACE( "DeathObstacleEffect#OnEnterEffect", this ); }
         }
     });
     /*DeathObstacleEffect end.*/
+
+    /*PowerUp start.*/
+    Bridge.define("PowerUp", {
+        inherits: [Collectable],
+        fields: {
+            powerUpType: 0
+        },
+        methods: {
+            /*PowerUp.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "PowerUp#OnTriggerEnter", this ); }
+
+                if (!this.isCollected && other.CompareTag("Player")) {
+                    this.isCollected = true;
+                    PowerupManager["Instance"].CollectPowerUp(this.powerUpType);
+                    DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale(this.transform, 0.0, 0.25), function () {
+                        Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject.SetActive(false);
+                    });
+                }
+            },
+            /*PowerUp.OnTriggerEnter end.*/
+
+
+        }
+    });
+    /*PowerUp end.*/
 
     /*RotaterPushObstacleEffect start.*/
     Bridge.define("RotaterPushObstacleEffect", {
@@ -3469,7 +3894,8 @@ if ( TRACE ) { TRACE( "ShiningObstacleEffect#OnEnterEffect", this ); }
             startingPosition: null,
             isDead: false,
             targetPos: null,
-            direction: null
+            direction: null,
+            deathFlag: false
         },
         alias: ["Die", "IDeathHandler$Die"],
         ctors: {
@@ -3479,6 +3905,7 @@ if ( TRACE ) { TRACE( "BotController#init", this ); }
                 this.startingPosition = new UnityEngine.Vector3();
                 this.direction = new UnityEngine.Vector3();
                 this.isDead = false;
+                this.deathFlag = false;
             }
         },
         methods: {
@@ -3495,7 +3922,6 @@ if ( TRACE ) { TRACE( "BotController#Awake", this ); }
             Start: function () {
 if ( TRACE ) { TRACE( "BotController#Start", this ); }
 
-                CharacterBaseController.prototype.Start.call(this);
                 this.targetPos = NodeManager["Instance"].GetFirstNode();
             },
             /*BotController.Start end.*/
@@ -3504,10 +3930,12 @@ if ( TRACE ) { TRACE( "BotController#Start", this ); }
             FixedUpdate: function () {
 if ( TRACE ) { TRACE( "BotController#FixedUpdate", this ); }
 
-                if (!this.isDead) {
-                    CharacterBaseController.prototype.FixedUpdate.call(this);
-                } else {
-                    this.RealDie();
+                if (!this.deathFlag) {
+                    if (!this.isDead) {
+                        CharacterBaseController.prototype.FixedUpdate.call(this);
+                    } else {
+                        this.RealDie();
+                    }
                 }
             },
             /*BotController.FixedUpdate end.*/
@@ -3516,7 +3944,7 @@ if ( TRACE ) { TRACE( "BotController#FixedUpdate", this ); }
             GatherInput: function () {
 if ( TRACE ) { TRACE( "BotController#GatherInput", this ); }
 
-                if (pc.Vec3.distance( this.transform.position, this.targetPos.transform.position ) < 1.0) {
+                if (this.targetPos.transform.position.z - this.transform.position.z < 2.0) {
                     this.UpdateTargetPosition();
                 }
                 this.direction = (this.targetPos.transform.position.$clone().sub( this.transform.position )).clone().normalize().$clone();
@@ -3538,6 +3966,9 @@ if ( TRACE ) { TRACE( "BotController#UpdateTargetPosition", this ); }
 if ( TRACE ) { TRACE( "BotController#Die", this ); }
 
                 this.isDead = true;
+                this._animator.SetTrigger(this["_animIsDead"]);
+                this.deathFlag = true;
+                this.StartCoroutine$1(this.DeathAnim());
             },
             /*BotController.Die end.*/
 
@@ -3546,12 +3977,47 @@ if ( TRACE ) { TRACE( "BotController#Die", this ); }
 if ( TRACE ) { TRACE( "BotController#RealDie", this ); }
 
                 this.isDead = false;
-                UnityEngine.Object.Instantiate$7(UnityEngine.Resources.Load$1("DeathAnim"), this.transform.position, pc.Quat.IDENTITY.clone());
                 SoundManager["Instance"].PlayBotDeathSound(this.transform);
                 this.transform.position = this.startingPosition.$clone();
                 this.targetPos = NodeManager["Instance"].GetFirstNode();
             },
             /*BotController.RealDie end.*/
+
+            /*BotController.DeathAnim start.*/
+            DeathAnim: function () {
+if ( TRACE ) { TRACE( "BotController#DeathAnim", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(1.0);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    this.deathFlag = false;
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*BotController.DeathAnim end.*/
 
 
         }
@@ -3562,8 +4028,6 @@ if ( TRACE ) { TRACE( "BotController#RealDie", this ); }
     Bridge.define("PlayerController", {
         inherits: [CharacterBaseController],
         fields: {
-            playerEndTransform: null,
-            playerGameCompleteTransform: null,
             joystick: null,
             "joystickInput": null
         },
@@ -3580,60 +4044,9 @@ if ( TRACE ) { TRACE( "PlayerController#init", this ); }
             Start: function () {
 if ( TRACE ) { TRACE( "PlayerController#Start", this ); }
 
-                CharacterBaseController.prototype.Start.call(this);
                 this.joystick = Joystick["Instance"];
-                var ınstance = GameManager["Instance"];
-                ınstance.onRunnerGameEnd = Bridge.fn.combine(ınstance.onRunnerGameEnd, Bridge.fn.cacheBind(this, this.MoveToFinishTarget));
-                var ınstance2 = GameManager["Instance"];
-                ınstance2.onGameComplete = Bridge.fn.combine(ınstance2.onGameComplete, Bridge.fn.cacheBind(this, this.MoveToGameCompleteTarget));
             },
             /*PlayerController.Start end.*/
-
-            /*PlayerController.MoveToGameCompleteTarget start.*/
-            MoveToGameCompleteTarget: function () {
-if ( TRACE ) { TRACE( "PlayerController#MoveToGameCompleteTarget", this ); }
-
-                if (this._hasAnimator) {
-                    this._animator.SetFloat(this["_animIDSpeed"], 1.0);
-                    this._animator.SetFloat(this["_animIDMotionSpeed"], 0.5);
-                }
-                var duration = 0.5;
-                var finishPosition = this.playerGameCompleteTransform.position.$clone();
-                var finishRotation = this.playerGameCompleteTransform.rotation.$clone();
-                var tweenerCore = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(this.transform, finishPosition.$clone(), duration), DG.Tweening.Ease["InOutSine"]);
-                tweenerCore.onComplete = Bridge.fn.combine(tweenerCore.onComplete, Bridge.fn.bind(this, function () {
-                        var tweenerCore2 = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.ShortcutExtensions.DORotate(this.transform, finishRotation.getPositiveEulerAngles().$clone(), duration), DG.Tweening.Ease["InOutSine"]);
-                        tweenerCore2.onComplete = Bridge.fn.combine(tweenerCore2.onComplete, Bridge.fn.bind(this, function () {
-                                if (this._hasAnimator) {
-                                    this._animator.SetFloat(this["_animIDSpeed"], 0.0);
-                                    this._animator.SetFloat(this["_animIDMotionSpeed"], 0.5);
-                                    this._animator.SetBool(this["_animIEnd"], true);
-                                    GameManager["Instance"].OpenCompleteGameUI();
-                                }
-                            }));
-                    }));
-                this.moveDirection = pc.Vec3.ZERO.clone();
-            },
-            /*PlayerController.MoveToGameCompleteTarget end.*/
-
-            /*PlayerController.MoveToFinishTarget start.*/
-            MoveToFinishTarget: function () {
-if ( TRACE ) { TRACE( "PlayerController#MoveToFinishTarget", this ); }
-
-                var duration = 0.5;
-                var finishPosition = this.playerEndTransform.position.$clone();
-                var finishRotation = this.playerEndTransform.rotation.$clone();
-                DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.ShortcutExtensions.DORotate(this.transform, finishRotation.getPositiveEulerAngles().$clone(), duration), DG.Tweening.Ease["InOutSine"]);
-                var tweenerCore = DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(this.transform, finishPosition.$clone(), duration), DG.Tweening.Ease["InOutSine"]);
-                tweenerCore.onComplete = Bridge.fn.combine(tweenerCore.onComplete, Bridge.fn.bind(this, function () {
-                        if (this._hasAnimator) {
-                            this._animator.SetFloat(this["_animIDSpeed"], 0.0);
-                            this._animator.SetFloat(this["_animIDMotionSpeed"], 0.5);
-                        }
-                    }));
-                this.moveDirection = pc.Vec3.ZERO.clone();
-            },
-            /*PlayerController.MoveToFinishTarget end.*/
 
             /*PlayerController.GatherInput start.*/
             GatherInput: function () {
@@ -3665,7 +4078,7 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
 
     if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine","TMPro","System.Collections","UnityEngine.UI","System.Collections.Generic","UnityEngine.EventSystems","DG.Tweening","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
+        $n = ["System","UnityEngine","System.Collections","TMPro","UnityEngine.UI","System.Collections.Generic","UnityEngine.EventSystems","DG.Tweening","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
     /*AINode start.*/
     $m("AINode", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"leftOffset","t":4,"rt":$n[0].Single,"sn":"leftOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"nextNode","t":4,"rt":AINode,"sn":"nextNode"},{"a":2,"n":"rightOffset","t":4,"rt":$n[0].Single,"sn":"rightOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
@@ -3679,8 +4092,12 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     $m("BasicPushObstacleEffect", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"OnStayEffect","t":8,"pi":[{"n":"character","pt":$n[1].GameObject,"ps":0}],"sn":"OnStayEffect","rt":$n[0].Void,"p":[$n[1].GameObject]},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"pushVector","t":4,"rt":$n[1].Vector3,"sn":"pushVector"}]}; }, $n);
     /*BasicPushObstacleEffect end.*/
 
+    /*BombPrefab start.*/
+    $m("BombPrefab", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"explosionEffect","t":4,"rt":$n[1].ParticleSystem,"sn":"explosionEffect"},{"a":1,"n":"isCollected","t":4,"rt":$n[0].Boolean,"sn":"isCollected","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    /*BombPrefab end.*/
+
     /*BotController start.*/
-    $m("BotController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"ov":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"ov":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"a":2,"n":"RealDie","t":8,"sn":"RealDie","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateTargetPosition","t":8,"sn":"UpdateTargetPosition","rt":$n[0].Void},{"a":1,"n":"direction","t":4,"rt":$n[1].Vector3,"sn":"direction"},{"a":1,"n":"isDead","t":4,"rt":$n[0].Boolean,"sn":"isDead","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"startingPosition","t":4,"rt":$n[1].Vector3,"sn":"startingPosition"},{"a":1,"n":"targetPos","t":4,"rt":AINode,"sn":"targetPos"}]}; }, $n);
+    $m("BotController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"DeathAnim","t":8,"sn":"DeathAnim","rt":$n[2].IEnumerator},{"ov":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"ov":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"a":2,"n":"RealDie","t":8,"sn":"RealDie","rt":$n[0].Void},{"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateTargetPosition","t":8,"sn":"UpdateTargetPosition","rt":$n[0].Void},{"a":1,"n":"deathFlag","t":4,"rt":$n[0].Boolean,"sn":"deathFlag","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"direction","t":4,"rt":$n[1].Vector3,"sn":"direction"},{"a":1,"n":"isDead","t":4,"rt":$n[0].Boolean,"sn":"isDead","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"startingPosition","t":4,"rt":$n[1].Vector3,"sn":"startingPosition"},{"a":1,"n":"targetPos","t":4,"rt":AINode,"sn":"targetPos"}]}; }, $n);
     /*BotController end.*/
 
     /*CameraFollow start.*/
@@ -3688,23 +4105,27 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     /*CameraFollow end.*/
 
     /*CharacterBaseController start.*/
-    $m("CharacterBaseController", function () { return {"att":1048705,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CharacterController)],"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"AnimatorUpdate","t":8,"sn":"AnimatorUpdate","rt":$n[0].Void},{"a":3,"n":"ApplyGravity","t":8,"sn":"ApplyGravity","rt":$n[0].Void},{"a":1,"n":"ApplyPushForce","t":8,"sn":"ApplyPushForce","rt":$n[0].Void},{"a":3,"n":"AssignAnimationIDs","t":8,"sn":"AssignAnimationIDs","rt":$n[0].Void},{"v":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"v":true,"a":3,"n":"CheckFallBelowThreshold","t":8,"sn":"CheckFallBelowThreshold","rt":$n[0].Void},{"ab":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"v":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ab":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"v":true,"a":3,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"v":true,"a":2,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"Push","t":8,"pi":[{"n":"direction","pt":$n[1].Vector3,"ps":0},{"n":"force","pt":$n[0].Single,"ps":1}],"sn":"Push","rt":$n[0].Void,"p":[$n[1].Vector3,$n[0].Single]},{"a":2,"n":"PushNoSound","t":8,"pi":[{"n":"direction","pt":$n[1].Vector3,"ps":0},{"n":"force","pt":$n[0].Single,"ps":1}],"sn":"PushNoSound","rt":$n[0].Void,"p":[$n[1].Vector3,$n[0].Single]},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"at":[new UnityEngine.HeaderAttribute("Movement Settings"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"MoveSpeed","t":4,"rt":$n[0].Single,"sn":"MoveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"RotationSmoothTime","t":4,"rt":$n[0].Single,"sn":"RotationSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"SpeedChangeRate","t":4,"rt":$n[0].Single,"sn":"SpeedChangeRate","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_animIDMotionSpeed","t":4,"rt":$n[0].Int32,"sn":"_animIDMotionSpeed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"_animIDSpeed","t":4,"rt":$n[0].Int32,"sn":"_animIDSpeed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"_animIEnd","t":4,"rt":$n[0].Int32,"sn":"_animIEnd","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"_animator","t":4,"rt":$n[1].Animator,"sn":"_animator"},{"a":3,"n":"_controller","t":4,"rt":$n[1].CharacterController,"sn":"_controller"},{"a":3,"n":"_hasAnimator","t":4,"rt":$n[0].Boolean,"sn":"_hasAnimator","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"_rotationVelocity","t":4,"rt":$n[0].Single,"sn":"_rotationVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_speed","t":4,"rt":$n[0].Single,"sn":"_speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_targetRotation","t":4,"rt":$n[0].Single,"sn":"_targetRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_verticalVelocity","t":4,"rt":$n[0].Single,"sn":"_verticalVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentHorizontalSpeed","t":4,"rt":$n[0].Single,"sn":"currentHorizontalSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"currentPushForce","t":4,"rt":$n[1].Vector3,"sn":"currentPushForce"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"fallThreshold","t":4,"rt":$n[0].Single,"sn":"fallThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"gravity","t":4,"rt":$n[0].Single,"sn":"gravity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"inputMagnitude","t":4,"rt":$n[0].Single,"sn":"inputMagnitude","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"moveDirection","t":4,"rt":$n[1].Vector3,"sn":"moveDirection"},{"at":[new UnityEngine.HeaderAttribute("Push Settings"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"pushForceDecayRate","t":4,"rt":$n[0].Single,"sn":"pushForceDecayRate","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"rotation","t":4,"rt":$n[0].Single,"sn":"rotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"speedOffset","t":4,"rt":$n[0].Single,"sn":"speedOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"targetSpeed","t":4,"rt":$n[0].Single,"sn":"targetSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"totalMovement","t":4,"rt":$n[1].Vector3,"sn":"totalMovement"}]}; }, $n);
+    $m("CharacterBaseController", function () { return {"att":1048705,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CharacterController)],"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"AnimatorUpdate","t":8,"sn":"AnimatorUpdate","rt":$n[0].Void},{"a":3,"n":"ApplyGravity","t":8,"sn":"ApplyGravity","rt":$n[0].Void},{"a":1,"n":"ApplyPushForce","t":8,"sn":"ApplyPushForce","rt":$n[0].Void},{"a":3,"n":"AssignAnimationIDs","t":8,"sn":"AssignAnimationIDs","rt":$n[0].Void},{"v":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"v":true,"a":3,"n":"CheckFallBelowThreshold","t":8,"sn":"CheckFallBelowThreshold","rt":$n[0].Void},{"v":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"v":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ab":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"v":true,"a":3,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"v":true,"a":2,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"Push","t":8,"pi":[{"n":"direction","pt":$n[1].Vector3,"ps":0},{"n":"force","pt":$n[0].Single,"ps":1}],"sn":"Push","rt":$n[0].Void,"p":[$n[1].Vector3,$n[0].Single]},{"a":2,"n":"PushNoSound","t":8,"pi":[{"n":"direction","pt":$n[1].Vector3,"ps":0},{"n":"force","pt":$n[0].Single,"ps":1}],"sn":"PushNoSound","rt":$n[0].Void,"p":[$n[1].Vector3,$n[0].Single]},{"at":[new UnityEngine.HeaderAttribute("Movement Settings"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"MoveSpeed","t":4,"rt":$n[0].Single,"sn":"MoveSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"OnDeath","t":4,"rt":Function,"sn":"OnDeath"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"RotationSmoothTime","t":4,"rt":$n[0].Single,"sn":"RotationSmoothTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"SpeedChangeRate","t":4,"rt":$n[0].Single,"sn":"SpeedChangeRate","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"_animIDMotionSpeed","t":4,"rt":$n[0].Int32,"sn":"_animIDMotionSpeed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"_animIDSpeed","t":4,"rt":$n[0].Int32,"sn":"_animIDSpeed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"_animIEnd","t":4,"rt":$n[0].Int32,"sn":"_animIEnd","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"_animIsDead","t":4,"rt":$n[0].Int32,"sn":"_animIsDead","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"_animator","t":4,"rt":$n[1].Animator,"sn":"_animator"},{"a":3,"n":"_controller","t":4,"rt":$n[1].CharacterController,"sn":"_controller"},{"a":2,"n":"_hasAnimator","t":4,"rt":$n[0].Boolean,"sn":"_hasAnimator","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"_rotationVelocity","t":4,"rt":$n[0].Single,"sn":"_rotationVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_speed","t":4,"rt":$n[0].Single,"sn":"_speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_targetRotation","t":4,"rt":$n[0].Single,"sn":"_targetRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"_verticalVelocity","t":4,"rt":$n[0].Single,"sn":"_verticalVelocity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentHorizontalSpeed","t":4,"rt":$n[0].Single,"sn":"currentHorizontalSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"currentPushForce","t":4,"rt":$n[1].Vector3,"sn":"currentPushForce"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"fallThreshold","t":4,"rt":$n[0].Single,"sn":"fallThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"gravity","t":4,"rt":$n[0].Single,"sn":"gravity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"inputMagnitude","t":4,"rt":$n[0].Single,"sn":"inputMagnitude","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"moveDirection","t":4,"rt":$n[1].Vector3,"sn":"moveDirection"},{"at":[new UnityEngine.HeaderAttribute("Push Settings"),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"pushForceDecayRate","t":4,"rt":$n[0].Single,"sn":"pushForceDecayRate","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"rotation","t":4,"rt":$n[0].Single,"sn":"rotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"speedOffset","t":4,"rt":$n[0].Single,"sn":"speedOffset","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"targetSpeed","t":4,"rt":$n[0].Single,"sn":"targetSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"totalMovement","t":4,"rt":$n[1].Vector3,"sn":"totalMovement"}]}; }, $n);
     /*CharacterBaseController end.*/
 
     /*CoinCollectible start.*/
-    $m("CoinCollectible", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"isCollected","t":4,"rt":$n[0].Boolean,"sn":"isCollected","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("CoinCollectible", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]}]}; }, $n);
     /*CoinCollectible end.*/
 
     /*CoinManager start.*/
-    $m("CoinManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddCoins","t":8,"pi":[{"n":"amount","pt":$n[0].Int32,"ps":0}],"sn":"AddCoins","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CollectCoin","t":8,"pi":[{"n":"coinWorldPosition","pt":$n[1].Vector3,"ps":0}],"sn":"CollectCoin","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateCoinUI","t":8,"sn":"UpdateCoinUI","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":CoinManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":CoinManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[CoinManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"coinCounterText","t":4,"rt":$n[2].TextMeshProUGUI,"sn":"coinCounterText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"flyingCoinPrefab","t":4,"rt":$n[1].GameObject,"sn":"flyingCoinPrefab"},{"a":1,"n":"totalCoinsCollected","t":4,"rt":$n[0].Int32,"sn":"totalCoinsCollected","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiTarget","t":4,"rt":$n[1].Transform,"sn":"uiTarget"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":CoinManager,"sn":"Instance"}]}; }, $n);
+    $m("CoinManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddCoins","t":8,"pi":[{"n":"amount","pt":$n[0].Int32,"ps":0}],"sn":"AddCoins","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CollectCoin","t":8,"pi":[{"n":"coinWorldPosition","pt":$n[1].Vector3,"ps":0}],"sn":"CollectCoin","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateCoinUI","t":8,"sn":"UpdateCoinUI","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":CoinManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":CoinManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[CoinManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"coinCounterText","t":4,"rt":$n[3].TextMeshProUGUI,"sn":"coinCounterText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"flyingCoinPrefab","t":4,"rt":$n[1].GameObject,"sn":"flyingCoinPrefab"},{"a":1,"n":"totalCoinsCollected","t":4,"rt":$n[0].Int32,"sn":"totalCoinsCollected","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiTarget","t":4,"rt":$n[1].Transform,"sn":"uiTarget"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":CoinManager,"sn":"Instance"}]}; }, $n);
     /*CoinManager end.*/
+
+    /*Collectable start.*/
+    $m("Collectable", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CoinMove","t":8,"sn":"CoinMove","rt":$n[0].Void},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"distance","t":4,"rt":$n[0].Single,"sn":"distance","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"isCollected","t":4,"rt":$n[0].Boolean,"sn":"isCollected","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveTime","t":4,"rt":$n[0].Single,"sn":"moveTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*Collectable end.*/
 
     /*ColorGenerator start.*/
     $m("ColorGenerator", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GenerateRandomVibrantColor","is":true,"t":8,"sn":"GenerateRandomVibrantColor","rt":pc.MinMaxGradient},{"a":1,"n":"random","is":true,"t":4,"rt":$n[0].Random,"sn":"random","ro":true}]}; }, $n);
     /*ColorGenerator end.*/
 
     /*DeathCounter start.*/
-    $m("DeathCounter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ResetDeathCounter","is":true,"t":8,"sn":"ResetDeathCounter","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"deathCounter","is":true,"t":4,"rt":$n[0].Int32,"sn":"deathCounter","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"deathCounterText","t":4,"rt":$n[2].TextMeshProUGUI,"sn":"deathCounterText"}]}; }, $n);
+    $m("DeathCounter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ResetDeathCounter","is":true,"t":8,"sn":"ResetDeathCounter","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"deathCounter","is":true,"t":4,"rt":$n[0].Int32,"sn":"deathCounter","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"deathCounterText","t":4,"rt":$n[3].TextMeshProUGUI,"sn":"deathCounterText"}]}; }, $n);
     /*DeathCounter end.*/
 
     /*DeathObstacleEffect start.*/
@@ -3720,7 +4141,7 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     /*FOVCalculator end.*/
 
     /*GameManager start.*/
-    $m("GameManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimateTapToStart","t":8,"sn":"AnimateTapToStart","rt":$n[0].Void},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":2,"n":"FinishLine","t":8,"sn":"FinishLine","rt":$n[0].Void},{"a":1,"n":"HideTapToStartText","t":8,"sn":"HideTapToStartText","rt":$n[0].Void},{"a":1,"n":"LoadWallPaintingScene","t":8,"sn":"LoadWallPaintingScene","rt":$n[0].Void},{"a":2,"n":"OpenCompleteGameUI","t":8,"sn":"OpenCompleteGameUI","rt":$n[0].Void},{"a":2,"n":"PlayAgain","t":8,"sn":"PlayAgain","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"StartCountdown","t":8,"sn":"StartCountdown","rt":$n[3].IEnumerator},{"a":2,"n":"StartGame","t":8,"sn":"StartGame","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":GameManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":GameManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[GameManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"completeGameUI","t":4,"rt":$n[1].GameObject,"sn":"completeGameUI"},{"a":2,"n":"isGameCompleted","t":4,"rt":$n[0].Boolean,"sn":"isGameCompleted","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isRunnerGameStarted","t":4,"rt":$n[0].Boolean,"sn":"isRunnerGameStarted","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"onGameComplete","t":4,"rt":Function,"sn":"onGameComplete"},{"a":2,"n":"onRunnerGameEnd","t":4,"rt":Function,"sn":"onRunnerGameEnd"},{"a":2,"n":"onRunnerGameStart","t":4,"rt":Function,"sn":"onRunnerGameStart"},{"a":1,"n":"paintingScene","t":4,"rt":$n[0].String,"sn":"paintingScene"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"startGameUI","t":4,"rt":$n[1].GameObject,"sn":"startGameUI"},{"a":1,"n":"starterFlag","t":4,"rt":$n[0].Boolean,"sn":"starterFlag","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"starterImage","t":4,"rt":$n[4].Image,"sn":"starterImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"starterImages","t":4,"rt":$n[5].List$1(UnityEngine.Sprite),"sn":"starterImages"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"starterText","t":4,"rt":$n[2].TextMeshProUGUI,"sn":"starterText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"tapToStartText","t":4,"rt":$n[2].TextMeshProUGUI,"sn":"tapToStartText"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":GameManager,"sn":"Instance"}]}; }, $n);
+    $m("GameManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimateTapToStart","t":8,"sn":"AnimateTapToStart","rt":$n[0].Void},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":2,"n":"FinishLine","t":8,"sn":"FinishLine","rt":$n[0].Void},{"a":1,"n":"HideTapToStartText","t":8,"sn":"HideTapToStartText","rt":$n[0].Void},{"a":1,"n":"LoadWallPaintingScene","t":8,"sn":"LoadWallPaintingScene","rt":$n[0].Void},{"a":2,"n":"OpenCompleteGameUI","t":8,"sn":"OpenCompleteGameUI","rt":$n[0].Void},{"a":2,"n":"PlayAgain","t":8,"sn":"PlayAgain","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"StartCountdown","t":8,"sn":"StartCountdown","rt":$n[2].IEnumerator},{"a":2,"n":"StartGame","t":8,"sn":"StartGame","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":GameManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":GameManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[GameManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"completeGameUI","t":4,"rt":$n[1].GameObject,"sn":"completeGameUI"},{"a":2,"n":"isGameCompleted","t":4,"rt":$n[0].Boolean,"sn":"isGameCompleted","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isRunnerGameStarted","t":4,"rt":$n[0].Boolean,"sn":"isRunnerGameStarted","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"onGameComplete","t":4,"rt":Function,"sn":"onGameComplete"},{"a":2,"n":"onRunnerGameEnd","t":4,"rt":Function,"sn":"onRunnerGameEnd"},{"a":2,"n":"onRunnerGameStart","t":4,"rt":Function,"sn":"onRunnerGameStart"},{"a":1,"n":"paintingScene","t":4,"rt":$n[0].String,"sn":"paintingScene"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"skipStartScreen","t":4,"rt":$n[0].Boolean,"sn":"skipStartScreen","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"startGameUI","t":4,"rt":$n[1].GameObject,"sn":"startGameUI"},{"a":1,"n":"starterFlag","t":4,"rt":$n[0].Boolean,"sn":"starterFlag","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"starterImage","t":4,"rt":$n[4].Image,"sn":"starterImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"starterImages","t":4,"rt":$n[5].List$1(UnityEngine.Sprite),"sn":"starterImages"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"starterText","t":4,"rt":$n[3].TextMeshProUGUI,"sn":"starterText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"tapToStartText","t":4,"rt":$n[3].TextMeshProUGUI,"sn":"tapToStartText"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":GameManager,"sn":"Instance"}]}; }, $n);
     /*GameManager end.*/
 
     /*IDeathHandler start.*/
@@ -3767,12 +4188,28 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     $m("PatrolMovementController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"deltaMovement","t":4,"rt":$n[1].Vector3,"sn":"deltaMovement"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxX","t":4,"rt":$n[0].Single,"sn":"maxX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"minX","t":4,"rt":$n[0].Single,"sn":"minX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"movementSpeed","t":4,"rt":$n[1].Vector3,"sn":"movementSpeed"}]}; }, $n);
     /*PatrolMovementController end.*/
 
+    /*Player start.*/
+    $m("Player", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"a":1,"n":"MoveToFinishTarget","t":8,"sn":"MoveToFinishTarget","rt":$n[0].Void},{"a":1,"n":"MoveToGameCompleteTarget","t":8,"sn":"MoveToGameCompleteTarget","rt":$n[0].Void},{"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"_characterBaseController","t":4,"rt":CharacterBaseController,"sn":"_characterBaseController"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"playerEndTransform","t":4,"rt":$n[1].Transform,"sn":"playerEndTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"playerGameCompleteTransform","t":4,"rt":$n[1].Transform,"sn":"playerGameCompleteTransform"}]}; }, $n);
+    /*Player end.*/
+
     /*PlayerController start.*/
-    $m("PlayerController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"ov":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"a":1,"n":"MoveToFinishTarget","t":8,"sn":"MoveToFinishTarget","rt":$n[0].Void},{"a":1,"n":"MoveToGameCompleteTarget","t":8,"sn":"MoveToGameCompleteTarget","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"joystick","t":4,"rt":Joystick,"sn":"joystick"},{"a":1,"n":"joystickInput","t":4,"rt":$n[1].Vector2,"sn":"joystickInput"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"playerEndTransform","t":4,"rt":$n[1].Transform,"sn":"playerEndTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"playerGameCompleteTransform","t":4,"rt":$n[1].Transform,"sn":"playerGameCompleteTransform"}]}; }, $n);
+    $m("PlayerController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Die","t":8,"sn":"Die","rt":$n[0].Void},{"ov":true,"a":3,"n":"GatherInput","t":8,"sn":"GatherInput","rt":$n[0].Void},{"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"joystick","t":4,"rt":Joystick,"sn":"joystick"},{"a":1,"n":"joystickInput","t":4,"rt":$n[1].Vector2,"sn":"joystickInput"}]}; }, $n);
     /*PlayerController end.*/
 
+    /*PowerUp start.*/
+    $m("PowerUp", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"powerUpType","t":4,"rt":PowerUpType,"sn":"powerUpType","box":function ($v) { return Bridge.box($v, PowerUpType, System.Enum.toStringFn(PowerUpType));}}]}; }, $n);
+    /*PowerUp end.*/
+
+    /*PowerupManager start.*/
+    $m("PowerupManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Clicked","t":8,"sn":"Clicked","rt":$n[0].Void},{"a":2,"n":"CollectPowerUp","t":8,"pi":[{"n":"powerUpType","pt":PowerUpType,"ps":0}],"sn":"CollectPowerUp","rt":$n[0].Void,"p":[PowerUpType]},{"a":1,"n":"GetPowerUpPrefab","t":8,"pi":[{"n":"powerUpType","pt":PowerUpType,"ps":0}],"sn":"GetPowerUpPrefab","rt":$n[1].GameObject,"p":[PowerUpType]},{"a":1,"n":"GetTextForPowerUp","t":8,"pi":[{"n":"powerUpType","pt":PowerUpType,"ps":0}],"sn":"GetTextForPowerUp","rt":$n[0].String,"p":[PowerUpType]},{"a":1,"n":"HandlePowerUpPlacement","t":8,"pi":[{"n":"powerUpType","pt":PowerUpType,"ps":0}],"sn":"HandlePowerUpPlacement","rt":$n[2].IEnumerator,"p":[PowerUpType]},{"a":2,"n":"Instance","is":true,"t":4,"rt":PowerupManager,"sn":"Instance"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"bananaPrefab","t":4,"rt":$n[1].GameObject,"sn":"bananaPrefab"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"cursor","t":4,"rt":$n[1].RectTransform,"sn":"cursor"},{"a":1,"n":"isClicked","t":4,"rt":$n[0].Boolean,"sn":"isClicked","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"placePowerUpText","t":4,"rt":$n[3].TextMeshProUGUI,"sn":"placePowerUpText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"powerUpUI","t":4,"rt":$n[1].GameObject,"sn":"powerUpUI"}]}; }, $n);
+    /*PowerupManager end.*/
+
+    /*PowerUpType start.*/
+    $m("PowerUpType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Bomb","is":true,"t":4,"rt":PowerUpType,"sn":"Bomb","box":function ($v) { return Bridge.box($v, PowerUpType, System.Enum.toStringFn(PowerUpType));}}]}; }, $n);
+    /*PowerUpType end.*/
+
     /*RankManager start.*/
-    $m("RankManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddRacer","t":8,"pi":[{"n":"characterBaseController","pt":CharacterBaseController,"ps":0}],"sn":"AddRacer","rt":$n[0].Void,"p":[CharacterBaseController]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"RemoveRacer","t":8,"pi":[{"n":"racer","pt":CharacterBaseController,"ps":0}],"sn":"RemoveRacer","rt":$n[0].Void,"p":[CharacterBaseController]},{"a":1,"n":"UpdatePlayerRank","t":8,"sn":"UpdatePlayerRank","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":RankManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":RankManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[RankManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"alreadyFinishedPlayer","t":4,"rt":$n[0].Int32,"sn":"alreadyFinishedPlayer","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"player","t":4,"rt":CharacterBaseController,"sn":"player"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"racers","t":4,"rt":$n[5].List$1(CharacterBaseController),"sn":"racers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rankImage","t":4,"rt":$n[4].Image,"sn":"rankImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rankSprites","t":4,"rt":$n[5].List$1(UnityEngine.Sprite),"sn":"rankSprites"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":RankManager,"sn":"Instance"}]}; }, $n);
+    $m("RankManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"GetFirstRacerPosition","t":8,"sn":"GetFirstRacerPosition","rt":$n[1].Vector3},{"a":2,"n":"RemoveRacer","t":8,"pi":[{"n":"racer","pt":CharacterBaseController,"ps":0}],"sn":"RemoveRacer","rt":$n[0].Void,"p":[CharacterBaseController]},{"a":1,"n":"UpdatePlayerRank","t":8,"sn":"UpdatePlayerRank","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":RankManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":RankManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[RankManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"a":1,"n":"alreadyFinishedPlayer","t":4,"rt":$n[0].Int32,"sn":"alreadyFinishedPlayer","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"player","t":4,"rt":CharacterBaseController,"sn":"player"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"racers","t":4,"rt":System.Array.type(CharacterBaseController),"sn":"racers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rankImage","t":4,"rt":$n[4].Image,"sn":"rankImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rankSprites","t":4,"rt":System.Array.type(UnityEngine.Sprite),"sn":"rankSprites"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":RankManager,"sn":"Instance"}]}; }, $n);
     /*RankManager end.*/
 
     /*RotaterPushObstacleEffect start.*/
@@ -3788,7 +4225,7 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     /*SoundManager end.*/
 
     /*WallPainter start.*/
-    $m("WallPainter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculatePaintedPercentage","t":8,"sn":"CalculatePaintedPercentage","rt":$n[0].Void},{"a":1,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"PaintBetweenPositions","t":8,"pi":[{"n":"start","pt":$n[1].Vector2,"ps":0},{"n":"end","pt":$n[1].Vector2,"ps":1},{"n":"distance","pt":$n[0].Single,"ps":2}],"sn":"PaintBetweenPositions","rt":$n[0].Void,"p":[$n[1].Vector2,$n[1].Vector2,$n[0].Single]},{"a":1,"n":"SetBrushColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0},{"n":"selectedButton","pt":$n[4].Button,"ps":1}],"sn":"SetBrushColor","rt":$n[0].Void,"p":[$n[1].Color,$n[4].Button]},{"a":1,"n":"SetBrushSize","t":8,"pi":[{"n":"size","pt":$n[0].Single,"ps":0}],"sn":"SetBrushSize","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"UpdatePaintedPercentageText","t":8,"sn":"UpdatePaintedPercentageText","rt":$n[0].Void},{"a":2,"n":"paint","t":8,"pi":[{"n":"pos","pt":$n[1].Vector2,"ps":0},{"n":"radius","dv":0.13,"o":true,"pt":$n[0].Single,"ps":1},{"n":"hardness","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"strength","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3},{"n":"color","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":4}],"sn":"paint","rt":$n[0].Void,"p":[$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Nullable$1(UnityEngine.Color)]},{"at":[new UnityEngine.HeaderAttribute("Sound"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_audioSource","t":4,"rt":$n[1].AudioSource,"sn":"_audioSource"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"_meshRenderer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"blueButton","t":4,"rt":$n[4].Button,"sn":"blueButton"},{"a":1,"n":"brushSize","t":4,"rt":$n[0].Single,"sn":"brushSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brushSizeSlider","t":4,"rt":$n[4].Slider,"sn":"brushSizeSlider"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"canvas","t":4,"rt":$n[1].GameObject,"sn":"canvas"},{"a":1,"n":"colorID","t":4,"rt":$n[0].Int32,"sn":"colorID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"currentColor","t":4,"rt":$n[1].Color,"sn":"currentColor"},{"a":1,"n":"currentVolume","t":4,"rt":$n[0].Single,"sn":"currentVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"hardnessID","t":4,"rt":$n[0].Int32,"sn":"hardnessID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"lastPaintedPosition","t":4,"rt":$n[0].Nullable$1(UnityEngine.Vector2),"sn":"lastPaintedPosition"},{"at":[new UnityEngine.HeaderAttribute("Painting Settings"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mainMaterial","t":4,"rt":$n[1].Material,"sn":"mainMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxVolume","t":4,"rt":$n[0].Single,"sn":"maxVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintMaterial","t":4,"rt":$n[1].Material,"sn":"paintMaterial"},{"a":1,"n":"paintThreshold","t":4,"rt":$n[0].Single,"sn":"paintThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintedPercentage","t":4,"rt":$n[0].Single,"sn":"paintedPercentage","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"paintedPercentageText","t":4,"rt":$n[2].TextMeshPro,"sn":"paintedPercentageText"},{"a":1,"n":"positionID","t":4,"rt":$n[0].Int32,"sn":"positionID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"radiusID","t":4,"rt":$n[0].Int32,"sn":"radiusID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"readTexture","t":4,"rt":$n[1].Texture2D,"sn":"readTexture"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"redButton","t":4,"rt":$n[4].Button,"sn":"redButton"},{"a":1,"n":"strengthID","t":4,"rt":$n[0].Int32,"sn":"strengthID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"supportTexture","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture"},{"a":1,"n":"supportTexture2","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture2"},{"a":1,"n":"textureID","t":4,"rt":$n[0].Int32,"sn":"textureID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"texturePaint","t":4,"rt":$n[1].Shader,"sn":"texturePaint"},{"a":1,"n":"totalWallPixels","t":4,"rt":$n[0].Single,"sn":"totalWallPixels","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"volumeFadeSpeed","t":4,"rt":$n[0].Single,"sn":"volumeFadeSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wallTransform","t":4,"rt":$n[1].Transform,"sn":"wallTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"yellowButton","t":4,"rt":$n[4].Button,"sn":"yellowButton"}]}; }, $n);
+    $m("WallPainter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculatePaintedPercentage","t":8,"sn":"CalculatePaintedPercentage","rt":$n[0].Void},{"a":1,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"PaintBetweenPositions","t":8,"pi":[{"n":"start","pt":$n[1].Vector2,"ps":0},{"n":"end","pt":$n[1].Vector2,"ps":1},{"n":"distance","pt":$n[0].Single,"ps":2}],"sn":"PaintBetweenPositions","rt":$n[0].Void,"p":[$n[1].Vector2,$n[1].Vector2,$n[0].Single]},{"a":1,"n":"SetBrushColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0},{"n":"selectedButton","pt":$n[4].Button,"ps":1}],"sn":"SetBrushColor","rt":$n[0].Void,"p":[$n[1].Color,$n[4].Button]},{"a":1,"n":"SetBrushSize","t":8,"pi":[{"n":"size","pt":$n[0].Single,"ps":0}],"sn":"SetBrushSize","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"UpdatePaintedPercentageText","t":8,"sn":"UpdatePaintedPercentageText","rt":$n[0].Void},{"a":2,"n":"paint","t":8,"pi":[{"n":"pos","pt":$n[1].Vector2,"ps":0},{"n":"radius","dv":0.13,"o":true,"pt":$n[0].Single,"ps":1},{"n":"hardness","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"strength","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3},{"n":"color","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":4}],"sn":"paint","rt":$n[0].Void,"p":[$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Nullable$1(UnityEngine.Color)]},{"at":[new UnityEngine.HeaderAttribute("Sound"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_audioSource","t":4,"rt":$n[1].AudioSource,"sn":"_audioSource"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"_meshRenderer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"blueButton","t":4,"rt":$n[4].Button,"sn":"blueButton"},{"a":1,"n":"brushSize","t":4,"rt":$n[0].Single,"sn":"brushSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brushSizeSlider","t":4,"rt":$n[4].Slider,"sn":"brushSizeSlider"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"canvas","t":4,"rt":$n[1].GameObject,"sn":"canvas"},{"a":1,"n":"colorID","t":4,"rt":$n[0].Int32,"sn":"colorID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"currentColor","t":4,"rt":$n[1].Color,"sn":"currentColor"},{"a":1,"n":"currentVolume","t":4,"rt":$n[0].Single,"sn":"currentVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"hardnessID","t":4,"rt":$n[0].Int32,"sn":"hardnessID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"lastPaintedPosition","t":4,"rt":$n[0].Nullable$1(UnityEngine.Vector2),"sn":"lastPaintedPosition"},{"at":[new UnityEngine.HeaderAttribute("Painting Settings"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mainMaterial","t":4,"rt":$n[1].Material,"sn":"mainMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxVolume","t":4,"rt":$n[0].Single,"sn":"maxVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintMaterial","t":4,"rt":$n[1].Material,"sn":"paintMaterial"},{"a":1,"n":"paintThreshold","t":4,"rt":$n[0].Single,"sn":"paintThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintedPercentage","t":4,"rt":$n[0].Single,"sn":"paintedPercentage","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"paintedPercentageText","t":4,"rt":$n[3].TextMeshPro,"sn":"paintedPercentageText"},{"a":1,"n":"positionID","t":4,"rt":$n[0].Int32,"sn":"positionID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"radiusID","t":4,"rt":$n[0].Int32,"sn":"radiusID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"readTexture","t":4,"rt":$n[1].Texture2D,"sn":"readTexture"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"redButton","t":4,"rt":$n[4].Button,"sn":"redButton"},{"a":1,"n":"strengthID","t":4,"rt":$n[0].Int32,"sn":"strengthID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"supportTexture","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture"},{"a":1,"n":"supportTexture2","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture2"},{"a":1,"n":"textureID","t":4,"rt":$n[0].Int32,"sn":"textureID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"texturePaint","t":4,"rt":$n[1].Shader,"sn":"texturePaint"},{"a":1,"n":"totalWallPixels","t":4,"rt":$n[0].Single,"sn":"totalWallPixels","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"volumeFadeSpeed","t":4,"rt":$n[0].Single,"sn":"volumeFadeSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wallTransform","t":4,"rt":$n[1].Transform,"sn":"wallTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"yellowButton","t":4,"rt":$n[4].Button,"sn":"yellowButton"}]}; }, $n);
     /*WallPainter end.*/
 
     /*DG.Tweening.DOTweenCYInstruction start.*/

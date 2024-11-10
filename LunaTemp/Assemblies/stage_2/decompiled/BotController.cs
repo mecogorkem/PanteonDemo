@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class BotController : CharacterBaseController
@@ -10,33 +11,37 @@ public class BotController : CharacterBaseController
 
 	private Vector3 direction;
 
+	private bool deathFlag = false;
+
 	protected override void Awake()
 	{
 		base.Awake();
 		startingPosition = base.transform.position;
 	}
 
-	protected override void Start()
+	protected void Start()
 	{
-		base.Start();
 		targetPos = NodeManager.Instance.GetFirstNode();
 	}
 
 	public override void FixedUpdate()
 	{
-		if (!isDead)
+		if (!deathFlag)
 		{
-			base.FixedUpdate();
-		}
-		else
-		{
-			RealDie();
+			if (!isDead)
+			{
+				base.FixedUpdate();
+			}
+			else
+			{
+				RealDie();
+			}
 		}
 	}
 
 	protected override void GatherInput()
 	{
-		if (Vector3.Distance(base.transform.position, targetPos.transform.position) < 1f)
+		if (targetPos.transform.position.z - base.transform.position.z < 2f)
 		{
 			UpdateTargetPosition();
 		}
@@ -53,14 +58,22 @@ public class BotController : CharacterBaseController
 	public override void Die()
 	{
 		isDead = true;
+		_animator.SetTrigger(_animIsDead);
+		deathFlag = true;
+		StartCoroutine(DeathAnim());
 	}
 
 	public void RealDie()
 	{
 		isDead = false;
-		Object.Instantiate(Resources.Load("DeathAnim"), base.transform.position, Quaternion.identity);
 		SoundManager.Instance.PlayBotDeathSound(base.transform);
 		base.transform.position = startingPosition;
 		targetPos = NodeManager.Instance.GetFirstNode();
+	}
+
+	private IEnumerator DeathAnim()
+	{
+		yield return new WaitForSeconds(1f);
+		deathFlag = false;
 	}
 }

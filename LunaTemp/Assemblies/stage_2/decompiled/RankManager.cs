@@ -1,5 +1,4 @@
-using System.Collections.Generic;
-using System.Linq;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,12 +8,12 @@ public class RankManager : MonoBehaviour
 	private Image rankImage;
 
 	[SerializeField]
-	private List<Sprite> rankSprites;
+	private Sprite[] rankSprites;
 
 	private CharacterBaseController player;
 
 	[SerializeField]
-	private List<CharacterBaseController> racers;
+	private CharacterBaseController[] racers;
 
 	private int alreadyFinishedPlayer = 0;
 
@@ -23,6 +22,15 @@ public class RankManager : MonoBehaviour
 	private void Awake()
 	{
 		Instance = this;
+		racers = new CharacterBaseController[base.transform.childCount];
+		for (int i = 0; i < base.transform.childCount; i++)
+		{
+			racers[i] = base.transform.GetChild(i).GetComponent<CharacterBaseController>();
+			if (base.transform.GetChild(i).CompareTag("Player"))
+			{
+				player = racers[i];
+			}
+		}
 	}
 
 	private void FixedUpdate()
@@ -35,23 +43,37 @@ public class RankManager : MonoBehaviour
 
 	private void UpdatePlayerRank()
 	{
-		racers = racers.OrderByDescending((CharacterBaseController r) => r.transform.position.z).ToList();
-		int playerRank = racers.IndexOf(player) + alreadyFinishedPlayer;
+		Array.Sort(racers, (CharacterBaseController racer1, CharacterBaseController racer2) => racer2.transform.position.z.CompareTo(racer1.transform.position.z));
+		int playerRank = Array.IndexOf(racers, player) + alreadyFinishedPlayer;
 		rankImage.sprite = rankSprites[playerRank];
 	}
 
 	public void RemoveRacer(CharacterBaseController racer)
 	{
-		racers.Remove(racer);
+		CharacterBaseController[] newRacers = new CharacterBaseController[racers.Length - 1];
+		int index = 0;
+		for (int i = 0; i < racers.Length; i++)
+		{
+			if (racers[i] != racer)
+			{
+				newRacers[index] = racers[i];
+				index++;
+			}
+		}
+		racers = newRacers;
 		alreadyFinishedPlayer++;
 	}
 
-	public void AddRacer(CharacterBaseController characterBaseController)
+	public Vector3 GetFirstRacerPosition()
 	{
-		racers.Add(characterBaseController);
-		if (characterBaseController.CompareTag("Player"))
+		CharacterBaseController[] array = racers;
+		foreach (CharacterBaseController racer in array)
 		{
-			player = characterBaseController;
+			if (!racer.CompareTag("Player"))
+			{
+				return racer.transform.position;
+			}
 		}
+		return player.transform.position;
 	}
 }

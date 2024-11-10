@@ -1,16 +1,18 @@
+using DG.Tweening;
 using UnityEngine;
 
-public class CoinCollectible : MonoBehaviour
+public class CoinCollectible : Collectable
 {
-	private bool isCollected = false;
-
 	private void OnTriggerEnter(Collider other)
 	{
 		if (!isCollected && other.CompareTag("Player"))
 		{
 			isCollected = true;
 			CoinManager.Instance.CollectCoin(base.transform.position);
-			Object.Destroy(base.gameObject);
+			base.transform.DOScale(0f, 0.25f).OnComplete(delegate
+			{
+				base.gameObject.SetActive(false);
+			});
 		}
 	}
 }

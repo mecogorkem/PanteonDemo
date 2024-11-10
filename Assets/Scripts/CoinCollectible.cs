@@ -1,9 +1,8 @@
+using DG.Tweening;
 using UnityEngine;
 
-public class CoinCollectible : MonoBehaviour
+public class CoinCollectible : Collectable
 {
-    private bool isCollected = false;
-
     private void OnTriggerEnter(Collider other)
     {
         if (isCollected || !other.CompareTag("Player")) return;
@@ -13,6 +12,9 @@ public class CoinCollectible : MonoBehaviour
         // Notify CoinManager of the coin collection and pass the coin's position
         CoinManager.Instance.CollectCoin(transform.position);
 
-        Destroy(gameObject); // Destroy the coin itself
+        transform.DOScale(0, 0.25f).OnComplete(() =>
+        {
+            gameObject.SetActive(false);
+        });
     }
 }

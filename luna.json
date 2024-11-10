@@ -1,7 +1,7 @@
 {
     "version": "6.2.0",
     "projectId": "183a878df3c572c46b908bc772bb8712",
-    "applicationID": 25545,
+    "applicationID": 0,
     "creativeName": "iki",
     "pgServer": "EU",
     "window": {
@@ -130,10 +130,12 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/Main.unity",
+            "Assets/Scenes/First_Playable.unity",
             "Assets/Scenes/WallPainter.unity"
         ],
-        "disabledScenes": [],
+        "disabledScenes": [
+            "Assets/Scenes/Main.unity"
+        ],
         "startupScene": 0,
         "packages": {
             "default": {
@@ -206,10 +208,6 @@
         "unusedClasses": [
             {
                 "name": "System.ValueType",
-                "excluded": true
-            },
-            {
-                "name": "System.Reflection.TargetSite",
                 "excluded": true
             },
             {
@@ -1994,10 +1992,6 @@
             },
             {
                 "name": "UnityEngine.U2D.SpriteAtlas",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.WaitForSecondsRealtime",
                 "excluded": true
             },
             {
@@ -7210,7 +7204,7 @@
             },
             {
                 "name": "DG.Tweening.Core.SafeModeReport.SafeModeReportType",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "DG.Tweening.Core.TargetType",
@@ -8307,6 +8301,10 @@
             {
                 "name": "IMovable",
                 "excluded": true
+            },
+            {
+                "name": "PowerUpType",
+                "excluded": false
             }
         ],
         "unusedMethods": [
@@ -15760,7 +15758,7 @@
                     },
                     {
                         "name": "timeScale#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "smoothDeltaTime#get",
@@ -18496,11 +18494,11 @@
                     },
                     {
                         "name": "SetTrigger$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTrigger",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResetTrigger$1",
@@ -24272,7 +24270,7 @@
                     },
                     {
                         "name": "Play",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Play$1",
@@ -28614,7 +28612,7 @@
                     },
                     {
                         "name": "InsertNewLine",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SaveWordWrappingState",
@@ -30226,7 +30224,7 @@
                     },
                     {
                         "name": "Resize",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Resize$1",
@@ -30560,7 +30558,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -30580,7 +30578,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -31304,7 +31302,7 @@
                     },
                     {
                         "name": "LogSafeModeCapturedError",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "LogReport",
@@ -31352,7 +31350,7 @@
                     },
                     {
                         "name": "ShouldLogSafeModeCapturedError",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetDebugDataMessage",
@@ -31478,7 +31476,7 @@
                     },
                     {
                         "name": "Add",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetTotErrors",
@@ -31530,7 +31528,7 @@
                     },
                     {
                         "name": "SetUpdateType",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddActiveTweenToSequence",
@@ -32240,7 +32238,7 @@
                     },
                     {
                         "name": "DOMoveY",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOMoveZ",
@@ -32566,7 +32564,7 @@
                     },
                     {
                         "name": "SetUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetUpdate$1",
@@ -32738,7 +32736,7 @@
                     },
                     {
                         "name": "SetOptions$12",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetOptions$15",
@@ -32996,10 +32994,6 @@
                 "className": "CoinCollectible",
                 "staticMethods": [],
                 "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
                     {
                         "name": "OnTriggerEnter",
                         "excluded": false
@@ -33281,7 +33275,7 @@
                         "excluded": false
                     },
                     {
-                        "name": "AddRacer",
+                        "name": "GetFirstRacerPosition",
                         "excluded": false
                     }
                 ]
@@ -33312,7 +33306,7 @@
                     },
                     {
                         "name": "PlayBotDeathSound",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PlayCoinFirstInteractionSound",
@@ -33344,10 +33338,6 @@
                     },
                     {
                         "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Start",
                         "excluded": false
                     },
                     {
@@ -33389,6 +33379,10 @@
                     {
                         "name": "AnimatorUpdate",
                         "excluded": false
+                    },
+                    {
+                        "name": "Die",
+                        "excluded": true
                     }
                 ]
             },
@@ -33469,6 +33463,10 @@
                     {
                         "name": "UpdateTargetPosition",
                         "excluded": false
+                    },
+                    {
+                        "name": "DeathAnim",
+                        "excluded": false
                     }
                 ]
             },
@@ -33478,14 +33476,6 @@
                 "instanceMethods": [
                     {
                         "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "MoveToGameCompleteTarget",
-                        "excluded": false
-                    },
-                    {
-                        "name": "MoveToFinishTarget",
                         "excluded": false
                     },
                     {
@@ -33856,7 +33846,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "transform#get",
@@ -36378,6 +36368,140 @@
                 "instanceMethods": [
                     {
                         "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Collectable",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CoinMove",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "System.Reflection.TargetSite",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "toString",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PowerupManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Clicked",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CollectPowerUp",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandlePowerUpPlacement",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetTextForPowerUp",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPowerUpPrefab",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PowerUp",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "OnTriggerEnter",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.WaitForSecondsRealtime",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "keepWaiting#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Reset",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "BombPrefab",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnTriggerEnter",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Player",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveToGameCompleteTarget",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveToFinishTarget",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Die",
                         "excluded": false
                     }
                 ]
