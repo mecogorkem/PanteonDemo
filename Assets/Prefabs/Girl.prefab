@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 1685103666608907284}
   - component: {fileID: 1685103666608907286}
   - component: {fileID: 9090887337248109207}
-  - component: {fileID: 3829155291759685592}
+  - component: {fileID: 5944238490227263583}
   m_Layer: 7
   m_Name: Girl
   m_TagString: Bot
@@ -137,7 +137,6 @@ MonoBehaviour:
   gravity: 9.8
   fallThreshold: -10
   pushForceDecayRate: 5
-  navMeshAgent: {fileID: 3829155291759685592}
 --- !u!95 &9090887337248109207
 Animator:
   serializedVersion: 5
@@ -159,28 +158,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!195 &3829155291759685592
-NavMeshAgent:
+--- !u!54 &5944238490227263583
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991674101414766908}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 10
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2496486392278913200
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,12 +440,12 @@ SkinnedMeshRenderer:
   m_GameObject: {fileID: 5075685667852008186}
   m_Enabled: 1
   m_CastShadows: 0
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
@@ -481,7 +474,7 @@ SkinnedMeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
-  m_Quality: 0
+  m_Quality: 1
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -2395300767548323527, guid: 4e1523a0ce2b6e8429d23d92ab2203f5, type: 3}

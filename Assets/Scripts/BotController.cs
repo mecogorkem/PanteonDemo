@@ -1,43 +1,22 @@
+using System;
 using UnityEngine;
-using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class BotController : CharacterBaseController
 {
-    public NavMeshAgent navMeshAgent;
     private Vector3 startingPosition;
     private bool isDead = false;
-    private int negativeMove = 0;
-    private Transform activeTarget;
+    private AINode targetPos; 
+    private Vector3 direction;
     protected override void Awake()
     {
         base.Awake();
-   
         startingPosition = transform.position;
     }
 
     protected override void Start()
     {
         base.Start();
-        FindTarget();
-    }
-    
-    private void FindTarget()
-    {
-        // GameObject targetObject = GameObject.FindGameObjectWithTag("Target");
-        if (navMeshAgent != null)
-        {
-            navMeshAgent.SetDestination(new Vector3(0,0,100));
-
-        }
-        //
-        // if (targetObject != null)
-        // {
-        //     _navMeshAgent.SetDestination(new Vector3(0,0,100));
-        //     // activeTarget = targetObject.transform;
-        //     negativeMove = 0;
-        // }
-        
+        targetPos = NodeManager.Instance.GetFirstNode();
     }
 
     public override void FixedUpdate()
@@ -46,52 +25,34 @@ public class BotController : CharacterBaseController
         {
             base.FixedUpdate();
         }
-        if (isDead)
+        else
         {
             RealDie();
         }
-       
     }
-
 
     protected override void GatherInput()
     {
-        // // NavMeshAgent'in istediği hızı alıyoruz
-        // Vector3 desiredVelocity = _navMeshAgent.desiredVelocity;
-        //
-        // // Eğer ajan bir yola sahipse ve istediği hız sıfır değilse, moveDirection'ı güncelliyoruz
-        // // if (_navMeshAgent.hasPath && desiredVelocity != Vector3.zero)
-        //
-        // if (desiredVelocity != Vector3.zero)
-        // {
-        //     var pushForce = currentPushForce.magnitude;
-        //     var neededVelocityX = 1.5f*(pushForce/MoveSpeed);
-        //  
-        //     
-        //     moveDirection = new Vector3(neededVelocityX+desiredVelocity.x, 0.0f, desiredVelocity.z);
-        // }
-        // else
-        // {
-        //     // Debug.Log("No path or desired velocity is zero.");
-        // }
-        //
-        // if (desiredVelocity.z<0)
-        // {
-        //     negativeMove++;
-        //     if (negativeMove>5)
-        //     {
-        //         _navMeshAgent.SetDestination(activeTarget.position);
-        //         negativeMove = 0;
-        //     }
-        // }
-        // Aksi halde moveDirection'ı değiştirmiyoruz
+        if (Vector3.Distance(transform.position, targetPos.transform.position) < 3f)
+        {
+            UpdateTargetPosition();
+        }
+        
+        
+            // Hedefe doğru hareket et
+            direction = (targetPos.transform.position - transform.position).normalized;
+            moveDirection.x = direction.x;
+            moveDirection.z = direction.z;
+
+            // Hedefe yaklaştıysak yeni hedefi güncelle
+          
+        
     }
 
-    protected override void Move()
+    private void UpdateTargetPosition()
     {
+        targetPos = targetPos.nextNode;
 
-        // Sync NavMeshAgent position with CharacterController
-        // _navMeshAgent.nextPosition = transform.position;
     }
 
     public override void Die()
@@ -104,20 +65,11 @@ public class BotController : CharacterBaseController
         isDead = false;
         Instantiate(Resources.Load("DeathAnim"), transform.position, Quaternion.identity);
         SoundManager.Instance.PlayBotDeathSound(this.transform);
-        // Warp the NavMeshAgent to the starting position
-        // _navMeshAgent.transform.position = startingPosition;
-        
-        // Set destination again
-        FindTarget();
-    }
 
-    private void OnDestroy()
-    {
-        RankManager.Instance.RemoveRacer(this);
-    }
+        // Başlangıç pozisyonuna dön
+        transform.position = startingPosition;
 
-    public void SetNextTarget(Transform nextTarget)
-    {
-        // _navMeshAgent.SetDestination(nextTarget.position);
+        // Hedef pozisyonu sıfırla ve güncelle
+        targetPos = NodeManager.Instance.GetFirstNode();
     }
 }

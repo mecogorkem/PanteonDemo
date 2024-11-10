@@ -15,6 +15,8 @@ public class PlayerController : CharacterBaseController
 
 	private Joystick joystick;
 
+	private Vector2 joystickInput;
+
 	protected override void Start()
 	{
 		base.Start();
@@ -73,15 +75,17 @@ public class PlayerController : CharacterBaseController
 
 	protected override void GatherInput()
 	{
-		Vector2 joystickInput = joystick.GetInputVector();
+		joystickInput = joystick.GetInputVector();
 		if (joystickInput != Vector2.zero)
 		{
-			moveDirection = new Vector3(joystickInput.x, 0f, joystickInput.y);
-			return;
+			moveDirection.x = joystickInput.x;
+			moveDirection.z = joystickInput.y;
 		}
-		float horizontal = Input.GetAxis("Horizontal");
-		float vertical = Input.GetAxis("Vertical");
-		moveDirection = new Vector3(horizontal, 0f, vertical);
+		else
+		{
+			moveDirection.x = Input.GetAxis("Horizontal");
+			moveDirection.z = Input.GetAxis("Vertical");
+		}
 	}
 
 	public override void Die()

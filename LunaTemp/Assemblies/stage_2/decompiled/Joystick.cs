@@ -13,6 +13,10 @@ public class Joystick : MonoBehaviour, IDragHandler, IEventSystemHandler, IPoint
 
 	private Vector2 joystickCenter;
 
+	private Vector2 direction;
+
+	private float radius;
+
 	public static Joystick Instance { get; private set; }
 
 	private void Awake()
@@ -35,8 +39,8 @@ public class Joystick : MonoBehaviour, IDragHandler, IEventSystemHandler, IPoint
 
 	public void OnDrag(PointerEventData eventData)
 	{
-		Vector2 direction = eventData.position - joystickCenter;
-		float radius = joystickBackground.sizeDelta.x / 2f;
+		direction = eventData.position - joystickCenter;
+		radius = joystickBackground.sizeDelta.x / 2f;
 		inputVector = ((direction.magnitude > radius) ? direction.normalized : (direction / radius));
 		joystickHandle.anchoredPosition = inputVector * radius;
 	}

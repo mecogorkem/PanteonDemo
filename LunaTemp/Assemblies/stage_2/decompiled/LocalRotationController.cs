@@ -12,7 +12,6 @@ public class LocalRotationController : MonoBehaviour
 
 	private void Rotate()
 	{
-		Vector3 deltaRotation = rotationSpeed * Time.deltaTime;
-		base.transform.Rotate(deltaRotation, Space.Self);
+		base.transform.Rotate(rotationSpeed * Time.deltaTime, Space.Self);
 	}
 }

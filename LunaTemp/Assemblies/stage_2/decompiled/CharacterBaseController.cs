@@ -47,6 +47,18 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
 	protected int _animIEnd;
 
+	private float currentHorizontalSpeed;
+
+	private float speedOffset;
+
+	private float inputMagnitude;
+
+	private Vector3 totalMovement;
+
+	private float targetSpeed;
+
+	private float rotation;
+
 	protected virtual void Awake()
 	{
 		_controller = GetComponent<CharacterController>();
@@ -88,14 +100,14 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 
 	protected virtual void Move()
 	{
-		float targetSpeed = MoveSpeed;
+		targetSpeed = MoveSpeed;
 		if (moveDirection == Vector3.zero)
 		{
 			targetSpeed = 0f;
 		}
-		float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0f, _controller.velocity.z).magnitude;
-		float speedOffset = 0.1f;
-		float inputMagnitude = Mathf.Clamp01(moveDirection.magnitude);
+		currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0f, _controller.velocity.z).magnitude;
+		speedOffset = 0.1f;
+		inputMagnitude = Mathf.Clamp01(moveDirection.magnitude);
 		if (Mathf.Abs(currentHorizontalSpeed - targetSpeed) > speedOffset)
 		{
 			_speed = Mathf.Lerp(currentHorizontalSpeed, targetSpeed * inputMagnitude, Time.deltaTime * SpeedChangeRate);
@@ -109,10 +121,10 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 		if (moveDirection != Vector3.zero)
 		{
 			_targetRotation = Mathf.Atan2(inputDirection.x, inputDirection.z) * 57.29578f;
-			float rotation = Mathf.SmoothDampAngle(base.transform.eulerAngles.y, _targetRotation, ref _rotationVelocity, RotationSmoothTime);
+			rotation = Mathf.SmoothDampAngle(base.transform.eulerAngles.y, _targetRotation, ref _rotationVelocity, RotationSmoothTime);
 			base.transform.rotation = Quaternion.Euler(0f, rotation, 0f);
 		}
-		Vector3 totalMovement = Quaternion.Euler(0f, _targetRotation, 0f) * Vector3.forward * _speed;
+		totalMovement = Quaternion.Euler(0f, _targetRotation, 0f) * Vector3.forward * _speed;
 		totalMovement.y = _verticalVelocity;
 		_controller.Move(totalMovement * Time.deltaTime);
 	}
@@ -121,7 +133,6 @@ public abstract class CharacterBaseController : MonoBehaviour, IPushable, IDeath
 	{
 		if (_hasAnimator)
 		{
-			float inputMagnitude = Mathf.Clamp01(moveDirection.magnitude);
 			_animator.SetFloat(_animIDSpeed, _speed);
 			_animator.SetFloat(_animIDMotionSpeed, inputMagnitude + 0.5f);
 		}

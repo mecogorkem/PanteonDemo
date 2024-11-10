@@ -1,18 +1,14 @@
 using UnityEngine;
-using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class BotController : CharacterBaseController
 {
-	public NavMeshAgent navMeshAgent;
-
 	private Vector3 startingPosition;
 
 	private bool isDead = false;
 
-	private int negativeMove = 0;
+	private AINode targetPos;
 
-	private Transform activeTarget;
+	private Vector3 direction;
 
 	protected override void Awake()
 	{
@@ -23,15 +19,7 @@ public class BotController : CharacterBaseController
 	protected override void Start()
 	{
 		base.Start();
-		FindTarget();
-	}
-
-	private void FindTarget()
-	{
-		if (navMeshAgent != null)
-		{
-			navMeshAgent.SetDestination(new Vector3(0f, 0f, 100f));
-		}
+		targetPos = NodeManager.Instance.GetFirstNode();
 	}
 
 	public override void FixedUpdate()
@@ -40,7 +28,7 @@ public class BotController : CharacterBaseController
 		{
 			base.FixedUpdate();
 		}
-		if (isDead)
+		else
 		{
 			RealDie();
 		}
@@ -48,10 +36,18 @@ public class BotController : CharacterBaseController
 
 	protected override void GatherInput()
 	{
+		if (Vector3.Distance(base.transform.position, targetPos.transform.position) < 3f)
+		{
+			UpdateTargetPosition();
+		}
+		direction = (targetPos.transform.position - base.transform.position).normalized;
+		moveDirection.x = direction.x;
+		moveDirection.z = direction.z;
 	}
 
-	protected override void Move()
+	private void UpdateTargetPosition()
 	{
+		targetPos = targetPos.nextNode;
 	}
 
 	public override void Die()
@@ -64,15 +60,7 @@ public class BotController : CharacterBaseController
 		isDead = false;
 		Object.Instantiate(Resources.Load("DeathAnim"), base.transform.position, Quaternion.identity);
 		SoundManager.Instance.PlayBotDeathSound(base.transform);
-		FindTarget();
-	}
-
-	private new void OnDestroy()
-	{
-		RankManager.Instance.RemoveRacer(this);
-	}
-
-	public void SetNextTarget(Transform nextTarget)
-	{
+		base.transform.position = startingPosition;
+		targetPos = NodeManager.Instance.GetFirstNode();
 	}
 }

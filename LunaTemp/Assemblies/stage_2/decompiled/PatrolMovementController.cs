@@ -11,6 +11,8 @@ public class PatrolMovementController : MonoBehaviour
 	[SerializeField]
 	private float maxX = 5f;
 
+	private Vector3 deltaMovement;
+
 	private void Update()
 	{
 		Move();
@@ -18,7 +20,7 @@ public class PatrolMovementController : MonoBehaviour
 
 	private void Move()
 	{
-		Vector3 deltaMovement = movementSpeed * Time.deltaTime;
+		deltaMovement = movementSpeed * Time.deltaTime;
 		base.transform.position += deltaMovement;
 		if (base.transform.position.x < minX)
 		{

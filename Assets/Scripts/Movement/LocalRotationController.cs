@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class LocalRotationController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class LocalRotationController : MonoBehaviour
 
     private void Rotate()
     {
-        Vector3 deltaRotation = rotationSpeed * Time.deltaTime;
-        transform.Rotate(deltaRotation, Space.Self);
+        transform.Rotate(rotationSpeed * Time.deltaTime, Space.Self);
+        
     }
 }

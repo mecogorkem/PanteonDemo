@@ -9,6 +9,9 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoint
 
     private Vector2 inputVector;
     private Vector2 joystickCenter;
+    
+    private Vector2 direction;
+    private float radius;
 
     public static Joystick Instance { get; private set; }
 
@@ -37,8 +40,8 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoint
     public void OnDrag(PointerEventData eventData)
     {
         // Calculate the direction relative to the joystick center
-        Vector2 direction = eventData.position - joystickCenter;
-        float radius = joystickBackground.sizeDelta.x / 2;
+        direction = eventData.position - joystickCenter;
+        radius = joystickBackground.sizeDelta.x / 2;
         inputVector = direction.magnitude > radius ? direction.normalized : direction / radius;
 
         // Move the joystick handle

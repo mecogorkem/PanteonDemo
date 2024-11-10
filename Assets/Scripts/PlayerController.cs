@@ -9,7 +9,7 @@ public class PlayerController : CharacterBaseController
     [SerializeField] private Transform playerGameCompleteTransform;
     
     private Joystick joystick;
-
+    private Vector2 joystickInput;
     
     protected override void Start()
     {
@@ -65,19 +65,19 @@ public class PlayerController : CharacterBaseController
 
     protected override void GatherInput()
     {
-        Vector2 joystickInput = joystick.GetInputVector(); // Get input from the joystick
+        joystickInput = joystick.GetInputVector(); // Get input from the joystick
 
         if (joystickInput != Vector2.zero)
         {
             // Use joystick input if available
-            moveDirection = new Vector3(joystickInput.x, 0.0f, joystickInput.y);
+            moveDirection.x = joystickInput.x;
+            moveDirection.z = joystickInput.y;
         }
         else
         {
             // Fallback to keyboard input if no joystick input is detected
-            float horizontal = Input.GetAxis("Horizontal");
-            float vertical = Input.GetAxis("Vertical");
-            moveDirection = new Vector3(horizontal, 0.0f, vertical);
+            moveDirection.x = Input.GetAxis("Horizontal");
+            moveDirection.z = Input.GetAxis("Vertical");
         }
     }
 

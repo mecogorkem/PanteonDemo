@@ -1,7 +1,7 @@
 {
     "version": "6.2.0",
     "projectId": "183a878df3c572c46b908bc772bb8712",
-    "applicationID": 25569,
+    "applicationID": 25545,
     "creativeName": "First",
     "pgServer": "EU",
     "window": {
@@ -161,7 +161,7 @@
         "enableMecanimWASM": true,
         "minify": true,
         "forceUncompressed": false,
-        "forceBase64": true,
+        "forceBase64": false,
         "graphicsConstraint": 28,
         "genericCheck": true,
         "disableAntiAliasing": true,
@@ -3350,23 +3350,23 @@
             },
             {
                 "name": "UnityEngine.AI.NavMeshBuildDebugFlags",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.AI.NavMeshBuildSourceShape",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.AI.NavMeshCollectGeometry",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.AI.NavMeshObstacleShape",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.AI.NavMeshPathStatus",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.AI.ObstacleAvoidanceType",
@@ -3790,7 +3790,7 @@
             },
             {
                 "name": "UnityEngine.Experimental.AI.NavMeshPolyTypes",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.Experimental.AI.PathQueryStatus",
@@ -8302,10 +8302,6 @@
             },
             {
                 "name": "DG.Tweening.Plugins.Core.ITPlugin$4",
-                "excluded": false
-            },
-            {
-                "name": "ObstacleTrigger",
                 "excluded": false
             },
             {
@@ -16820,7 +16816,7 @@
                     },
                     {
                         "name": "childCount#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "name#get",
@@ -16888,7 +16884,7 @@
                     },
                     {
                         "name": "GetChild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IsChildOf",
@@ -25946,27 +25942,27 @@
                 "instanceMethods": [
                     {
                         "name": "updateRotation#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "updateRotation#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "updatePosition#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "updatePosition#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "desiredVelocity#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "desiredVelocity#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetDestination",
@@ -33243,16 +33239,6 @@
                 ]
             },
             {
-                "className": "NextTarget",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "OnTriggerEnter",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
                 "className": "PatrolMovementController",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -33465,19 +33451,11 @@
                         "excluded": false
                     },
                     {
-                        "name": "FindTarget",
-                        "excluded": false
-                    },
-                    {
                         "name": "FixedUpdate",
                         "excluded": false
                     },
                     {
                         "name": "GatherInput",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Move",
                         "excluded": false
                     },
                     {
@@ -33489,12 +33467,8 @@
                         "excluded": false
                     },
                     {
-                        "name": "OnDestroy$1",
+                        "name": "UpdateTargetPosition",
                         "excluded": false
-                    },
-                    {
-                        "name": "SetNextTarget",
-                        "excluded": true
                     }
                 ]
             },
@@ -33520,6 +33494,10 @@
                     },
                     {
                         "name": "Die",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
                         "excluded": false
                     }
                 ]
@@ -36371,6 +36349,38 @@
                         "excluded": true
                     }
                 ]
+            },
+            {
+                "className": "NodeManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SortNodesByZAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetFirstNode",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "AINode",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    }
+                ]
             }
         ],
         "stubberDataList": [],
@@ -36382,7 +36392,7 @@
             "enabled": false
         },
         "playerPrefs": true,
-        "enableDynamicBatching": false,
+        "enableDynamicBatching": true,
         "forceSourcesBasedCompilation": false
     },
     "assets": {
@@ -36392,7 +36402,7 @@
                     "maxWidth": 512,
                     "maxHeight": 512,
                     "format": "png32",
-                    "compression": "quantSize",
+                    "compression": "quantQuality",
                     "quality": 65,
                     "script": "",
                     "ext": ""
