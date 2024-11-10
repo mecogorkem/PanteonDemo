@@ -36,7 +36,7 @@ public class BotController : CharacterBaseController
 
 	protected override void GatherInput()
 	{
-		if (Vector3.Distance(base.transform.position, targetPos.transform.position) < 3f)
+		if (Vector3.Distance(base.transform.position, targetPos.transform.position) < 1f)
 		{
 			UpdateTargetPosition();
 		}

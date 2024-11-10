@@ -3516,7 +3516,7 @@ if ( TRACE ) { TRACE( "BotController#FixedUpdate", this ); }
             GatherInput: function () {
 if ( TRACE ) { TRACE( "BotController#GatherInput", this ); }
 
-                if (pc.Vec3.distance( this.transform.position, this.targetPos.transform.position ) < 3.0) {
+                if (pc.Vec3.distance( this.transform.position, this.targetPos.transform.position ) < 1.0) {
                     this.UpdateTargetPosition();
                 }
                 this.direction = (this.targetPos.transform.position.$clone().sub( this.transform.position )).clone().normalize().$clone();
