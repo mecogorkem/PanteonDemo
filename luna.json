@@ -1,8 +1,8 @@
 {
     "version": "6.2.0",
     "projectId": "183a878df3c572c46b908bc772bb8712",
-    "applicationID": 0,
-    "creativeName": "iki",
+    "applicationID": 25575,
+    "creativeName": "Second",
     "pgServer": "EU",
     "window": {
         "‐‵": true
@@ -130,11 +130,13 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/First_Playable.unity",
-            "Assets/Scenes/WallPainter.unity"
+            "Assets/Scenes/Third_Playable.unity"
         ],
         "disabledScenes": [
-            "Assets/Scenes/Main.unity"
+            "Assets/Scenes/First_Playable.unity",
+            "Assets/Scenes/Main.unity",
+            "Assets/Scenes/Second_Playable.unity",
+            "Assets/Scenes/WallPainter.unity"
         ],
         "startupScene": 0,
         "packages": {
@@ -14772,7 +14774,7 @@
                     },
                     {
                         "name": "InternalErrorShaderMaterial#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Blit",
@@ -17768,7 +17770,7 @@
                     },
                     {
                         "name": "material#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "material#set",
@@ -17808,7 +17810,7 @@
                     },
                     {
                         "name": "materials#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "materials#set",
@@ -22974,7 +22976,7 @@
                 "instanceMethods": [
                     {
                         "name": "name#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "name#set",
@@ -23158,7 +23160,7 @@
                     },
                     {
                         "name": "SetTexture",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetTextureScale$1",
@@ -28496,7 +28498,7 @@
                     },
                     {
                         "name": "ResizeInternalArray",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResizeInternalArray$1",
@@ -36502,6 +36504,68 @@
                     },
                     {
                         "name": "Die",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PainterGame",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SelectMask",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FixedUpdate",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetBrushColor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetBrushSize",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PaintBetweenPositions",
+                        "excluded": false
+                    },
+                    {
+                        "name": "paint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculatePaintedPercentage",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CompleteGame",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsCompletionConditionMet",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayAgain",
                         "excluded": false
                     }
                 ]

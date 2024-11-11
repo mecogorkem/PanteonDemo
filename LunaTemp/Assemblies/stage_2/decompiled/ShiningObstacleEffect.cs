@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class ShiningObstacleEffect : ObstacleBase, IEnterEffect
@@ -28,6 +29,10 @@ public class ShiningObstacleEffect : ObstacleBase, IEnterEffect
 			pushDirection.y = 0f;
 			pushDirection = pushDirection.normalized;
 			pushable.Push(pushDirection, pushForce);
+			base.transform.DOScale(1.25f, 0.25f).OnComplete(delegate
+			{
+				base.transform.DOScale(1f, 0.25f);
+			});
 			if (shineParticle != null)
 			{
 				ParticleSystem.MainModule main = shineParticle.main;

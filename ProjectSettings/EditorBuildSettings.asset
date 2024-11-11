@@ -6,14 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: c850ee8c3b14cc8459e7e186857cf567
+    path: Assets/Scenes/MainMenu.unity
+    guid: f2dfa19d0400c5f49b47fb5bbfdc9807
+  - enabled: 1
+    path: Assets/Scenes/MainGame.unity
+    guid: 6e86a98bd5e8c164795ebccdece7532d
   - enabled: 1
     path: Assets/Scenes/WallPainter.unity
     guid: 9e8669abc4513fc4b8f3ce12b82a8040
   - enabled: 1
     path: Assets/Scenes/First_Playable.unity
+    guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: Assets/Scenes/Second_Playable.unity
     guid: 6d97614807bf8c94e886df8c04913fc0
+  - enabled: 1
+    path: Assets/Scenes/Third_Playable.unity
+    guid: 8e7fc98627bd7b146b7af79054ee2e0f
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 705f7dd2ab172814f9b055267162a0ba,
       type: 2}

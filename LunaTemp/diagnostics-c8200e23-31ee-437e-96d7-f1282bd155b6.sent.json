@@ -1,0 +1,250 @@
+{
+  "BuildID": "c8200e23-31ee-437e-96d7-f1282bd155b6",
+  "Command": "project:build",
+  "ProjectID": "183a878df3c572c46b908bc772bb8712",
+  "ProjectStateHash": "e8cc301b902e53c7609d94f303e6758d8dfb4820035fbec81037c7c113781e0a",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1731289778526,
+  "EndTime": 1731289823621,
+  "PlaygroundUserID": 18929,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2021.3.45f1\r",
+  "LunaVersion": "6.2.0",
+  "LogCount": 8,
+  "Logs": [
+    {
+      "LogID": "9c4ba41c-d48d-489c-aab3-f47017e4676b",
+      "Order": 7,
+      "Timestamp": 1731289823980,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "6cc98f14-d588-4ae3-9bf9-e269d066ffaf",
+      "Order": 7,
+      "Timestamp": 1731289823981,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "42d3aaca-b88f-452a-92bc-ec61ed69e0e1",
+      "Order": 0,
+      "Timestamp": 1731289795237,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1016",
+      "Description": "Extensive usage of Rigidbody Component",
+      "Details": [
+        "There is extensive usage of the Rigidbody component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 12."
+      ],
+      "DescriptionValues": [
+        "Rigidbody"
+      ],
+      "DetailsValues": [
+        "Rigidbody",
+        "10",
+        "12"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f07398de-5f7c-49bb-bfda-999beb2e18f0",
+      "Order": 1,
+      "Timestamp": 1731289795237,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1016",
+      "Description": "Extensive usage of ParticleSystem Component",
+      "Details": [
+        "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 17."
+      ],
+      "DescriptionValues": [
+        "ParticleSystem"
+      ],
+      "DetailsValues": [
+        "ParticleSystem",
+        "10",
+        "17"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "07b4b7b4-deab-4308-8f36-1e7837dc07ff",
+      "Order": 2,
+      "Timestamp": 1731289795239,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1022",
+      "Description": "Extensive use of shader variants",
+      "Details": [
+        "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (50 found). Check Runtime analysis -> shader tab to see used shaders."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "20",
+        "50"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "895d80c0-a596-4a32-9300-6e0763e5beda",
+      "Order": 3,
+      "Timestamp": 1731289795240,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1024",
+      "Description": "Huge RAM usage",
+      "Details": [
+        "Playable have huge RAM usage (313,97 MB). Recommended RAM value is lower than 256,00 MB to support low-end devices"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "256,00",
+        "313,97"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ce3321ee-1dfd-4544-8d29-8740e44db95d",
+      "Order": 4,
+      "Timestamp": 1731289795253,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Quad",
+        "StaticObstacle (2)",
+        "Platform",
+        "Platform (1)",
+        "StaticObstacle (3)",
+        "Platform (2)",
+        "Platform (3)",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "Half_Donut_01",
+        "StaticObstacle (4)",
+        "StaticObstacle (5)",
+        "StaticObstacle (6)",
+        "StaticObstacle (7)"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 39,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "67c7c59e-c62c-4432-b262-31c73db0fd9e",
+      "Order": 5,
+      "Timestamp": 1731289795253,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1033",
+      "Description": "Use of unsupported Character Controller detected.",
+      "Details": [
+        "Player",
+        "Girl",
+        "Player",
+        "Girl (1)",
+        "Girl (2)",
+        "Girl (3)",
+        "Girl (5)",
+        "Girl (6)",
+        "Girl (7)",
+        "Girl (8)",
+        "Girl (9)",
+        "Girl (10)"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 12,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

@@ -5,16 +5,19 @@ public class FOVCalculator : MonoBehaviour
 {
 	private void Start()
 	{
-		float referenceWidth = 1440f;
-		float referenceHeight = 2560f;
-		float targetWidth = Screen.width;
-		float targetHeight = Screen.height;
-		float referenceFOV = 90f;
-		float targetFOV = CalculateVerticalFOV(referenceWidth, referenceHeight, targetWidth, targetHeight, referenceFOV);
-		Camera camera = Camera.main;
-		if (camera != null)
+		if (Screen.height >= Screen.width)
 		{
-			camera.fieldOfView = targetFOV;
+			float referenceWidth = 1440f;
+			float referenceHeight = 2560f;
+			float targetWidth = Screen.width;
+			float targetHeight = Screen.height;
+			float referenceFOV = 90f;
+			float targetFOV = CalculateVerticalFOV(referenceWidth, referenceHeight, targetWidth, targetHeight, referenceFOV);
+			Camera camera = Camera.main;
+			if (camera != null)
+			{
+				camera.fieldOfView = targetFOV;
+			}
 		}
 	}
 

@@ -4,6 +4,11 @@ public class FOVCalculator : MonoBehaviour
 {
     void Start()
     {
+        if (Screen.height < Screen.width)
+        {
+            return;
+        }
+
         float referenceWidth = 1440f;
         float referenceHeight = 2560f;
         float targetWidth = Screen.width;

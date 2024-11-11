@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 
 public class ShiningObstacleEffect : ObstacleBase, IEnterEffect
 {
@@ -27,8 +28,10 @@ public class ShiningObstacleEffect : ObstacleBase, IEnterEffect
             pushDirection.y = 0; // Y ekseninde itme yapmamalı
             pushDirection = pushDirection.normalized;
             pushable.Push(pushDirection, pushForce);
-            
-            // Parıltı efektini oynat
+            transform.DOScale(1.25f, 0.25f).OnComplete(() =>
+            {
+                transform.DOScale(1f, 0.25f);
+            });
             if (shineParticle != null)
             {
                 var main = shineParticle.main;

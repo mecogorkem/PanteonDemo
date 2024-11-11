@@ -47,7 +47,7 @@ public class WallPainter : MonoBehaviour
     private Texture2D readTexture;
 
     private Material paintMaterial;
-
+    private bool isGameManagerAvailable;
     private void Awake()
     {
         paintMaterial = new Material(texturePaint);
@@ -66,7 +66,12 @@ public class WallPainter : MonoBehaviour
         redButton.onClick.AddListener(() => SetBrushColor(Color.red, redButton));
         blueButton.onClick.AddListener(() => SetBrushColor(Color.cyan, blueButton));
         brushSizeSlider.onValueChanged.AddListener(SetBrushSize);
-        GameManager.Instance.onGameComplete += CompleteGame;
+        isGameManagerAvailable = GameManager.Instance != null;
+        if (isGameManagerAvailable)
+        {
+            GameManager.Instance.onGameComplete += CompleteGame;
+
+        }
         SetBrushColor(Color.yellow, yellowButton);
     }
 
@@ -79,7 +84,7 @@ public class WallPainter : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.isGameCompleted) return;
+        if (isGameManagerAvailable && GameManager.Instance.isGameCompleted) return;
         
         if (Input.GetMouseButton(0))
         {
@@ -96,7 +101,7 @@ public class WallPainter : MonoBehaviour
                         PaintBetweenPositions(lastPaintedPosition.Value, currentPos, distance);
                     }
                 }
-
+                Debug.Log("Painting");
                 paint(currentPos, brushSize, 0, 1, currentColor);
                 lastPaintedPosition = currentPos;
             }
@@ -112,7 +117,7 @@ public class WallPainter : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(GameManager.Instance.isGameCompleted) return;
+        if(isGameManagerAvailable && GameManager.Instance.isGameCompleted) return;
         CalculatePaintedPercentage();
     }
 

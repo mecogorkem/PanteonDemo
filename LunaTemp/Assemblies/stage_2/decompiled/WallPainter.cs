@@ -81,6 +81,8 @@ public class WallPainter : MonoBehaviour
 
 	private Material paintMaterial;
 
+	private bool isGameManagerAvailable;
+
 	private void Awake()
 	{
 		paintMaterial = new Material(texturePaint);
@@ -116,8 +118,12 @@ public class WallPainter : MonoBehaviour
 			SetBrushColor(Color.cyan, blueButton);
 		});
 		brushSizeSlider.onValueChanged.AddListener(SetBrushSize);
-		GameManager ınstance = GameManager.Instance;
-		ınstance.onGameComplete = (Action)Delegate.Combine(ınstance.onGameComplete, new Action(CompleteGame));
+		isGameManagerAvailable = GameManager.Instance != null;
+		if (isGameManagerAvailable)
+		{
+			GameManager ınstance = GameManager.Instance;
+			ınstance.onGameComplete = (Action)Delegate.Combine(ınstance.onGameComplete, new Action(CompleteGame));
+		}
 		SetBrushColor(Color.yellow, yellowButton);
 	}
 
@@ -130,7 +136,7 @@ public class WallPainter : MonoBehaviour
 
 	private void Update()
 	{
-		if (GameManager.Instance.isGameCompleted)
+		if (isGameManagerAvailable && GameManager.Instance.isGameCompleted)
 		{
 			return;
 		}
@@ -148,6 +154,7 @@ public class WallPainter : MonoBehaviour
 						PaintBetweenPositions(lastPaintedPosition.Value, currentPos, distance);
 					}
 				}
+				Debug.Log("Painting");
 				paint(currentPos, brushSize, 0f, 1f, currentColor);
 				lastPaintedPosition = currentPos;
 			}
@@ -163,7 +170,7 @@ public class WallPainter : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		if (!GameManager.Instance.isGameCompleted)
+		if (!isGameManagerAvailable || !GameManager.Instance.isGameCompleted)
 		{
 			CalculatePaintedPercentage();
 		}

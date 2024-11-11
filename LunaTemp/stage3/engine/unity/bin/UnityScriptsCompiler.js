@@ -1,4 +1,4 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AINode#init","BackgroundMusic#Awake","ObstacleBase#Awake","ObstacleBase#IsPlayerOrBot","ObstacleBase#OnTriggerEnter","ObstacleBase#OnTriggerStay","ObstacleBase#OnTriggerExit","BombPrefab#init","BombPrefab#OnTriggerEnter","CameraFollow#init","CameraFollow#Start","CameraFollow#LateUpdate","CameraFollow#MoveToFinishTarget","Collectable#init","Collectable#Start","Collectable#CoinMove","CoinManager#init","CoinManager#Awake","CoinManager#Start","CoinManager#CollectCoin","CoinManager#AddCoins","CoinManager#UpdateCoinUI","ColorGenerator#init","ColorGenerator#GenerateRandomVibrantColor","DeathCounter#init","DeathCounter#ResetDeathCounter","DeathCounter#Start","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","FinishLine#OnTriggerEnter","FOVCalculator#Start","FOVCalculator#CalculateVerticalFOV","GameManager#init","GameManager#Awake","GameManager#Start","GameManager#Update","GameManager#AnimateTapToStart","GameManager#HideTapToStartText","GameManager#StartCountdown","GameManager#StartGame","GameManager#FinishLine","GameManager#LoadWallPaintingScene","GameManager#CompleteGame","GameManager#OpenCompleteGameUI","GameManager#PlayAgain","Joystick#init","Joystick#Awake","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#OnPointerUp","Joystick#GetInputVector","LocalRotationController#init","LocalRotationController#Update","LocalRotationController#Rotate","NodeManager#init","NodeManager#Awake","NodeManager#SortNodesByZAxis","NodeManager#GetFirstNode","PatrolMovementController#init","PatrolMovementController#Update","PatrolMovementController#Move","Player#Start","Player#MoveToGameCompleteTarget","Player#MoveToFinishTarget","Player#Die","PowerupManager#init","PowerupManager#Clicked","PowerupManager#Awake","PowerupManager#CollectPowerUp","PowerupManager#HandlePowerUpPlacement","PowerupManager#GetTextForPowerUp","PowerupManager#GetPowerUpPrefab","RankManager#init","RankManager#Awake","RankManager#FixedUpdate","RankManager#UpdatePlayerRank","RankManager#RemoveRacer","RankManager#GetFirstRacerPosition","SoundManager#Awake","SoundManager#PlaySoundEffect","SoundManager#PlayPushSound","SoundManager#PlayCoinSound","SoundManager#PlayCountdownSound","SoundManager#PlayBotDeathSound","SoundManager#PlayCoinFirstInteractionSound","WallPainter#init","WallPainter#Awake","WallPainter#Start","WallPainter#CompleteGame","WallPainter#Update","WallPainter#FixedUpdate","WallPainter#SetBrushColor","WallPainter#SetBrushSize","WallPainter#PaintBetweenPositions","WallPainter#paint","WallPainter#CalculatePaintedPercentage","WallPainter#UpdatePaintedPercentageText","BasicPushObstacleEffect#init","BasicPushObstacleEffect#OnStayEffect","CharacterBaseController#init","CharacterBaseController#Awake","CharacterBaseController#FixedUpdate","CharacterBaseController#AssignAnimationIDs","CharacterBaseController#Move","CharacterBaseController#AnimatorUpdate","CharacterBaseController#ApplyGravity","CharacterBaseController#ApplyPushForce","CharacterBaseController#Push","CharacterBaseController#PushNoSound","CharacterBaseController#CheckFallBelowThreshold","CharacterBaseController#Die","CharacterBaseController#OnDestroy","CoinCollectible#OnTriggerEnter","DeathObstacleEffect#OnEnterEffect","PowerUp#OnTriggerEnter","RotaterPushObstacleEffect#init","RotaterPushObstacleEffect#OnEnterEffect","ShiningObstacleEffect#init","ShiningObstacleEffect#Awake","ShiningObstacleEffect#OnEnterEffect","BotController#init","BotController#Awake","BotController#Start","BotController#FixedUpdate","BotController#GatherInput","BotController#UpdateTargetPosition","BotController#Die","BotController#RealDie","BotController#DeathAnim","PlayerController#init","PlayerController#Start","PlayerController#GatherInput","PlayerController#Die"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AINode#init","BackgroundMusic#Awake","ObstacleBase#Awake","ObstacleBase#IsPlayerOrBot","ObstacleBase#OnTriggerEnter","ObstacleBase#OnTriggerStay","ObstacleBase#OnTriggerExit","BombPrefab#init","BombPrefab#OnTriggerEnter","CameraFollow#init","CameraFollow#Start","CameraFollow#LateUpdate","CameraFollow#MoveToFinishTarget","Collectable#init","Collectable#Start","Collectable#CoinMove","CoinManager#init","CoinManager#Awake","CoinManager#Start","CoinManager#CollectCoin","CoinManager#AddCoins","CoinManager#UpdateCoinUI","ColorGenerator#init","ColorGenerator#GenerateRandomVibrantColor","DeathCounter#init","DeathCounter#ResetDeathCounter","DeathCounter#Start","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","FinishLine#OnTriggerEnter","FOVCalculator#Start","FOVCalculator#CalculateVerticalFOV","GameManager#init","GameManager#Awake","GameManager#Start","GameManager#Update","GameManager#AnimateTapToStart","GameManager#HideTapToStartText","GameManager#StartCountdown","GameManager#StartGame","GameManager#FinishLine","GameManager#LoadWallPaintingScene","GameManager#CompleteGame","GameManager#OpenCompleteGameUI","GameManager#PlayAgain","Joystick#init","Joystick#Awake","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#OnPointerUp","Joystick#GetInputVector","LocalRotationController#init","LocalRotationController#Update","LocalRotationController#Rotate","NodeManager#init","NodeManager#Awake","NodeManager#SortNodesByZAxis","NodeManager#GetFirstNode","PainterGame#init","PainterGame#SelectMask","PainterGame#Awake","PainterGame#Start","PainterGame#Update","PainterGame#FixedUpdate","PainterGame#SetBrushColor","PainterGame#SetBrushSize","PainterGame#PaintBetweenPositions","PainterGame#paint","PainterGame#CalculatePaintedPercentage","PainterGame#CompleteGame","PainterGame#IsCompletionConditionMet","PainterGame#PlayAgain","PatrolMovementController#init","PatrolMovementController#Update","PatrolMovementController#Move","Player#Start","Player#MoveToGameCompleteTarget","Player#MoveToFinishTarget","Player#Die","PowerupManager#init","PowerupManager#Clicked","PowerupManager#Awake","PowerupManager#CollectPowerUp","PowerupManager#HandlePowerUpPlacement","PowerupManager#GetTextForPowerUp","PowerupManager#GetPowerUpPrefab","RankManager#init","RankManager#Awake","RankManager#FixedUpdate","RankManager#UpdatePlayerRank","RankManager#RemoveRacer","RankManager#GetFirstRacerPosition","SoundManager#Awake","SoundManager#PlaySoundEffect","SoundManager#PlayPushSound","SoundManager#PlayCoinSound","SoundManager#PlayCountdownSound","SoundManager#PlayBotDeathSound","SoundManager#PlayCoinFirstInteractionSound","WallPainter#init","WallPainter#Awake","WallPainter#Start","WallPainter#CompleteGame","WallPainter#Update","WallPainter#FixedUpdate","WallPainter#SetBrushColor","WallPainter#SetBrushSize","WallPainter#PaintBetweenPositions","WallPainter#paint","WallPainter#CalculatePaintedPercentage","WallPainter#UpdatePaintedPercentageText","BasicPushObstacleEffect#init","BasicPushObstacleEffect#OnStayEffect","CharacterBaseController#init","CharacterBaseController#Awake","CharacterBaseController#FixedUpdate","CharacterBaseController#AssignAnimationIDs","CharacterBaseController#Move","CharacterBaseController#AnimatorUpdate","CharacterBaseController#ApplyGravity","CharacterBaseController#ApplyPushForce","CharacterBaseController#Push","CharacterBaseController#PushNoSound","CharacterBaseController#CheckFallBelowThreshold","CharacterBaseController#Die","CharacterBaseController#OnDestroy","CoinCollectible#OnTriggerEnter","DeathObstacleEffect#OnEnterEffect","PowerUp#OnTriggerEnter","RotaterPushObstacleEffect#init","RotaterPushObstacleEffect#OnEnterEffect","ShiningObstacleEffect#init","ShiningObstacleEffect#Awake","ShiningObstacleEffect#OnEnterEffect","BotController#init","BotController#Awake","BotController#Start","BotController#FixedUpdate","BotController#GatherInput","BotController#UpdateTargetPosition","BotController#Die","BotController#RealDie","BotController#DeathAnim","PlayerController#init","PlayerController#Start","PlayerController#GatherInput","PlayerController#Die"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -2273,15 +2273,17 @@ if ( TRACE ) { TRACE( "FinishLine#OnTriggerEnter", this ); }
             Start: function () {
 if ( TRACE ) { TRACE( "FOVCalculator#Start", this ); }
 
-                var referenceWidth = 1440.0;
-                var referenceHeight = 2560.0;
-                var targetWidth = UnityEngine.Screen.width;
-                var targetHeight = UnityEngine.Screen.height;
-                var referenceFOV = 90.0;
-                var targetFOV = this.CalculateVerticalFOV(referenceWidth, referenceHeight, targetWidth, targetHeight, referenceFOV);
-                var camera = UnityEngine.Camera.main;
-                if (UnityEngine.Component.op_Inequality(camera, null)) {
-                    camera.fieldOfView = targetFOV;
+                if (UnityEngine.Screen.height >= UnityEngine.Screen.width) {
+                    var referenceWidth = 1440.0;
+                    var referenceHeight = 2560.0;
+                    var targetWidth = UnityEngine.Screen.width;
+                    var targetHeight = UnityEngine.Screen.height;
+                    var referenceFOV = 90.0;
+                    var targetFOV = this.CalculateVerticalFOV(referenceWidth, referenceHeight, targetWidth, targetHeight, referenceFOV);
+                    var camera = UnityEngine.Camera.main;
+                    if (UnityEngine.Component.op_Inequality(camera, null)) {
+                        camera.fieldOfView = targetFOV;
+                    }
                 }
             },
             /*FOVCalculator.Start end.*/
@@ -2746,6 +2748,285 @@ if ( TRACE ) { TRACE( "NodeManager#GetFirstNode", this ); }
         }
     });
     /*NodeManager end.*/
+
+    /*PainterGame start.*/
+    Bridge.define("PainterGame", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            brushSizeSlider: null,
+            yellowButton: null,
+            redButton: null,
+            blueButton: null,
+            canvas: null,
+            mainMaterial: null,
+            _meshRenderer: null,
+            wallTransform: null,
+            _audioSource: null,
+            maxVolume: 0,
+            volumeFadeSpeed: 0,
+            currentVolume: 0,
+            currentColor: null,
+            brushSize: 0,
+            paintedPercentage: 0,
+            totalWallPixels: 0,
+            lastPaintedPosition: null,
+            paintThreshold: 0,
+            "textureID": 0,
+            "subTextureId": 0,
+            "colorID": 0,
+            "positionID": 0,
+            "radiusID": 0,
+            "hardnessID": 0,
+            "strengthID": 0,
+            texturePaint: null,
+            supportTexture: null,
+            supportTexture2: null,
+            readTexture: null,
+            paintMaterial: null,
+            isGameManagerAvailable: false,
+            maskSprites: null,
+            maskRenderer: null,
+            selectedTexture: null,
+            red: 0,
+            blue: 0,
+            yellow: 0,
+            isCompleted: false,
+            completeTime: 0,
+            "completeGameUI": null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "PainterGame#init", this ); }
+
+                this.currentColor = new UnityEngine.Color();
+                this.maxVolume = 0.2;
+                this.volumeFadeSpeed = 0.5;
+                this.currentVolume = 0.0;
+                this.currentColor = new pc.Color( 1, 1, 0, 1 );
+                this.brushSize = 0.1;
+                this.paintedPercentage = 0.0;
+                this.paintThreshold = 0.05;
+                this["textureID"] = UnityEngine.Shader.PropertyToID("_MainTex");
+                this["subTextureId"] = UnityEngine.Shader.PropertyToID("_SubTex");
+                this["colorID"] = UnityEngine.Shader.PropertyToID("_PainterColor");
+                this["positionID"] = UnityEngine.Shader.PropertyToID("_PainterPosition");
+                this["radiusID"] = UnityEngine.Shader.PropertyToID("_Radius");
+                this["hardnessID"] = UnityEngine.Shader.PropertyToID("_Hardness");
+                this["strengthID"] = UnityEngine.Shader.PropertyToID("_Strength");
+                this.isCompleted = false;
+                this.completeTime = 1.0;
+            }
+        },
+        methods: {
+            /*PainterGame.SelectMask start.*/
+            SelectMask: function (maskIndex) {
+if ( TRACE ) { TRACE( "PainterGame#SelectMask", this ); }
+
+                this.maskRenderer.material.mainTexture = this.maskSprites.getItem(maskIndex).texture;
+                this.selectedTexture = this.maskSprites.getItem(maskIndex).texture;
+            },
+            /*PainterGame.SelectMask end.*/
+
+            /*PainterGame.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "PainterGame#Awake", this ); }
+
+                var $t;
+                this.paintMaterial = new UnityEngine.Material.$ctor2(this.texturePaint);
+                this.supportTexture = ($t = new UnityEngine.RenderTexture.$ctor1(103, 70, 0), $t.filterMode = UnityEngine.FilterMode.Bilinear, $t);
+                this.supportTexture2 = ($t = new UnityEngine.RenderTexture.$ctor1(103, 70, 0), $t.filterMode = UnityEngine.FilterMode.Bilinear, $t);
+                this.mainMaterial = ($t = new UnityEngine.Material.$ctor1(this.mainMaterial), $t.mainTexture = this.supportTexture2, $t);
+                this._meshRenderer.material = this.mainMaterial;
+                this.readTexture = new UnityEngine.Texture2D.$ctor11(this.supportTexture.width, this.supportTexture.height, UnityEngine.TextureFormat.RGBA32, false);
+                this.totalWallPixels = Bridge.Int.mul(this.supportTexture.width, this.supportTexture.height);
+            },
+            /*PainterGame.Awake end.*/
+
+            /*PainterGame.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "PainterGame#Start", this ); }
+
+                this.yellowButton.onClick.AddListener(Bridge.fn.bind(this, function () {
+                    this.SetBrushColor(new pc.Color( 1, 1, 0, 1 ), this.yellowButton);
+                }));
+                this.redButton.onClick.AddListener(Bridge.fn.bind(this, function () {
+                    this.SetBrushColor(new pc.Color( 1, 0, 0, 1 ), this.redButton);
+                }));
+                this.blueButton.onClick.AddListener(Bridge.fn.bind(this, function () {
+                    this.SetBrushColor(new pc.Color( 0, 1, 1, 1 ), this.blueButton);
+                }));
+                this.brushSizeSlider.onValueChanged.AddListener(Bridge.fn.cacheBind(this, this.SetBrushSize));
+                this.isGameManagerAvailable = UnityEngine.MonoBehaviour.op_Inequality(GameManager["Instance"], null);
+                if (this.isGameManagerAvailable) {
+                    var ınstance = GameManager["Instance"];
+                    ınstance.onGameComplete = Bridge.fn.combine(ınstance.onGameComplete, Bridge.fn.cacheBind(this, this.CompleteGame));
+                }
+                this.SetBrushColor(new pc.Color( 1, 1, 0, 1 ), this.yellowButton);
+                this.SelectMask(0);
+            },
+            /*PainterGame.Start end.*/
+
+            /*PainterGame.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "PainterGame#Update", this ); }
+
+                if (this.isCompleted) {
+                    return;
+                }
+                if (UnityEngine.Input.GetMouseButton(0)) {
+                    var ray = UnityEngine.Camera.main.ScreenPointToRay(UnityEngine.Input.mousePosition);
+                    var hit = { v : new UnityEngine.RaycastHit() };
+                    if (UnityEngine.Physics.Raycast$1(ray, hit) && UnityEngine.Component.op_Equality(hit.v.transform, this.wallTransform)) {
+                        var currentPos = new pc.Vec2( hit.v.textureCoord.x, hit.v.textureCoord.y );
+                        if (System.Nullable.hasValue(this.lastPaintedPosition)) {
+                            var distance = System.Nullable.getValue(this.lastPaintedPosition).$clone().sub( currentPos ).length();
+                            if (distance > this.paintThreshold) {
+                                this.PaintBetweenPositions(System.Nullable.getValue(this.lastPaintedPosition).$clone(), currentPos.$clone(), distance);
+                            }
+                        }
+                        this.paint(currentPos.$clone(), this.brushSize, 0.0, 1.0, this.currentColor.$clone());
+                        this.lastPaintedPosition = currentPos.$clone();
+                    }
+                    this.currentVolume = UnityEngine.Mathf.MoveTowards(this.currentVolume, this.maxVolume, this.volumeFadeSpeed * UnityEngine.Time.deltaTime);
+                } else {
+                    this.currentVolume = UnityEngine.Mathf.MoveTowards(this.currentVolume, 0.0, this.volumeFadeSpeed * UnityEngine.Time.deltaTime);
+                    this.lastPaintedPosition = null;
+                }
+                this._audioSource.volume = this.currentVolume;
+            },
+            /*PainterGame.Update end.*/
+
+            /*PainterGame.FixedUpdate start.*/
+            FixedUpdate: function () {
+if ( TRACE ) { TRACE( "PainterGame#FixedUpdate", this ); }
+
+                if (!this.isCompleted) {
+                    this.CalculatePaintedPercentage();
+                }
+            },
+            /*PainterGame.FixedUpdate end.*/
+
+            /*PainterGame.SetBrushColor start.*/
+            SetBrushColor: function (color, selectedButton) {
+if ( TRACE ) { TRACE( "PainterGame#SetBrushColor", this ); }
+
+                this.currentColor = color.$clone();
+                DG.Tweening.ShortcutExtensions.DOScale(this.yellowButton.transform, (UnityEngine.MonoBehaviour.op_Equality(selectedButton, this.yellowButton)) ? 1.2 : 1.0, 0.2);
+                DG.Tweening.ShortcutExtensions.DOScale(this.redButton.transform, (UnityEngine.MonoBehaviour.op_Equality(selectedButton, this.redButton)) ? 1.2 : 1.0, 0.2);
+                DG.Tweening.ShortcutExtensions.DOScale(this.blueButton.transform, (UnityEngine.MonoBehaviour.op_Equality(selectedButton, this.blueButton)) ? 1.2 : 1.0, 0.2);
+            },
+            /*PainterGame.SetBrushColor end.*/
+
+            /*PainterGame.SetBrushSize start.*/
+            SetBrushSize: function (size) {
+if ( TRACE ) { TRACE( "PainterGame#SetBrushSize", this ); }
+
+                this.brushSize = size;
+            },
+            /*PainterGame.SetBrushSize end.*/
+
+            /*PainterGame.PaintBetweenPositions start.*/
+            PaintBetweenPositions: function (start, end, distance) {
+if ( TRACE ) { TRACE( "PainterGame#PaintBetweenPositions", this ); }
+
+                var steps = Math.ceil(distance / this.paintThreshold);
+                for (var i = 1; i <= steps; i = (i + 1) | 0) {
+                    var interpolatedPos = new pc.Vec2().lerp( start, end, i / steps );
+                    this.paint(interpolatedPos.$clone(), this.brushSize, 0.0, 1.0, this.currentColor.$clone());
+                }
+            },
+            /*PainterGame.PaintBetweenPositions end.*/
+
+            /*PainterGame.paint start.*/
+            paint: function (pos, radius, hardness, strength, color) {
+if ( TRACE ) { TRACE( "PainterGame#paint", this ); }
+
+                var $t;
+                if (radius === void 0) { radius = 0.13; }
+                if (hardness === void 0) { hardness = 0.0; }
+                if (strength === void 0) { strength = 1.0; }
+                if (color === void 0) { color = null; }
+                this.paintMaterial.SetVector(this["positionID"], UnityEngine.Vector4.FromVector2(pos));
+                this.paintMaterial.SetFloat(this["hardnessID"], hardness);
+                this.paintMaterial.SetFloat(this["strengthID"], strength);
+                this.paintMaterial.SetFloat(this["radiusID"], radius);
+                this.paintMaterial.SetColor(this["colorID"], ($t = color, $t != null ? $t : this.currentColor));
+                this.paintMaterial.SetTexture(this["subTextureId"], this.selectedTexture);
+                UnityEngine.Graphics.Blit(this.supportTexture2, this.supportTexture, this.paintMaterial);
+                UnityEngine.Graphics.Blit(this.supportTexture, this.supportTexture2);
+                this.mainMaterial.mainTexture = this.supportTexture2;
+            },
+            /*PainterGame.paint end.*/
+
+            /*PainterGame.CalculatePaintedPercentage start.*/
+            CalculatePaintedPercentage: function () {
+if ( TRACE ) { TRACE( "PainterGame#CalculatePaintedPercentage", this ); }
+
+                UnityEngine.RenderTexture.active = this.supportTexture2;
+                this.readTexture.ReadPixels(new UnityEngine.Rect.$ctor1(0.0, 0.0, this.supportTexture2.width, this.supportTexture2.height), 0, 0);
+                this.readTexture.Apply();
+                UnityEngine.RenderTexture.active = null;
+                var pixels = this.readTexture.GetPixels32();
+                this.red = 0.0;
+                this.blue = 0.0;
+                this.yellow = 0.0;
+                var array = pixels;
+                for (var i = 0; i < array.length; i = (i + 1) | 0) {
+                    var pixel = array[i].$clone();
+                    if (pixel.b > 150) {
+                        this.blue += 1.0;
+                    } else if (pixel.g > 150) {
+                        this.yellow += 1.0;
+                    } else if (pixel.r > 150) {
+                        this.red += 1.0;
+                    }
+                }
+                var redP = Math.round(this.red / this.totalWallPixels * 100.0);
+                var blueP = Math.round(this.blue / this.totalWallPixels * 100.0);
+                var yellowP = Math.round(this.yellow / this.totalWallPixels * 100.0);
+                if (this.IsCompletionConditionMet(redP, blueP, yellowP)) {
+                    this.completeTime -= UnityEngine.Time.deltaTime;
+                    if (this.completeTime <= 0.0) {
+                        this.CompleteGame();
+                    }
+                } else {
+                    this.completeTime = 1.0;
+                }
+            },
+            /*PainterGame.CalculatePaintedPercentage end.*/
+
+            /*PainterGame.CompleteGame start.*/
+            CompleteGame: function () {
+if ( TRACE ) { TRACE( "PainterGame#CompleteGame", this ); }
+
+                this.currentVolume = 0.0;
+                this._audioSource.volume = 0.0;
+                this.isCompleted = true;
+                this["completeGameUI"].SetActive(true);
+                this.maskRenderer.gameObject.SetActive(false);
+            },
+            /*PainterGame.CompleteGame end.*/
+
+            /*PainterGame.IsCompletionConditionMet start.*/
+            IsCompletionConditionMet: function (r, b, y) {
+if ( TRACE ) { TRACE( "PainterGame#IsCompletionConditionMet", this ); }
+
+                return (r >= 4 && b >= 8 && y >= 24) || (r >= 4 && b >= 24 && y >= 8) || (r >= 8 && b >= 4 && y >= 24) || (r >= 8 && b >= 24 && y >= 4) || (r >= 24 && b >= 4 && y >= 8) || (r >= 24 && b >= 8 && y >= 4);
+            },
+            /*PainterGame.IsCompletionConditionMet end.*/
+
+            /*PainterGame.PlayAgain start.*/
+            PlayAgain: function () {
+if ( TRACE ) { TRACE( "PainterGame#PlayAgain", this ); }
+
+                UnityEngine.SceneManagement.SceneManager.LoadScene$2(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            },
+            /*PainterGame.PlayAgain end.*/
+
+
+        }
+    });
+    /*PainterGame end.*/
 
     /*PatrolMovementController start.*/
     Bridge.define("PatrolMovementController", {
@@ -3294,7 +3575,8 @@ if ( TRACE ) { TRACE( "SoundManager#PlayCoinFirstInteractionSound", this ); }
             supportTexture: null,
             supportTexture2: null,
             readTexture: null,
-            paintMaterial: null
+            paintMaterial: null,
+            isGameManagerAvailable: false
         },
         ctors: {
             init: function () {
@@ -3346,8 +3628,11 @@ if ( TRACE ) { TRACE( "WallPainter#Start", this ); }
                     this.SetBrushColor(new pc.Color( 0, 1, 1, 1 ), this.blueButton);
                 }));
                 this.brushSizeSlider.onValueChanged.AddListener(Bridge.fn.cacheBind(this, this.SetBrushSize));
-                var ınstance = GameManager["Instance"];
-                ınstance.onGameComplete = Bridge.fn.combine(ınstance.onGameComplete, Bridge.fn.cacheBind(this, this.CompleteGame));
+                this.isGameManagerAvailable = UnityEngine.MonoBehaviour.op_Inequality(GameManager["Instance"], null);
+                if (this.isGameManagerAvailable) {
+                    var ınstance = GameManager["Instance"];
+                    ınstance.onGameComplete = Bridge.fn.combine(ınstance.onGameComplete, Bridge.fn.cacheBind(this, this.CompleteGame));
+                }
                 this.SetBrushColor(new pc.Color( 1, 1, 0, 1 ), this.yellowButton);
             },
             /*WallPainter.Start end.*/
@@ -3366,7 +3651,7 @@ if ( TRACE ) { TRACE( "WallPainter#CompleteGame", this ); }
             Update: function () {
 if ( TRACE ) { TRACE( "WallPainter#Update", this ); }
 
-                if (GameManager["Instance"].isGameCompleted) {
+                if (this.isGameManagerAvailable && GameManager["Instance"].isGameCompleted) {
                     return;
                 }
                 if (UnityEngine.Input.GetMouseButton(0)) {
@@ -3380,6 +3665,7 @@ if ( TRACE ) { TRACE( "WallPainter#Update", this ); }
                                 this.PaintBetweenPositions(System.Nullable.getValue(this.lastPaintedPosition).$clone(), currentPos.$clone(), distance);
                             }
                         }
+                        UnityEngine.Debug.Log$1("Painting");
                         this.paint(currentPos.$clone(), this.brushSize, 0.0, 1.0, this.currentColor.$clone());
                         this.lastPaintedPosition = currentPos.$clone();
                     }
@@ -3396,7 +3682,7 @@ if ( TRACE ) { TRACE( "WallPainter#Update", this ); }
             FixedUpdate: function () {
 if ( TRACE ) { TRACE( "WallPainter#FixedUpdate", this ); }
 
-                if (!GameManager["Instance"].isGameCompleted) {
+                if (!this.isGameManagerAvailable || !GameManager["Instance"].isGameCompleted) {
                     this.CalculatePaintedPercentage();
                 }
             },
@@ -3874,6 +4160,9 @@ if ( TRACE ) { TRACE( "ShiningObstacleEffect#OnEnterEffect", this ); }
                     pushDirection.y = 0.0;
                     pushDirection = pushDirection.clone().normalize().$clone();
                     pushable.IPushable$Push(pushDirection.$clone(), this.pushForce);
+                    DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOScale(this.transform, 1.25, 0.25), Bridge.fn.bind(this, function () {
+                        DG.Tweening.ShortcutExtensions.DOScale(this.transform, 1.0, 0.25);
+                    }));
                     if (UnityEngine.Component.op_Inequality(this.shineParticle, null)) {
                         var main = this.shineParticle.main;
                         main.startColor = ColorGenerator.GenerateRandomVibrantColor();
@@ -4184,6 +4473,10 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     $m("ObstacleBase", function () { return {"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"IsPlayerOrBot","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"IsPlayerOrBot","rt":$n[0].Boolean,"p":[$n[1].Collider],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"v":true,"a":3,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"v":true,"a":3,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"_enterEffect","t":4,"rt":IEnterEffect,"sn":"_enterEffect"},{"a":1,"n":"_exitEffect","t":4,"rt":IExitEffect,"sn":"_exitEffect"},{"a":1,"n":"_stayEffect","t":4,"rt":IStayEffect,"sn":"_stayEffect"}]}; }, $n);
     /*ObstacleBase end.*/
 
+    /*PainterGame start.*/
+    $m("PainterGame", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculatePaintedPercentage","t":8,"sn":"CalculatePaintedPercentage","rt":$n[0].Void},{"a":1,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"IsCompletionConditionMet","t":8,"pi":[{"n":"r","pt":$n[0].Int32,"ps":0},{"n":"b","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"IsCompletionConditionMet","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"PaintBetweenPositions","t":8,"pi":[{"n":"start","pt":$n[1].Vector2,"ps":0},{"n":"end","pt":$n[1].Vector2,"ps":1},{"n":"distance","pt":$n[0].Single,"ps":2}],"sn":"PaintBetweenPositions","rt":$n[0].Void,"p":[$n[1].Vector2,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"PlayAgain","t":8,"sn":"PlayAgain","rt":$n[0].Void},{"a":2,"n":"SelectMask","t":8,"pi":[{"n":"maskIndex","pt":$n[0].Int32,"ps":0}],"sn":"SelectMask","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"SetBrushColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0},{"n":"selectedButton","pt":$n[4].Button,"ps":1}],"sn":"SetBrushColor","rt":$n[0].Void,"p":[$n[1].Color,$n[4].Button]},{"a":1,"n":"SetBrushSize","t":8,"pi":[{"n":"size","pt":$n[0].Single,"ps":0}],"sn":"SetBrushSize","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"paint","t":8,"pi":[{"n":"pos","pt":$n[1].Vector2,"ps":0},{"n":"radius","dv":0.13,"o":true,"pt":$n[0].Single,"ps":1},{"n":"hardness","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"strength","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3},{"n":"color","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":4}],"sn":"paint","rt":$n[0].Void,"p":[$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Nullable$1(UnityEngine.Color)]},{"at":[new UnityEngine.HeaderAttribute("Sound"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_audioSource","t":4,"rt":$n[1].AudioSource,"sn":"_audioSource"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"_meshRenderer"},{"a":1,"n":"blue","t":4,"rt":$n[0].Single,"sn":"blue","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"blueButton","t":4,"rt":$n[4].Button,"sn":"blueButton"},{"a":1,"n":"brushSize","t":4,"rt":$n[0].Single,"sn":"brushSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brushSizeSlider","t":4,"rt":$n[4].Slider,"sn":"brushSizeSlider"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"canvas","t":4,"rt":$n[1].GameObject,"sn":"canvas"},{"a":1,"n":"colorID","t":4,"rt":$n[0].Int32,"sn":"colorID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"completeGameUI","t":4,"rt":$n[1].GameObject,"sn":"completeGameUI"},{"a":1,"n":"completeTime","t":4,"rt":$n[0].Single,"sn":"completeTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"currentColor","t":4,"rt":$n[1].Color,"sn":"currentColor"},{"a":1,"n":"currentVolume","t":4,"rt":$n[0].Single,"sn":"currentVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"hardnessID","t":4,"rt":$n[0].Int32,"sn":"hardnessID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"isCompleted","t":4,"rt":$n[0].Boolean,"sn":"isCompleted","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isGameManagerAvailable","t":4,"rt":$n[0].Boolean,"sn":"isGameManagerAvailable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"lastPaintedPosition","t":4,"rt":$n[0].Nullable$1(UnityEngine.Vector2),"sn":"lastPaintedPosition"},{"at":[new UnityEngine.HeaderAttribute("Painting Settings"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mainMaterial","t":4,"rt":$n[1].Material,"sn":"mainMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maskRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"maskRenderer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maskSprites","t":4,"rt":$n[5].List$1(UnityEngine.Sprite),"sn":"maskSprites"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxVolume","t":4,"rt":$n[0].Single,"sn":"maxVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintMaterial","t":4,"rt":$n[1].Material,"sn":"paintMaterial"},{"a":1,"n":"paintThreshold","t":4,"rt":$n[0].Single,"sn":"paintThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintedPercentage","t":4,"rt":$n[0].Single,"sn":"paintedPercentage","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"positionID","t":4,"rt":$n[0].Int32,"sn":"positionID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"radiusID","t":4,"rt":$n[0].Int32,"sn":"radiusID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"readTexture","t":4,"rt":$n[1].Texture2D,"sn":"readTexture"},{"a":1,"n":"red","t":4,"rt":$n[0].Single,"sn":"red","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"redButton","t":4,"rt":$n[4].Button,"sn":"redButton"},{"a":1,"n":"selectedTexture","t":4,"rt":$n[1].Texture2D,"sn":"selectedTexture"},{"a":1,"n":"strengthID","t":4,"rt":$n[0].Int32,"sn":"strengthID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"subTextureId","t":4,"rt":$n[0].Int32,"sn":"subTextureId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"supportTexture","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture"},{"a":1,"n":"supportTexture2","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture2"},{"a":1,"n":"textureID","t":4,"rt":$n[0].Int32,"sn":"textureID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"texturePaint","t":4,"rt":$n[1].Shader,"sn":"texturePaint"},{"a":1,"n":"totalWallPixels","t":4,"rt":$n[0].Single,"sn":"totalWallPixels","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"volumeFadeSpeed","t":4,"rt":$n[0].Single,"sn":"volumeFadeSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wallTransform","t":4,"rt":$n[1].Transform,"sn":"wallTransform"},{"a":1,"n":"yellow","t":4,"rt":$n[0].Single,"sn":"yellow","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"yellowButton","t":4,"rt":$n[4].Button,"sn":"yellowButton"}]}; }, $n);
+    /*PainterGame end.*/
+
     /*PatrolMovementController start.*/
     $m("PatrolMovementController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"deltaMovement","t":4,"rt":$n[1].Vector3,"sn":"deltaMovement"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxX","t":4,"rt":$n[0].Single,"sn":"maxX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"minX","t":4,"rt":$n[0].Single,"sn":"minX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"movementSpeed","t":4,"rt":$n[1].Vector3,"sn":"movementSpeed"}]}; }, $n);
     /*PatrolMovementController end.*/
@@ -4225,7 +4518,7 @@ if ( TRACE ) { TRACE( "PlayerController#Die", this ); }
     /*SoundManager end.*/
 
     /*WallPainter start.*/
-    $m("WallPainter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculatePaintedPercentage","t":8,"sn":"CalculatePaintedPercentage","rt":$n[0].Void},{"a":1,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"PaintBetweenPositions","t":8,"pi":[{"n":"start","pt":$n[1].Vector2,"ps":0},{"n":"end","pt":$n[1].Vector2,"ps":1},{"n":"distance","pt":$n[0].Single,"ps":2}],"sn":"PaintBetweenPositions","rt":$n[0].Void,"p":[$n[1].Vector2,$n[1].Vector2,$n[0].Single]},{"a":1,"n":"SetBrushColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0},{"n":"selectedButton","pt":$n[4].Button,"ps":1}],"sn":"SetBrushColor","rt":$n[0].Void,"p":[$n[1].Color,$n[4].Button]},{"a":1,"n":"SetBrushSize","t":8,"pi":[{"n":"size","pt":$n[0].Single,"ps":0}],"sn":"SetBrushSize","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"UpdatePaintedPercentageText","t":8,"sn":"UpdatePaintedPercentageText","rt":$n[0].Void},{"a":2,"n":"paint","t":8,"pi":[{"n":"pos","pt":$n[1].Vector2,"ps":0},{"n":"radius","dv":0.13,"o":true,"pt":$n[0].Single,"ps":1},{"n":"hardness","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"strength","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3},{"n":"color","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":4}],"sn":"paint","rt":$n[0].Void,"p":[$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Nullable$1(UnityEngine.Color)]},{"at":[new UnityEngine.HeaderAttribute("Sound"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_audioSource","t":4,"rt":$n[1].AudioSource,"sn":"_audioSource"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"_meshRenderer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"blueButton","t":4,"rt":$n[4].Button,"sn":"blueButton"},{"a":1,"n":"brushSize","t":4,"rt":$n[0].Single,"sn":"brushSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brushSizeSlider","t":4,"rt":$n[4].Slider,"sn":"brushSizeSlider"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"canvas","t":4,"rt":$n[1].GameObject,"sn":"canvas"},{"a":1,"n":"colorID","t":4,"rt":$n[0].Int32,"sn":"colorID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"currentColor","t":4,"rt":$n[1].Color,"sn":"currentColor"},{"a":1,"n":"currentVolume","t":4,"rt":$n[0].Single,"sn":"currentVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"hardnessID","t":4,"rt":$n[0].Int32,"sn":"hardnessID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"lastPaintedPosition","t":4,"rt":$n[0].Nullable$1(UnityEngine.Vector2),"sn":"lastPaintedPosition"},{"at":[new UnityEngine.HeaderAttribute("Painting Settings"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mainMaterial","t":4,"rt":$n[1].Material,"sn":"mainMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxVolume","t":4,"rt":$n[0].Single,"sn":"maxVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintMaterial","t":4,"rt":$n[1].Material,"sn":"paintMaterial"},{"a":1,"n":"paintThreshold","t":4,"rt":$n[0].Single,"sn":"paintThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintedPercentage","t":4,"rt":$n[0].Single,"sn":"paintedPercentage","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"paintedPercentageText","t":4,"rt":$n[3].TextMeshPro,"sn":"paintedPercentageText"},{"a":1,"n":"positionID","t":4,"rt":$n[0].Int32,"sn":"positionID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"radiusID","t":4,"rt":$n[0].Int32,"sn":"radiusID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"readTexture","t":4,"rt":$n[1].Texture2D,"sn":"readTexture"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"redButton","t":4,"rt":$n[4].Button,"sn":"redButton"},{"a":1,"n":"strengthID","t":4,"rt":$n[0].Int32,"sn":"strengthID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"supportTexture","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture"},{"a":1,"n":"supportTexture2","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture2"},{"a":1,"n":"textureID","t":4,"rt":$n[0].Int32,"sn":"textureID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"texturePaint","t":4,"rt":$n[1].Shader,"sn":"texturePaint"},{"a":1,"n":"totalWallPixels","t":4,"rt":$n[0].Single,"sn":"totalWallPixels","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"volumeFadeSpeed","t":4,"rt":$n[0].Single,"sn":"volumeFadeSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wallTransform","t":4,"rt":$n[1].Transform,"sn":"wallTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"yellowButton","t":4,"rt":$n[4].Button,"sn":"yellowButton"}]}; }, $n);
+    $m("WallPainter", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CalculatePaintedPercentage","t":8,"sn":"CalculatePaintedPercentage","rt":$n[0].Void},{"a":1,"n":"CompleteGame","t":8,"sn":"CompleteGame","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"PaintBetweenPositions","t":8,"pi":[{"n":"start","pt":$n[1].Vector2,"ps":0},{"n":"end","pt":$n[1].Vector2,"ps":1},{"n":"distance","pt":$n[0].Single,"ps":2}],"sn":"PaintBetweenPositions","rt":$n[0].Void,"p":[$n[1].Vector2,$n[1].Vector2,$n[0].Single]},{"a":1,"n":"SetBrushColor","t":8,"pi":[{"n":"color","pt":$n[1].Color,"ps":0},{"n":"selectedButton","pt":$n[4].Button,"ps":1}],"sn":"SetBrushColor","rt":$n[0].Void,"p":[$n[1].Color,$n[4].Button]},{"a":1,"n":"SetBrushSize","t":8,"pi":[{"n":"size","pt":$n[0].Single,"ps":0}],"sn":"SetBrushSize","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"UpdatePaintedPercentageText","t":8,"sn":"UpdatePaintedPercentageText","rt":$n[0].Void},{"a":2,"n":"paint","t":8,"pi":[{"n":"pos","pt":$n[1].Vector2,"ps":0},{"n":"radius","dv":0.13,"o":true,"pt":$n[0].Single,"ps":1},{"n":"hardness","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"strength","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3},{"n":"color","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":4}],"sn":"paint","rt":$n[0].Void,"p":[$n[1].Vector2,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Nullable$1(UnityEngine.Color)]},{"at":[new UnityEngine.HeaderAttribute("Sound"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_audioSource","t":4,"rt":$n[1].AudioSource,"sn":"_audioSource"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"_meshRenderer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"blueButton","t":4,"rt":$n[4].Button,"sn":"blueButton"},{"a":1,"n":"brushSize","t":4,"rt":$n[0].Single,"sn":"brushSize","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.HeaderAttribute("UI Elements"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"brushSizeSlider","t":4,"rt":$n[4].Slider,"sn":"brushSizeSlider"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"canvas","t":4,"rt":$n[1].GameObject,"sn":"canvas"},{"a":1,"n":"colorID","t":4,"rt":$n[0].Int32,"sn":"colorID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"currentColor","t":4,"rt":$n[1].Color,"sn":"currentColor"},{"a":1,"n":"currentVolume","t":4,"rt":$n[0].Single,"sn":"currentVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"hardnessID","t":4,"rt":$n[0].Int32,"sn":"hardnessID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"isGameManagerAvailable","t":4,"rt":$n[0].Boolean,"sn":"isGameManagerAvailable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"lastPaintedPosition","t":4,"rt":$n[0].Nullable$1(UnityEngine.Vector2),"sn":"lastPaintedPosition"},{"at":[new UnityEngine.HeaderAttribute("Painting Settings"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"mainMaterial","t":4,"rt":$n[1].Material,"sn":"mainMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"maxVolume","t":4,"rt":$n[0].Single,"sn":"maxVolume","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintMaterial","t":4,"rt":$n[1].Material,"sn":"paintMaterial"},{"a":1,"n":"paintThreshold","t":4,"rt":$n[0].Single,"sn":"paintThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"paintedPercentage","t":4,"rt":$n[0].Single,"sn":"paintedPercentage","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"paintedPercentageText","t":4,"rt":$n[3].TextMeshPro,"sn":"paintedPercentageText"},{"a":1,"n":"positionID","t":4,"rt":$n[0].Int32,"sn":"positionID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"radiusID","t":4,"rt":$n[0].Int32,"sn":"radiusID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"readTexture","t":4,"rt":$n[1].Texture2D,"sn":"readTexture"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"redButton","t":4,"rt":$n[4].Button,"sn":"redButton"},{"a":1,"n":"strengthID","t":4,"rt":$n[0].Int32,"sn":"strengthID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"supportTexture","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture"},{"a":1,"n":"supportTexture2","t":4,"rt":$n[1].RenderTexture,"sn":"supportTexture2"},{"a":1,"n":"textureID","t":4,"rt":$n[0].Int32,"sn":"textureID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"texturePaint","t":4,"rt":$n[1].Shader,"sn":"texturePaint"},{"a":1,"n":"totalWallPixels","t":4,"rt":$n[0].Single,"sn":"totalWallPixels","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"volumeFadeSpeed","t":4,"rt":$n[0].Single,"sn":"volumeFadeSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"wallTransform","t":4,"rt":$n[1].Transform,"sn":"wallTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"yellowButton","t":4,"rt":$n[4].Button,"sn":"yellowButton"}]}; }, $n);
     /*WallPainter end.*/
 
     /*DG.Tweening.DOTweenCYInstruction start.*/
