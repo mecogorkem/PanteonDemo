@@ -104,7 +104,7 @@ public class PowerupManager : MonoBehaviour
         switch (powerUpType)
         {
             case PowerUpType.Bomb:
-                return "Place the banana on the track!";
+                return "Place the bomb!";
             // Add other cases as needed
             default:
                 return "Place the power-up on the track!";

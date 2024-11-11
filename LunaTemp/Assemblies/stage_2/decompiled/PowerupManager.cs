@@ -90,7 +90,7 @@ public class PowerupManager : MonoBehaviour
 	{
 		if (powerUpType == PowerUpType.Bomb)
 		{
-			return "Place the banana on the track!";
+			return "Place the bomb!";
 		}
 		return "Place the power-up on the track!";
 	}

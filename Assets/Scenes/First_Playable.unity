@@ -2799,10 +2799,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 0.142
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -3615,7 +3615,7 @@ PrefabInstance:
     - target: {fileID: 2676940304358735966, guid: 1a273f020b163a746bf92259a5350159,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.78
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 2676940304358735966, guid: 1a273f020b163a746bf92259a5350159,
         type: 3}
@@ -3828,7 +3828,7 @@ PrefabInstance:
     - target: {fileID: 2676940304358735966, guid: 1a273f020b163a746bf92259a5350159,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.78
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 2676940304358735966, guid: 1a273f020b163a746bf92259a5350159,
         type: 3}
@@ -4959,10 +4959,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0565d2f2305628f4093ba5c2011f0ec3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.162
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5327,6 +5327,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7128796820529811047, guid: 952ae4aefac7f5840806ea389ed8d6a3,
+        type: 3}
+      propertyPath: rotationSpeed.y
+      value: 180
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 952ae4aefac7f5840806ea389ed8d6a3, type: 3}
 --- !u!4 &1984960335492656717 stripped
@@ -5360,7 +5365,7 @@ PrefabInstance:
     - target: {fileID: 2676940304358735966, guid: 1a273f020b163a746bf92259a5350159,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.78
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 2676940304358735966, guid: 1a273f020b163a746bf92259a5350159,
         type: 3}
@@ -5592,7 +5597,7 @@ PrefabInstance:
     - target: {fileID: 5694046042262657793, guid: 582b36849dd3d074a90b9731ad23d29e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 5694046042262657793, guid: 582b36849dd3d074a90b9731ad23d29e,
         type: 3}

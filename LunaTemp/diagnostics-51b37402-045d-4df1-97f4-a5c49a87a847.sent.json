@@ -1,0 +1,108 @@
+{
+  "BuildID": "51b37402-045d-4df1-97f4-a5c49a87a847",
+  "Command": "project:deploy",
+  "ProjectID": "183a878df3c572c46b908bc772bb8712",
+  "ProjectStateHash": "200c00a152ea217d729aa23418a75d79cf8facdc1b4f924c6741e48ff4d106a2",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1731293751507,
+  "EndTime": 1731293775646,
+  "PlaygroundUserID": 18929,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2021.3.45f1\r",
+  "LunaVersion": "6.2.0",
+  "LogCount": 4,
+  "Logs": [
+    {
+      "LogID": "4a505bfa-b5f7-46f6-be02-68dc277c8d77",
+      "Order": 3,
+      "Timestamp": 1731293775913,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "590fc37d-2575-4a0b-901f-89f8b78017af",
+      "Order": 3,
+      "Timestamp": 1731293775914,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "aef80eb3-b850-434f-80f5-8d30eb73b6aa",
+      "Order": 0,
+      "Timestamp": 1731293756243,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1022",
+      "Description": "Extensive use of shader variants",
+      "Details": [
+        "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (52 found). Check Runtime analysis -> shader tab to see used shaders."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "20",
+        "52"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "e6bbc633-9ee6-4a56-8f09-c500d10fd744",
+      "Order": 1,
+      "Timestamp": 1731293756253,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Quad (1)",
+        "Quad",
+        "MaskQuad"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 3,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

@@ -29,4 +29,31 @@ public class AINode : MonoBehaviour
     //     Gizmos.color = Color.green;
     //     Gizmos.DrawLine(transform.position, transform.position + rightOffset*Vector3.right);
     // }
+    public Vector3 GetPosition()
+    {
+        
+        return this.transform.position;
+
+        // Calculate the main node, left offset, and right offset positions
+        Vector3 mainPosition = transform.position;
+        Vector3 leftPosition = mainPosition + leftOffset * Vector3.left;
+        Vector3 rightPosition = mainPosition + rightOffset * Vector3.right;
+
+        // Choose a random index between 0 and 2
+        int randomIndex = UnityEngine.Random.Range(0, 3);
+
+        // Return the position based on the random index
+        switch (randomIndex)
+        {
+            case 0:
+                return mainPosition;
+            case 1:
+                return leftPosition;
+            case 2:
+                return rightPosition;
+            default:
+                return mainPosition; // Fallback in case of an unexpected value
+        }
+    }
+
 }

@@ -101,7 +101,6 @@ public class WallPainter : MonoBehaviour
                         PaintBetweenPositions(lastPaintedPosition.Value, currentPos, distance);
                     }
                 }
-                Debug.Log("Painting");
                 paint(currentPos, brushSize, 0, 1, currentColor);
                 lastPaintedPosition = currentPos;
             }

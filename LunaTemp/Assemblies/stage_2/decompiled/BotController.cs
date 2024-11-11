@@ -7,7 +7,9 @@ public class BotController : CharacterBaseController
 
 	private bool isDead = false;
 
-	private AINode targetPos;
+	private AINode targetNode;
+
+	private Vector3 targetPos;
 
 	private Vector3 direction;
 
@@ -21,7 +23,8 @@ public class BotController : CharacterBaseController
 
 	protected void Start()
 	{
-		targetPos = NodeManager.Instance.GetFirstNode();
+		targetNode = NodeManager.Instance.GetFirstNode();
+		targetPos = targetNode.GetPosition();
 	}
 
 	public override void FixedUpdate()
@@ -41,34 +44,39 @@ public class BotController : CharacterBaseController
 
 	protected override void GatherInput()
 	{
-		if (targetPos.transform.position.z - base.transform.position.z < 2f)
+		if (targetPos.z - base.transform.position.z < 2f)
 		{
 			UpdateTargetPosition();
 		}
-		direction = (targetPos.transform.position - base.transform.position).normalized;
+		direction = (targetPos - base.transform.position).normalized;
 		moveDirection.x = direction.x;
 		moveDirection.z = direction.z;
 	}
 
 	private void UpdateTargetPosition()
 	{
-		targetPos = targetPos.nextNode;
+		targetNode = targetNode.nextNode;
+		targetPos = targetNode.GetPosition();
 	}
 
 	public override void Die()
 	{
+		OnDeath?.Invoke();
 		isDead = true;
 		_animator.SetTrigger(_animIsDead);
 		deathFlag = true;
+		_controller.enabled = false;
 		StartCoroutine(DeathAnim());
 	}
 
 	public void RealDie()
 	{
 		isDead = false;
+		_controller.enabled = true;
 		SoundManager.Instance.PlayBotDeathSound(base.transform);
 		base.transform.position = startingPosition;
-		targetPos = NodeManager.Instance.GetFirstNode();
+		targetNode = NodeManager.Instance.GetFirstNode();
+		targetPos = targetNode.GetPosition();
 	}
 
 	private IEnumerator DeathAnim()

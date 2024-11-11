@@ -6,7 +6,8 @@ public class BotController : CharacterBaseController
 {
     private Vector3 startingPosition;
     private bool isDead = false;
-    private AINode targetPos; 
+    private AINode targetNode;
+    private Vector3 targetPos;
     private Vector3 direction;
     private bool deathFlag = false;
     protected override void Awake()
@@ -17,7 +18,8 @@ public class BotController : CharacterBaseController
 
     protected  void Start()
     {
-        targetPos = NodeManager.Instance.GetFirstNode();
+        targetNode = NodeManager.Instance.GetFirstNode();
+        targetPos = targetNode.GetPosition();
     }
 
     public override void FixedUpdate()
@@ -38,14 +40,14 @@ public class BotController : CharacterBaseController
 
     protected override void GatherInput()
     {
-        if (targetPos.transform.position.z-transform.position.z < 2f)
+        if (targetPos.z-transform.position.z < 2f)
         {
             UpdateTargetPosition();
         }
         
         
             // Hedefe doğru hareket et
-            direction = (targetPos.transform.position - transform.position).normalized;
+            direction = (targetPos - transform.position).normalized;
             moveDirection.x = direction.x;
             moveDirection.z = direction.z;
 
@@ -56,16 +58,19 @@ public class BotController : CharacterBaseController
 
     private void UpdateTargetPosition()
     {
-        targetPos = targetPos.nextNode;
+        targetNode = targetNode.nextNode;
+        targetPos = targetNode.GetPosition();
 
     }
 
     public override void Die()
     {
+        OnDeath?.Invoke();
         isDead = true;
         // Instantiate(Resources.Load("DeathAnim"), transform.position, Quaternion.identity);
         _animator.SetTrigger(_animIsDead);
         deathFlag = true;
+        _controller.enabled = false;
         StartCoroutine(DeathAnim());
 
 
@@ -74,10 +79,13 @@ public class BotController : CharacterBaseController
     public void RealDie()
     {
         isDead = false;
+        _controller.enabled = true;
         SoundManager.Instance.PlayBotDeathSound(this.transform);
         transform.position = startingPosition;
         // Hedef pozisyonu sıfırla ve güncelle
-        targetPos = NodeManager.Instance.GetFirstNode();
+        targetNode = NodeManager.Instance.GetFirstNode();
+        targetPos = targetNode.GetPosition();
+
     }
     
     private IEnumerator DeathAnim()
